@@ -1,0 +1,11 @@
+concept_id,concept_code,concept_name,vocabulary_id
+37208680,1107871000000107,Sodium substance concentration in serum,SNOMED
+37208644,1107511000000100,Mass concentration of haemoglobin in blood,SNOMED
+37208669,1107761000000109,Potassium substance concentration in serum,SNOMED
+37208596,1107001000000108,Creatinine substance concentration in serum,SNOMED
+37208999,1111221000000102,Anti-neutrophil cytoplasmic antibody titre in serum,SNOMED
+37392955,1010811000000106,JAK2 exon 12 mutation analysis,SNOMED
+37208681,1107881000000109,Sodium substance concentration in urine,SNOMED
+37208670,1107771000000102,Potassium substance concentration in urine,SNOMED
+37393851,1022491000000106,MCV - Mean corpuscular volume,SNOMED
+37208553,1106561000000100,Conjugated bilirubin substance concentration in serum,SNOMED
