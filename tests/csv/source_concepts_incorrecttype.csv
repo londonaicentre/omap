@@ -1,0 +1,11 @@
+source_concept_code,source_concept_name,source_vocabulary_id,source_concept_count
+Hb,Blood Haemoglobin,hospital_lims,39840985
+Na,Blood Sodium,hospital_lims,20980753
+K,Blood Potassium,hospital_lims,20947387
+URNa,Urinary Sodium,hospital_lims,192g73
+URK,Urinary Potassium,hospital_lims,90372
+Cr,Blood Creatinine,hospital_lims,20847826
+ANCA,Antineutrophil Cytoplasmic Antibodies,hospital_lims,16372
+JAK2,Janus Kinase 2, ospital_lims,1642
+MCV,Mean Cell Volume,hospital_lims,38709215
+cBil,Conjugated Bilirubin,hospital_lims,10936784
