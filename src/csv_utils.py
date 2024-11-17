@@ -1,6 +1,8 @@
 from dataclasses import dataclass
-from typing import List, Optional
 import pandas as pd
+
+## TO DO
+## Add docstrings
 
 @dataclass
 class SourceConcept:
