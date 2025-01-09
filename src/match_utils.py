@@ -5,6 +5,7 @@ import numpy as np
 from stqdm import stqdm #this can pass progress bar to frontend
 from transformers import AutoModel, AutoTokenizer
 from sklearn.metrics.pairwise import cosine_similarity
+from src.data_utils import ConceptMatch
 
 ## TO DO
 ## Add docstrings
@@ -68,3 +69,18 @@ class ModelHandler:
             
         except Exception as e:
             return False, f"Error calculating similarities: {e}"
+        
+    def generate_initial_matches(self, source_table, target_table, similarities):
+        matches = []
+        for i, row in enumerate(similarities):
+            best_match_idx = np.argmax(row)
+            matches.append(
+                ConceptMatch(
+                    source_concept_id=source_table.concepts[i].concept_id,
+                    target_concept_id=target_table.concepts[best_match_idx].concept_id,
+                    similarity_score=float(row[best_match_idx]),
+                    validation_status=False,
+                    validation_timestamp=None
+                )
+            )
+        return matches

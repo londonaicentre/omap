@@ -6,6 +6,26 @@ URNa,Urinary Sodium,hospital_lims,19273
 URK,Urinary Potassium,hospital_lims,90372
 Cr,Blood Creatinine,hospital_lims,20847826
 ANCA,Antineutrophil Cytoplasmic Antibodies,hospital_lims,16372
-JAK2,Janus Kinase 2, ospital_lims,1642
+JAK2,Janus Kinase 2, hospital_lims,1642
 MCV,Mean Cell Volume,hospital_lims,38709215
 cBil,Conjugated Bilirubin,hospital_lims,10936784
+Hbx,Blood Haemoglobinx,hospital_lims,39840985
+Nax,Blood Sodiumx,hospital_lims,20980753
+Kx,Blood Potassiumx,hospital_lims,20947387
+URNax,Urinary Sodiumx,hospital_lims,19273
+URKx,Urinary Potassiumx,hospital_lims,90372
+Crx,Blood Creatininex,hospital_lims,20847826
+ANCAx,Antineutrophil Cytoplasmic Antibodiesx,hospital_lims,16372
+JAK2x,Janus Kinase 2x, hospital_lims,1642
+MCVx,Mean Cell Volumex,hospital_lims,38709215
+cBilx,Conjugated Bilirubinx,hospital_lims,10936784
+Hby,Blood Haemoglobiny,hospital_lims,39840985
+Nay,Blood Sodiumy,hospital_lims,20980753
+Ky,Blood Potassiumy,hospital_lims,20947387
+URNay,Urinary Sodiumy,hospital_lims,19273
+URKy,Urinary Potassiumy,hospital_lims,90372
+Cry,Blood Creatininey,hospital_lims,20847826
+ANCAy,Antineutrophil Cytoplasmic Antibodiesy,hospital_lims,16372
+JAK2y,Janus Kinase 2y, hospital_lims,1642
+MCVy,Mean Cell Volumey,hospital_lims,38709215
+cBily,Conjugated Bilirubiny,hospital_lims,10936784

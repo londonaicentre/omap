@@ -4,9 +4,9 @@ import os
 import json
 import numpy as np
 import pickle
-from src.csv_utils import SourceConceptTable, TargetConceptTable
+from src.data_utils import SourceConceptTable, TargetConceptTable, ConceptMatch
 
-## TO DO
+## TO DO
 ## Add docstrings
 
 @dataclass
@@ -16,9 +16,10 @@ class ProjectSession:
     source_table: SourceConceptTable
     target_table: TargetConceptTable
     similarity_matrix: np.ndarray
-
+    concept_matches: list[ConceptMatch] 
+    
     @classmethod
-    def create_and_save_session(cls, project_name, source_table, target_table, similarity_matrix):
+    def create_and_save_session(cls, project_name, source_table, target_table, similarity_matrix, concept_matches):
         try:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             session = cls(
@@ -26,7 +27,8 @@ class ProjectSession:
                 timestamp=timestamp,
                 source_table=source_table,
                 target_table=target_table,
-                similarity_matrix=similarity_matrix
+                similarity_matrix=similarity_matrix,
+                concept_matches=concept_matches
             )
 
             session_dir = f"sessions/{project_name}_{timestamp}"
@@ -37,7 +39,8 @@ class ProjectSession:
                 'timestamp': session.timestamp,
                 'source_count': len(session.source_table.concepts),
                 'target_count': len(session.target_table.concepts),
-                'similarity_matrix_size': session.similarity_matrix.shape
+                'similarity_matrix_size': session.similarity_matrix.shape,
+                'matches_count': len(session.concept_matches)
             }
 
             with open(f"{session_dir}/metadata.json", 'w') as f:
@@ -50,6 +53,20 @@ class ProjectSession:
                 pickle.dump(session.target_table, f)
 
             np.save(f"{session_dir}/similarities.npy", session.similarity_matrix)
+            
+            # save concept matches as JSON
+            matches_json = []
+            for match in session.concept_matches:
+                matches_json.append({
+                    "source_concept_id": match.source_concept_id,
+                    "target_concept_id": match.target_concept_id,
+                    "similarity_score": f"{float(match.similarity_score):.3f}",
+                    "validation_status": False,  # initial save
+                    "validation_timestamp": None  # initial save
+                })
+            
+            with open(f"{session_dir}/concept_matches.json", 'w') as f:
+                json.dump(matches_json, f, indent=2)
 
             return True, f"Session saved successfully in {session_dir}"
 
@@ -58,7 +75,6 @@ class ProjectSession:
         
 def list_saved_sessions(sessions_dir="sessions"):
     try:
-        # put in to return empty list to streamlit if there are no active sessions
         if not os.path.exists(sessions_dir):
             return True, []
         
@@ -72,11 +88,11 @@ def list_saved_sessions(sessions_dir="sessions"):
                 try:
                     with open(metadata_path, 'r') as f:
                         metadata = json.load(f)
-                        metadata['session_name'] = session_name  # Add directory to access later
+                        metadata['session_name'] = session_name
                         session_list.append(metadata)
                 except Exception as e:
                     print(f"Error encountered on this json: {e}")
-                    continue  # skip any corrupted metadata files
+                    continue
         
         session_list.sort(key=lambda x: x['timestamp'], reverse=True)
         return True, session_list
@@ -121,16 +137,36 @@ def load_session(session_name, sessions_dir="sessions"):
         
         similarity_matrix = np.load(similarity_path)
         
+        # Load concept matches
+        matches_path = f"{full_path}/concept_matches.json"
+        if not os.path.exists(matches_path):
+            return False, "Concept matches file not found"
+        
+        with open(matches_path, 'r') as f:
+            matches_data = json.load(f)
+            concept_matches = []
+            for match in matches_data:
+                concept_matches.append(ConceptMatch(
+                    source_concept_id=match['source_concept_id'],
+                    target_concept_id=match['target_concept_id'],
+                    similarity_score=float(match['similarity_score']) 
+                        if match['similarity_score'] != "NA" else "NA",
+                    validation_status=match['validation_status'],
+                    validation_timestamp=datetime.fromisoformat(match['validation_timestamp'])
+                        if match['validation_timestamp'] else None
+                ))
+        
         # Create ProjectSession object
         session = ProjectSession(
             project_name=metadata['project_name'],
             timestamp=metadata['timestamp'],
             source_table=source_table,
             target_table=target_table,
-            similarity_matrix=similarity_matrix
+            similarity_matrix=similarity_matrix,
+            concept_matches=concept_matches
         )
         
         return True, session
     
     except Exception as e:
-        return False, f"Error loading session: {str(e)}"
+        return False, f"Error loading session: {e}"

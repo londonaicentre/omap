@@ -1,11 +1,21 @@
 from dataclasses import dataclass
+import hashlib
 import pandas as pd
+from datetime import datetime
 
 ## TO DO
 ## Add docstrings
 
+def generate_source_id(concept_code, concept_name, vocabulary_id):
+    concat_string = f"{concept_code}_{concept_name}_{vocabulary_id}"
+    hash_obj = hashlib.sha256(concat_string.encode())
+    # Get first 8 bytes of hash as integer, take modulo, start from 2 bil
+    hash_int = int.from_bytes(hash_obj.digest()[:8], 'big')
+    return (hash_int % 147483646) + 2000000001
+
 @dataclass
 class SourceConcept:
+    concept_id: int
     concept_code: str
     concept_name: str
     vocabulary_id: str
@@ -14,13 +24,18 @@ class SourceConcept:
     @classmethod
     def from_row(cls, row):
         try:
+            concept_id = generate_source_id(
+                str(row['source_concept_code']),
+                str(row['source_concept_name']),
+                str(row['source_vocabulary_id'])
+            )
             return cls(
+                concept_id=concept_id,
                 concept_code=str(row['source_concept_code']),
                 concept_name=str(row['source_concept_name']),
                 vocabulary_id=str(row['source_vocabulary_id']),
                 concept_count=int(row['source_concept_count'])
             )
-        ### can add other validation
         except ValueError as e:
             raise ValueError(f"Type conversion failed: {e}")
 
@@ -101,10 +116,19 @@ class TargetConceptTable:
         
         except Exception as e:
             return False, f"Error processing target concepts: {e}"
-        
+
+@dataclass
+class ConceptMatch:
+    source_concept_id: int
+    target_concept_id: int
+    similarity_score: float | str  # will use NA where concept replaced by HITL
+    validation_status: bool
+    validation_timestamp: datetime | None
+
 def read_and_validate_csv(file, tableclass):
     try:
         df = pd.read_csv(file)
         return tableclass.from_dataframe(df)
     except Exception as e:
         return False, f"Error reading CSV file: {e}"
+    

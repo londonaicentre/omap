@@ -1,8 +1,7 @@
-fastapi
-uvicorn
 streamlit
 pandas
 numpy
 torch
 transformers
 sentence-transformers
+hashlib
