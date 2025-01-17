@@ -3,13 +3,32 @@ import pandas as pd
 import sys
 import os
 
+print("WARNING: Excessive directory traversal happening. Lawrence, avert your eyes.")
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.data_utils import SourceConceptTable, TargetConceptTable, read_and_validate_csv
 from src.match_utils import ModelHandler
 from src.session_utils import ProjectSession
+print("It's OK you can look now.")
+
+### Streamlit page: Concept Auto-Match
+### 1) Upload source concept CSV file
+### 2) Upload target concept CSV file
+### 3) NLP + cosine similarity (presently hard-coded to BioLord)
+### 4) Save session
 
 def initialize_session_state():
-    """Initialize all session state variables if they don't exist."""
+    """
+    Initialize all session states if they don't exist.
+
+    Returns:
+        Session states:
+            source_table (SourceConceptTable): source concept table loaded from CSV
+            target_table (TargetConceptTable): target concept table loaded from CSV
+            project_name (str): Manually entered identifier for current project
+            session_saved (bool): indicates if session has been saved
+            similarities (numpy.ndarray): similarity score matrix
+            concept_matches (List[ConceptMatch]): highest scoring matches
+    """
     session_states = {
         'source_table': None,
         'target_table': None,
@@ -24,22 +43,40 @@ def initialize_session_state():
             st.session_state[key] = default_value
 
 def display_header():
-    """Display page title and usage guide."""
+    """
+    Display page title and usage guide in expander panel
+
+    Returns:
+        Streamlit UI:
+            Expander panel for general instructions
+    """
     st.title("Concept Auto-Matching")
 
     with st.expander("Expand here for usage guide"):
         st.write('''
                  Functionality:
-                 (1) Upload table as CSV containing distinct Source Concepts
-                 (2) Upload table as CSV containing distinct Target Concepts
-                 (3) Bootstrap matching using BioLord embeddings and cosine similarity
-                 (4) Session is automatically saved
+                 1) Upload table as CSV containing distinct Source Concepts
+                 2) Upload table as CSV containing distinct Target Concepts
+                 3) Bootstrap matching using BioLord embeddings and cosine similarity
+                 4) Session is automatically saved
                  ''')
     st.divider()
     st.subheader("Upload Files For Matching")
 
 def create_concept_dataframe(concepts, is_source=True):
-    """Create a DataFrame from concept objects."""
+    """
+    Create a DataFrame from concept objects.
+
+    Args:
+        concepts (List):
+            List of concept objects, either SourceConcept or TargetConcept instances
+        is_source (bool):
+            Indicates whether the input concepts are source (True) or target (False). Default is True.
+
+    Returns:
+        pd.DataFrame:
+            Pandas dataframe containing source concept data (including new source keys) or target concept data
+    """
     if is_source:
         return pd.DataFrame([
             {
@@ -61,7 +98,20 @@ def create_concept_dataframe(concepts, is_source=True):
         ])
 
 def handle_file_upload(file_type='source'):
-    """Handle file upload and validation for source or target concepts."""
+    """
+    Handles file upload and validation for source and target concepts.
+
+    Args:
+        filetype (str):
+            Type of concept file to upload, 'source' or 'target'. Default is source.
+
+    Returns:
+        Session states:
+            Updates source_table (SourceConceptTable) or target_table (TargetConceptTable) with uploaded concepts
+        Streamlit UI:
+            Expander panel to preview top 5 rows of concept dataframe
+    """
+
     label = "Source" if file_type == 'source' else "Target"
     table_class = SourceConceptTable if file_type == 'source' else TargetConceptTable
 
@@ -82,7 +132,13 @@ def handle_file_upload(file_type='source'):
             st.error(result)
 
 def perform_concept_matching():
-    """Generate concept similarities using the model."""
+    """
+    Generate concept similarities using BioLord model
+
+    Returns:
+        Session states:
+            Updates similarities (numpy.ndarray) and concept_matches (List[ConceptMatch]) with outputs of NLP embedding and similarity matching
+    """
     with st.spinner("Loading BioLORD model and calculating similarities..."):
         model_handler = ModelHandler()
         success, message = model_handler.load_model()
@@ -109,13 +165,23 @@ def perform_concept_matching():
             st.error(f"Failed to calculate similarities: {result}")
 
 def handle_session_save():
-    """Handle session saving logic."""
+    """
+    Handle session saving logic
+
+    Returns:
+        Session states:
+            Updates session_saved (bool) and project_name (str) states
+        Streamlit UI:
+            Creates text input box for project name
+
+    """
     project_name = st.text_input(
         "Enter a descriptive project name (no spaces)",
         key="project_name_input",
         help="Enter a nice, descriptive name to identify this mapping project"
     )
 
+    # not currently allowing overwriting
     save_button = st.button("Save Session", disabled=not project_name or st.session_state.session_saved)
 
     if st.session_state.session_saved:
@@ -144,7 +210,7 @@ def main():
     initialize_session_state()
     display_header()
 
-    # Handle file uploads
+    # upload source and target files
     handle_file_upload('source')
     handle_file_upload('target')
 
@@ -164,5 +230,6 @@ def main():
         st.subheader("Save Project Session")
         handle_session_save()
 
+    # Users can move onto next page to load session and perform matching
 if __name__ == "__main__":
     main()

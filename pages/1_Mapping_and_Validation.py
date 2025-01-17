@@ -4,11 +4,28 @@ import os
 from datetime import datetime
 import json
 
+print("WARNING: Excessive directory traversal happening. Lawrence, avert your eyes.")
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.session_utils import list_saved_sessions, load_session, ProjectSession
+print("It's OK you can look now.")
+
+### Streamlit page: Mapping / Validation
+### 1) Load saved mapping session
+### 2) Display paginated mapping pairs with validation status
+### 3) Allow target concept updates through dropdown selection and track metadata
+### 4) Save updated mappings to JSON on confirmation
 
 def initialize_session_state():
-    """Initialize all session state variables if they don't exist."""
+    """
+    Initialize all session state variables if they don't exist
+
+    Returns:
+        Session states:
+            session_loaded (bool): flag to indicate if a mapping session has been loaded
+            current_session (ProjectSession): currently loaded session object
+            page (int): current page number to track pagination
+            modified_mappings (dict): dictionary that stores modified mapping state
+    """
     session_states = {
         'session_loaded': False,
         'current_session': None,
@@ -21,7 +38,17 @@ def initialize_session_state():
             st.session_state[key] = default_value
 
 def load_mapping_session():
-    """Handle session selection and loading."""
+    """
+    Handle session selection and loading
+
+    Returns:
+        bool:
+            False if session loading fails or is not yet complete
+        Session states:
+            Updates current_session (ProjectSession) on load, and session_loaded (bool) flag
+        Streamlit UI:
+            Selectbox for choosing saved session
+    """
     success, sessions = list_saved_sessions()
 
     if not success:
@@ -53,7 +80,19 @@ def load_mapping_session():
     return False
 
 def create_concept_lookups(session):
-    """Create lookup dictionaries for source and target concepts."""
+    """
+    Create lookup dictionaries and list of replacement options from session concepts. Mappings are stored on unique key pairs, rather than multiple strings.
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+
+    Returns:
+        tuple:
+            source_lookup (dict): Maps source_key to concept_name
+            target_lookup (dict): Maps concept_id to concept_name
+            target_options (list): List of (concept_id, concept_name) tuples for dropdown options
+    """
     source_lookup = {
         concept.source_key: concept.concept_name
         for concept in session.source_table.concepts
@@ -69,16 +108,60 @@ def create_concept_lookups(session):
     return source_lookup, target_lookup, target_options
 
 def setup_pagination(total_items, items_per_page=20):
-    """Configure pagination and return current page bounds."""
+    """
+    Configure pagination and calculate current page bounds. This is performed for active page.
+
+    Args:
+        total_items (int):
+            Total number of items required to paginate across
+        items_per_page (int):
+            Number of items to display per page. Default as 20
+
+    Returns:
+        tuple:
+            start_idx (int): Starting index for current page
+            end_idx (int): Ending index for current page
+            total_pages (int): Total number of pages
+        Streamlit UI:
+            Dsplay showing current page range
+    """
+    # First calculate start index based on current page number
+    # e.g. page 0 -> start at 0, page 1 -> start at 20, page 2 -> start at 40
     start_idx = st.session_state.page * items_per_page
+
+    # end index must not exceed total items
+    # e.g. 45 total items and are on page 2 (start 40), end must be 45, not 60
     end_idx = min(start_idx + items_per_page, total_items)
+
+    # Calculate total pages, rounding up
+    # e.g. 45 items, 20 per page -> (45 + 19) // 20 = 3 pages
     total_pages = (total_items + (items_per_page - 1)) // items_per_page
 
     st.write(f"Showing mappings {start_idx + 1} to {end_idx} of {total_items}")
     return start_idx, end_idx, total_pages
 
 def display_mapping_row(idx, match, source_lookup, target_lookup, target_options):
-    """Display a single mapping row with all its components."""
+    """
+    Creates and displays a single concept mapping row which includes source, target, score, validation status and dropdown selector for update.
+
+    Args:
+        idx (int):
+            Index of the mapping row
+        match (ConceptMatch):
+            Concept match object (source_key to target concept_id) with similarity_score + validation flag
+        source_lookup (dict):
+            Dictionary mapping source_key to source concept_name
+        target_lookup (dict):
+            Dictionary mapping concept_id to target concept_name
+        target_options (list):
+            List of (concept_id, concept_name) tuples for target selection dropdown
+
+    Returns:
+        Session states:
+            Updates modified_mappings (dict) of modified target mappings
+        Streamlit UI:
+            Container with 5 columns per mapping row
+    """
     with st.container():
         cols = st.columns([3, 3, 1, 1, 4])
 
@@ -108,7 +191,21 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
                 del st.session_state.modified_mappings[idx]
 
 def handle_navigation(total_pages):
-    """Handle pagination navigation."""
+    """
+    Handle pagination navigation and mapping confirmation interface
+
+    Args:
+        total_pages (int):
+            Total number of available pages
+
+    Returns:
+        bool:
+            True if CONFIRM ALL button is clicked, False otherwise
+        Session states:
+            page (int) is updated on Previous/Next clicks
+        Streamlit UI:
+            Three columns containing previous, confiurm, next buttons
+    """
     col1, col2, col3 = st.columns(3)
 
     with col1:
@@ -125,12 +222,31 @@ def handle_navigation(total_pages):
             st.rerun()
 
 def save_validated_mappings(session, start_idx, end_idx):
-    """Save validated mappings to JSON and update session state."""
+    """
+    Save validated concept mappings to JSON and update current session
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+        start_idx (int):
+            Start index of current page
+        end_idx (int):
+            End index of current page
+
+    Returns:
+        bool:
+            True if save successful, False otherwise
+        Session states:
+            current_session (ProjectSession) is updated by passing new targets from modified_mappings. validation_status is set to True, and timestamp added.
+        modified_mappings:
+            Used to determine which matches need target updates
+    """
     try:
-        # Update the concept matches in current session
         for idx, match in enumerate(session.concept_matches):
+            # for each idx in modified_mappings state, update the target_concept_id in project session to match
             if idx in st.session_state.modified_mappings:
                 match.target_concept_id = st.session_state.modified_mappings[idx]
+            # simpler approach - bulk validate through single confirm all
             if start_idx <= idx < end_idx:
                 match.validation_status = True
                 match.validation_timestamp = datetime.now()
