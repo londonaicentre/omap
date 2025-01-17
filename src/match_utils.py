@@ -2,12 +2,12 @@ import pandas as pd
 import os
 import torch
 import numpy as np
-from stqdm import stqdm #this can pass progress bar to frontend
+from stqdm import stqdm
 from transformers import AutoModel, AutoTokenizer
 from sklearn.metrics.pairwise import cosine_similarity
 from src.data_utils import ConceptMatch
 
-## TO DO
+## TO DO
 ## Add docstrings
 
 class ModelHandler:
@@ -16,7 +16,7 @@ class ModelHandler:
         self.cache_dir = cache_dir
         self.model = None
         self.tokenizer = None
-        
+
     def load_model(self):
         """
         Load and/or cache BioLORD model and tokenizer
@@ -24,20 +24,20 @@ class ModelHandler:
         try:
             if not os.path.exists(self.cache_dir):
                 os.makedirs(self.cache_dir)
-            
+
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_path, cache_dir=self.cache_dir)
             self.model = AutoModel.from_pretrained(self.model_path, cache_dir=self.cache_dir)
-            
+
             return True, "Model loaded successfully"
         except Exception as e:
             return False, f"Error loading model: {e}"
-    
+
     def generate_embedding(self, text):
         inputs = self.tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=512)
         with torch.no_grad():
             outputs = self.model(**inputs)
         return outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
-    
+
     def batch_generate_embeddings(self, texts, batch_size=32):
         embeddings = []
         for i in stqdm(range(0, len(texts), batch_size)):
@@ -50,33 +50,33 @@ class ModelHandler:
         try:
             source_texts = [concept.concept_name for concept in source_table.concepts]
             target_texts = [concept.concept_name for concept in target_table.concepts]
-            
+
             # get embeddings
             print("Generating source embeddings...")
             source_embeddings = self.batch_generate_embeddings(source_texts)
             print("Generating target embeddings...")
             target_embeddings = self.batch_generate_embeddings(target_texts)
-            
+
             # convert to tensors
             source_tensor = torch.tensor(source_embeddings)
             target_tensor = torch.tensor(target_embeddings)
-            
+
             # calculate similarities
             print("Calculating similarities...")
             similarities = cosine_similarity(source_tensor, target_tensor)
-            
+
             return True, similarities
-            
+
         except Exception as e:
             return False, f"Error calculating similarities: {e}"
-        
+
     def generate_initial_matches(self, source_table, target_table, similarities):
         matches = []
         for i, row in enumerate(similarities):
             best_match_idx = np.argmax(row)
             matches.append(
                 ConceptMatch(
-                    source_concept_id=source_table.concepts[i].concept_id,
+                    source_key=source_table.concepts[i].source_key,
                     target_concept_id=target_table.concepts[best_match_idx].concept_id,
                     similarity_score=float(row[best_match_idx]),
                     validation_status=False,
