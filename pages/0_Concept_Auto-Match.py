@@ -106,6 +106,8 @@ def handle_file_upload(file_type='source'):
             Type of concept file to upload, 'source' or 'target'. Default is source.
 
     Returns:
+        bool:
+            Success state
         Session states:
             Updates source_table (SourceConceptTable) or target_table (TargetConceptTable) with uploaded concepts
         Streamlit UI:
@@ -118,8 +120,8 @@ def handle_file_upload(file_type='source'):
     uploaded_file = st.file_uploader(f"Upload {label} Concepts CSV", type=['csv'])
 
     if uploaded_file is not None:
-        success, result = read_and_validate_csv(uploaded_file, table_class)
-        if success:
+        read_success, result = read_and_validate_csv(uploaded_file, table_class)
+        if read_success:
             state_key = f"{file_type}_table"
             st.session_state[state_key] = result
             st.success(f"{label} CSV loaded successfully!")
@@ -128,47 +130,61 @@ def handle_file_upload(file_type='source'):
                 df = create_concept_dataframe(result.concepts, is_source=(file_type == 'source'))
                 st.dataframe(df.head())
                 st.write(f"Total {file_type} concepts: {len(df)}")
+            return True
         else:
             st.error(result)
+            return False
+
+    return False
 
 def perform_concept_matching():
     """
     Generate concept similarities using BioLord model
 
     Returns:
+        bool:
+            Success state
         Session states:
             Updates similarities (numpy.ndarray) and concept_matches (List[ConceptMatch]) with outputs of NLP embedding and similarity matching
     """
     with st.spinner("Loading BioLORD model and calculating similarities..."):
         model_handler = ModelHandler()
-        success, message = model_handler.load_model()
+        load_success, message = model_handler.load_model()
 
-        if not success:
+        if not load_success:
             st.error(f"Failed to load model: {message}")
-            return
+            return False
 
-        success, result = model_handler.get_concept_similarities(
+        similarity_success, result = model_handler.get_concept_similarities(
             st.session_state.source_table,
             st.session_state.target_table
         )
 
-        if success:
+        if similarity_success:
             st.session_state.similarities = result
-            matches = model_handler.generate_initial_matches(
-                st.session_state.source_table,
-                st.session_state.target_table,
-                result
-            )
-            st.session_state.concept_matches = matches
-            st.success("Similarity matrix and matches generated")
+            try:
+                matches = model_handler.generate_initial_matches(
+                    st.session_state.source_table,
+                    st.session_state.target_table,
+                    result
+                )
+                st.session_state.concept_matches = matches
+                st.success("Similarity matrix and matches generated")
+                return True
+            except Exception as e:
+                st.error(f"Failed to generate matches: {e}")
+                return False
         else:
             st.error(f"Failed to calculate similarities: {result}")
+            return False
 
 def handle_session_save():
     """
     Handle session saving logic
 
     Returns:
+        bool:
+            Success state
         Session states:
             Updates session_saved (bool) and project_name (str) states
         Streamlit UI:
@@ -186,26 +202,31 @@ def handle_session_save():
 
     if st.session_state.session_saved:
         st.info(f"Session already saved as project: {st.session_state.project_name}")
-        return
+        return True
 
     if save_button:
         with st.spinner("Saving session..."):
-            success, message = ProjectSession.create_and_save_session(
-                project_name=project_name,
-                source_table=st.session_state.source_table,
-                target_table=st.session_state.target_table,
-                similarity_matrix=st.session_state.similarities,
-                concept_matches=st.session_state.concept_matches
-            )
+            try:
+                success, message = ProjectSession.create_and_save_session(
+                    project_name=project_name,
+                    source_table=st.session_state.source_table,
+                    target_table=st.session_state.target_table,
+                    similarity_matrix=st.session_state.similarities,
+                    concept_matches=st.session_state.concept_matches
+                )
 
-            if success:
-                st.session_state.session_saved = True
-                st.session_state.project_name = project_name
-                st.success(message)
-                st.info("Concept matches saved for HITL validation")
-            else:
-                st.error(message)
-
+                if success:
+                    st.session_state.session_saved = True
+                    st.session_state.project_name = project_name
+                    st.success(message)
+                    st.info("Concept matches saved for HITL validation")
+                    return True
+                else:
+                    st.error(message)
+                    return False
+            except Exception as e:
+                st.error(f"Error while saving session: {e}")
+                return False
 def main():
     initialize_session_state()
     display_header()
