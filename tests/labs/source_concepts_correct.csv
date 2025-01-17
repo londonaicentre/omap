@@ -2,22 +2,16 @@ source_concept_code,source_concept_name,source_vocabulary_id,source_concept_coun
 FBC_Hb,FBC_Hb,hospital_lims,20980753
 Haemoglob.,Haemoglob.,hospital_lims,20947387
 Hemoglobin,Hemoglobin,hospital_lims,19273
-HGB,HGB,hospital_lims,90372
 HB_Result,HB_Result,hospital_lims,20847826
 CBC_HB,CBC_HB,hospital_lims,16372
-TSAT_Hgb,TSAT_Hgb, hospital_lims,1642
-FBC_WBC,FBC_WBC,hospital_lims,38709215
 White_Cell_Count,White_Cell_Count,hospital_lims,10936784
 WBC_Result,WBC_Result,hospital_lims,39840985
 WBC_Total,WBC_Total,hospital_lims,20980753
 Leukocytes,Leukocytes,hospital_lims,20947387
-CBC_WBC_Total,CBC_WBC_Total,hospital_lims,19273
 LAB_WBC,LAB_WBC,hospital_lims,90372
 Platelets,Platelets,hospital_lims,20847826
 PLT_Count,PLT_Count,hospital_lims,16372
-Thrombocyte_ct,Thrombocyte_ct, hospital_lims,1642
 PLT_Result,PLT_Result,hospital_lims,38709215
-FBC_PLT,FBC_PLT,hospital_lims,10936784
 CBC_Platelets,CBC_Platelets,hospital_lims,39840985
 Creat,Creat,hospital_lims,20980753
 Creatinine_Ser,Creatinine_Ser,hospital_lims,20947387
@@ -27,10 +21,7 @@ CHEM_CREAT,CHEM_CREAT,hospital_lims,20847826
 Renal_Creat,Renal_Creat,hospital_lims,16372
 Na+,Na+, hospital_lims,1642
 Sodium_Ser,Sodium_Ser,hospital_lims,38709215
-SER_Na,SER_Na,hospital_lims,10936784
 Sodium_Result,Sodium_Result,hospital_lims,20980753
-CHEM_NA,CHEM_NA,hospital_lims,20947387
-Plasma_NA,Plasma_NA,hospital_lims,19273
 K+,K+,hospital_lims,90372
 Potassium_Ser,Potassium_Ser,hospital_lims,20847826
 SER_K,SER_K,hospital_lims,16372
@@ -41,7 +32,6 @@ ALT_SGPT,ALT_SGPT,hospital_lims,39840985
 SGPT,SGPT,hospital_lims,20980753
 Alanine_AT,Alanine_AT,hospital_lims,20947387
 ALT_Result,ALT_Result,hospital_lims,19273
-CHEM_ALT,CHEM_ALT,hospital_lims,90372
 LFT_ALT,LFT_ALT,hospital_lims,20847826
 AST_SGOT,AST_SGOT,hospital_lims,16372
 SGOT,SGOT, hospital_lims,1642
