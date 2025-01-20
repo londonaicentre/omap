@@ -206,20 +206,26 @@ def handle_navigation(total_pages):
         Streamlit UI:
             Three columns containing previous, confiurm, next buttons
     """
+    st.write(f"Debug: total_pages = {total_pages}")
+
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        if st.button("< Previous", disabled=st.session_state.page == 0):
+        prev = st.button("< Previous", disabled=st.session_state.page == 0)
+        if prev:
             st.session_state.page -= 1
             st.rerun()
 
     with col2:
-        return st.button("CONFIRM ALL", type="primary")
+        confirm = st.button("CONFIRM ALL", type="primary")
 
     with col3:
-        if st.button("Next >", disabled=st.session_state.page >= total_pages - 1):
+        next = st.button("Next >", disabled=st.session_state.page >= total_pages-1)
+        if next:
             st.session_state.page += 1
             st.rerun()
+
+    return confirm
 
 def save_validated_mappings(session, start_idx, end_idx):
     """
@@ -295,7 +301,9 @@ def main():
         display_mapping_row(global_idx, match, source_lookup, target_lookup, target_options)
 
     # Handle navigation and saving
-    if handle_navigation(total_pages):
+    confirm_clicked = handle_navigation(total_pages)
+
+    if confirm_clicked:
         success, message = save_validated_mappings(session, start_idx, end_idx)
 
         if success:

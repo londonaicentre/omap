@@ -4,4 +4,5 @@ numpy
 torch
 transformers
 sentence-transformers
-hashlib
+stqdm
+scikit-learn
