@@ -65,7 +65,7 @@ class SourceConceptTable:
                     errors.append(f"Row {idx}: {e}")
 
             if errors:
-                return False, f"Validation errors: " + "\n".join(errors)
+                return False, f"confirmation errors: " + "\n".join(errors)
 
             return True, SourceConceptTable(valid_concepts)
 
@@ -88,7 +88,7 @@ class TargetConcept:
                 concept_name=str(row['concept_name']),
                 vocabulary_id=str(row['vocabulary_id'])
             )
-        ### can add other validation
+        ### can add other confirmation
         except ValueError as e:
             raise ValueError(f"Type conversion failed: {e}")
 
@@ -114,7 +114,7 @@ class TargetConceptTable:
                     errors.append(f"Row {idx}: {e}")
 
             if errors:
-                return False, f"Validation errors: " + "\n".join(errors)
+                return False, f"confirmation errors: " + "\n".join(errors)
 
             return True, TargetConceptTable(valid_concepts)
 
@@ -126,8 +126,8 @@ class ConceptMatch:
     source_key: int
     target_concept_id: int
     similarity_score: float
-    validation_status: bool
-    validation_timestamp: datetime | None
+    confirmation_status: str #"True", "False", "Rejected"
+    confirmation_timestamp: datetime | None
 
 def read_and_validate_csv(file, tableclass):
     try:

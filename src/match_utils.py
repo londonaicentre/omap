@@ -79,8 +79,8 @@ class ModelHandler:
                     source_key=source_table.concepts[i].source_key,
                     target_concept_id=target_table.concepts[best_match_idx].concept_id,
                     similarity_score=float(row[best_match_idx]),
-                    validation_status=False,
-                    validation_timestamp=None
+                    confirmation_status="False",
+                    confirmation_timestamp=None
                 )
             )
         return matches

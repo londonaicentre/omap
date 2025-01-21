@@ -61,8 +61,8 @@ class ProjectSession:
                     "source_key": match.source_key,
                     "target_concept_id": match.target_concept_id,
                     "similarity_score": f"{float(match.similarity_score):.3f}",
-                    "validation_status": False,
-                    "validation_timestamp": None
+                    "confirmation_status": False,
+                    "confirmation_timestamp": None
                 })
 
             with open(f"{session_dir}/concept_matches.json", 'w') as f:
@@ -151,9 +151,9 @@ def load_session(session_name, sessions_dir="sessions"):
                     target_concept_id=match['target_concept_id'],
                     similarity_score=float(match['similarity_score'])
                         if match['similarity_score'] != "NA" else "NA",
-                    validation_status=match['validation_status'],
-                    validation_timestamp=datetime.fromisoformat(match['validation_timestamp'])
-                        if match['validation_timestamp'] else None
+                    confirmation_status=match['confirmation_status'],
+                    confirmation_timestamp=datetime.fromisoformat(match['confirmation_timestamp'])
+                        if match['confirmation_timestamp'] else None
                 ))
 
         # Create ProjectSession object
