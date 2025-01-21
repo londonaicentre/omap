@@ -212,7 +212,7 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
                 label_visibility="collapsed"
             )
 
-            if selected[0]:
+            if selected[0] is not None and selected[0] != "":
                 st.session_state.modified_mappings[idx] = selected[0]
             elif idx in st.session_state.modified_mappings:
                 del st.session_state.modified_mappings[idx]
@@ -287,13 +287,20 @@ def save_confirmed_mappings(session, start_idx, end_idx):
     """
     try:
         for idx, match in enumerate(session.concept_matches):
-            # for each idx in modified_mappings state, update the target_concept_id in project session to match
+
+            # If idx has been updated it is in modified_mappings state -> update the target_concept_id in project session to match
             if idx in st.session_state.modified_mappings:
-                match.target_concept_id = st.session_state.modified_mappings[idx]
-                match.similarity_score = -1.0
-            # setting confirmation flag for everything on page
-            if start_idx <= idx < end_idx:
-                match.confirmation_status = "True"
+                if st.session_state.modified_mappings[idx] == "":  # No Change
+                    match.confirmation_status = "True"
+                else:
+                    match.target_concept_id = st.session_state.modified_mappings[idx] # align to whichever new concept
+                    match.similarity_score = -1.0
+                    match.confirmation_status = "Rejected" if match.target_concept_id == 0 else "True" # handle where user selects 'no match''
+                match.confirmation_timestamp = datetime.now()
+
+            # if there are unconfirmed matches on current page that are NOT modified (i.e. No Change by default), these can be confirmed
+            elif start_idx <= idx < end_idx and match.confirmation_status != "Rejected":
+                match.confirmation_status = "True"  # confirm the existing mapping
                 match.confirmation_timestamp = datetime.now()
 
         # Prepare and save JSON
@@ -348,8 +355,11 @@ def save_single_mapping(session, row_idx):
             single_match.target_concept_id = st.session_state.modified_mappings[row_idx]
             single_match.similarity_score = -1.0
             del st.session_state.modified_mappings[row_idx]
+            # if the target concept is 'no matching' then confirmation status should be "Rejected"
+            single_match.confirmation_status = "Rejected" if single_match.target_concept_id == 0 else "True"
+        else:
+            single_match.confirmation_status = "True"
 
-        single_match.confirmation_status = "True"
         single_match.confirmation_timestamp = datetime.now()
 
         session_dir = f"sessions/{session.project_name}_{session.timestamp}"
