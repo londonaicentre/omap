@@ -103,7 +103,16 @@ class TargetConceptTable:
             return False, f"Missing required columns. Expected: {TargetConceptTable.target_columns}"
 
         try:
-            valid_concepts = []
+            # target concepts must always has a 'no match' option
+            # this is the official OMOP representation of 'no matchign concept'
+            valid_concepts = [
+                TargetConcept(
+                    concept_id=0,
+                    concept_code='No matching concept',
+                    concept_name='No matching concept',
+                    vocabulary_id='None'
+                )
+            ]
             errors = []
 
             for idx, row in df.iterrows():
@@ -126,7 +135,7 @@ class ConceptMatch:
     source_key: int
     target_concept_id: int
     similarity_score: float
-    confirmation_status: str #"True", "False", "Rejected"
+    confirmation_status: str #"True", "False", "Rejected" -> to define w/ enum
     confirmation_timestamp: datetime | None
 
 def read_and_validate_csv(file, tableclass):

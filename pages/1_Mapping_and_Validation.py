@@ -207,7 +207,7 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
                 "Select target",
                 target_choices,
                 default_idx,
-                format_func=lambda x: x[1] if x[1] else "No Change",
+                format_func=lambda x: x[1], # redundant -> if x[1] else "No Change",
                 key=f"select_{idx}",
                 label_visibility="collapsed"
             )
@@ -244,7 +244,7 @@ def handle_navigation(total_pages):
         Streamlit UI:
             Three columns containing previous, confiurm, next buttons
     """
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
         prev = st.button("< Previous", disabled=st.session_state.page == 0)
@@ -256,12 +256,15 @@ def handle_navigation(total_pages):
         confirm = st.button("CONFIRM ALL", type="primary")
 
     with col3:
+        reject = st.button("REJECT UNCONFIRMED", type="secondary")
+
+    with col4:
         next = st.button("Next >", disabled=st.session_state.page >= total_pages-1)
         if next:
             st.session_state.page += 1
             st.rerun()
 
-    return confirm
+    return confirm, reject
 
 def save_confirmed_mappings(session, start_idx, end_idx):
     """
@@ -279,7 +282,8 @@ def save_confirmed_mappings(session, start_idx, end_idx):
         bool:
             True if save successful, False otherwise
         Session states:
-            current_session (ProjectSession) is updated by passing new targets from modified_mappings. confirmation_status is set to True, and timestamp added.
+            current_session (ProjectSession) is updated by passing new targets from modified_mappings.
+            confirmation_status is set to True, and timestamp added.
     """
     try:
         for idx, match in enumerate(session.concept_matches):
@@ -300,7 +304,7 @@ def save_confirmed_mappings(session, start_idx, end_idx):
             {
                 "source_key": match.source_key,
                 "target_concept_id": match.target_concept_id,
-                "similarity_score": (f"{float(match.similarity_score):.3f}"),
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
                 "confirmation_status": match.confirmation_status,
                 "confirmation_timestamp": (match.confirmation_timestamp.isoformat()
                                       if match.confirmation_timestamp else None)
@@ -333,7 +337,8 @@ def save_single_mapping(session, row_idx):
         bool:
             True if save successful, False otherwise
         Session states:
-            current_session (ProjectSession) is updated by passing new target (single row) from modified_mappings. confirmation_status is set to True, and timestamp added.
+            current_session (ProjectSession) is updated by passing new target (single row) from modified_mappings.
+            confirmation_status for single mapping is set to True, and timestamp added.
     """
     try:
         single_match = session.concept_matches[row_idx]
@@ -371,6 +376,62 @@ def save_single_mapping(session, row_idx):
     except Exception as e:
         return False, f"Failed to save match: {e}"
 
+def reject_unconfirmed_mappings(session, start_idx, end_idx):
+    """
+    Rejects all unconfirmed mappings on page. Sets target concept as 0, saves to JSON
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+        start_idx (int):
+            Start index of current page
+        end_idx (int):
+            End index of current page
+
+    Returns:
+        bool:
+            True if save successful, False otherwise
+        Session states:
+            current_session (ProjectSession) is updated by passing new targets from modified_mappings.
+            confirmation_status is set to Rejected, and timestamp added.
+    """
+    try:
+        for idx in range(start_idx, end_idx):
+            match = session.concept_matches[idx]
+            # reject any unconfirmed mappings
+            if match.confirmation_status != "True":
+                match.target_concept_id = 0
+                match.similarity_score = -1.0
+                match.confirmation_status = "Rejected"
+                match.confirmation_timestamp = datetime.now()
+
+        # Prepare and save JSON
+        session_dir = f"sessions/{session.project_name}_{session.timestamp}"
+        matches_path = f"{session_dir}/concept_matches.json"
+
+        matches_json = [
+            {
+                "source_key": match.source_key,
+                "target_concept_id": match.target_concept_id,
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
+                "confirmation_status": match.confirmation_status,
+                "confirmation_timestamp": (match.confirmation_timestamp.isoformat()
+                                      if match.confirmation_timestamp else None)
+            }
+            for match in session.concept_matches
+        ]
+
+        with open(matches_path, 'w') as f:
+            json.dump(matches_json, f, indent=2)
+
+        # clean up all modified mappings
+        st.session_state.modified_mappings = {}
+
+        return True, "Mappings saved successfully"
+
+    except Exception as e:
+        return False, f"Failed to save matches: {e}"
+
 
 def main():
     st.set_page_config(layout="wide")
@@ -393,18 +454,32 @@ def main():
         display_mapping_row(global_idx, match, source_lookup, target_lookup, target_options)
 
     # Handle navigation and saving
-    confirm_clicked = handle_navigation(total_pages)
+    confirm_clicked, reject_clicked = handle_navigation(total_pages)
 
     if confirm_clicked:
         success, message = save_confirmed_mappings(session, start_idx, end_idx)
 
         if success:
             if st.session_state.page < total_pages - 1:
-                st.session_state.page += 1
-                st.success("Saved modified mappings. Moving to next page...")
+                #st.session_state.page += 1
+                st.success("Saved modified mappings.")
                 st.rerun()
             else:
                 st.success("Saved mappings. This is the last page.")
+                st.rerun()
+        else:
+            st.error(message)
+
+    elif reject_clicked:
+        success, message = reject_unconfirmed_mappings(session, start_idx, end_idx)
+
+        if success:
+            if st.session_state.page < total_pages - 1:
+                #st.session_state.page += 1
+                st.success("Rejected unconfirmed mappings.")
+                st.rerun()
+            else:
+                st.success("Rejected unconfirmed mappings. This is the last page.")
                 st.rerun()
         else:
             st.error(message)
