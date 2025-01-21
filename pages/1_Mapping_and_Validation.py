@@ -163,14 +163,14 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
             Container with 5 columns per mapping row
     """
     with st.container():
-        cols = st.columns([3, 3, 1, 1, 4])
+        cols = st.columns([3, 3, 1, 1, 3, 1])
 
         with cols[0]:
             st.write(f"Source: {source_lookup[match.source_key]}")
         with cols[1]:
             st.write(f"Target: {target_lookup[match.target_concept_id]}")
         with cols[2]:
-            st.write(f"Score: {match.similarity_score:.3f}")
+            st.write(f"Score: {match.similarity_score:.2f}")
         with cols[3]:
             st.write(f"Validated: {match.validation_status}")
         with cols[4]:
@@ -189,6 +189,17 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
                 st.session_state.modified_mappings[idx] = selected[0]
             elif idx in st.session_state.modified_mappings:
                 del st.session_state.modified_mappings[idx]
+        with cols[5]:
+            # set validation flag for where unvalidated (no intervention), or where intervention occurs (idx stored)
+            needs_validation = not match.validation_status or idx in st.session_state.modified_mappings
+            # activate button when confirmation task possible
+            confirm_row = st.button("Confirm", key=f"confirm_{idx}", disabled=not needs_validation)
+            if confirm_row:
+                success, message = save_single_mapping(st.session_state.current_session, idx)
+                if success:
+                    st.rerun()
+                else:
+                    st.error(message)
 
 def handle_navigation(total_pages):
     """
@@ -244,15 +255,14 @@ def save_validated_mappings(session, start_idx, end_idx):
             True if save successful, False otherwise
         Session states:
             current_session (ProjectSession) is updated by passing new targets from modified_mappings. validation_status is set to True, and timestamp added.
-        modified_mappings:
-            Used to determine which matches need target updates
     """
     try:
         for idx, match in enumerate(session.concept_matches):
             # for each idx in modified_mappings state, update the target_concept_id in project session to match
             if idx in st.session_state.modified_mappings:
                 match.target_concept_id = st.session_state.modified_mappings[idx]
-            # simpler approach - bulk validate through single confirm all
+                match.similarity_score = -1.0
+            # setting validation flag for everything on page
             if start_idx <= idx < end_idx:
                 match.validation_status = True
                 match.validation_timestamp = datetime.now()
@@ -265,8 +275,7 @@ def save_validated_mappings(session, start_idx, end_idx):
             {
                 "source_key": match.source_key,
                 "target_concept_id": match.target_concept_id,
-                "similarity_score": ("NA" if match.similarity_score == "NA"
-                                  else f"{float(match.similarity_score):.3f}"),
+                "similarity_score": (f"{float(match.similarity_score):.3f}"),
                 "validation_status": match.validation_status,
                 "validation_timestamp": (match.validation_timestamp.isoformat()
                                       if match.validation_timestamp else None)
@@ -277,10 +286,66 @@ def save_validated_mappings(session, start_idx, end_idx):
         with open(matches_path, 'w') as f:
             json.dump(matches_json, f, indent=2)
 
+        # clean up all modified mappings
+        st.session_state.modified_mappings = {}
+
         return True, "Mappings saved successfully"
 
     except Exception as e:
         return False, f"Failed to save matches: {e}"
+
+def save_single_mapping(session, row_idx):
+    """
+    Save a single validated concept mapping to JSON
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+        row_idx (int):
+            Index of the row being validated
+
+    Returns:
+        bool:
+            True if save successful, False otherwise
+        Session states:
+            current_session (ProjectSession) is updated by passing new target (single row) from modified_mappings. validation_status is set to True, and timestamp added.
+    """
+    try:
+        single_match = session.concept_matches[row_idx]
+
+        # for particular row id only, swap in from modified_mappings, and clear entry
+        if row_idx in st.session_state.modified_mappings:
+            single_match.target_concept_id = st.session_state.modified_mappings[row_idx]
+            single_match.similarity_score = -1.0
+            del st.session_state.modified_mappings[row_idx]
+
+        single_match.validation_status = True
+        single_match.validation_timestamp = datetime.now()
+
+        session_dir = f"sessions/{session.project_name}_{session.timestamp}"
+        matches_path = f"{session_dir}/concept_matches.json"
+
+        # even though we have updated only a single mapping, we still dump the entire object as json
+        matches_json = [
+            {
+                "source_key": match.source_key,
+                "target_concept_id": match.target_concept_id,
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
+                "validation_status": match.validation_status,
+                "validation_timestamp": (match.validation_timestamp.isoformat()
+                                      if match.validation_timestamp else None)
+            }
+            for match in session.concept_matches
+        ]
+
+        with open(matches_path, 'w') as f:
+            json.dump(matches_json, f, indent=2)
+
+        return True, "Row validated successfully"
+
+    except Exception as e:
+        return False, f"Failed to save match: {e}"
+
 
 def main():
     st.set_page_config(layout="wide")
@@ -307,7 +372,6 @@ def main():
         success, message = save_validated_mappings(session, start_idx, end_idx)
 
         if success:
-            st.session_state.modified_mappings = {}
             if st.session_state.page < total_pages - 1:
                 st.session_state.page += 1
                 st.success("Saved modified mappings. Moving to next page...")

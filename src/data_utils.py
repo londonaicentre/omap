@@ -125,7 +125,7 @@ class TargetConceptTable:
 class ConceptMatch:
     source_key: int
     target_concept_id: int
-    similarity_score: float | str  # will use NA where concept corrected by HITL
+    similarity_score: float
     validation_status: bool
     validation_timestamp: datetime | None
 
