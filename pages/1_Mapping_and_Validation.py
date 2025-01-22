@@ -89,12 +89,12 @@ def create_concept_lookups(session):
 
     Returns:
         tuple:
-            source_lookup (dict): Maps source_key to concept_name
+            source_lookup (dict): Maps source_key to (concept_name, concept_count)
             target_lookup (dict): Maps concept_id to concept_name
             target_options (list): List of (concept_id, concept_name) tuples for dropdown options
     """
     source_lookup = {
-        concept.source_key: concept.concept_name
+        concept.source_key: (concept.concept_name, concept.concept_count)
         for concept in session.source_table.concepts
     }
     target_lookup = {
@@ -151,19 +151,21 @@ def display_headings():
     """
 
     with st.container():
-        headings = st.columns([3, 3, 1, 1, 3, 1])
+        headings = st.columns([1, 3, 3, 1, 1, 3, 1])
 
         with headings[0]:
-            st.write(f"Source Concepts")
+            st.write(f"Count")
         with headings[1]:
-            st.write(f"Target Concepts")
+            st.write(f"Source Concepts")
         with headings[2]:
-            st.write(f"Similarity")
+            st.write(f"Target Concepts")
         with headings[3]:
-            st.write(f"Confirmation")
+            st.write(f"Similarity")
         with headings[4]:
-            st.write(f"Modify Target")
+            st.write(f"Confirmation")
         with headings[5]:
+            st.write(f"Modify Target")
+        with headings[6]:
             st.write(f"")
 
 def display_mapping_row(idx, match, source_lookup, target_lookup, target_options):
@@ -189,17 +191,21 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
             Container with 5 columns per mapping row
     """
     with st.container():
-        cols = st.columns([3, 3, 1, 1, 3, 1])
+        cols = st.columns([1, 3, 3, 1, 1, 3, 1])
+
+        source_name, source_count = source_lookup[match.source_key]
 
         with cols[0]:
-            st.write(f"{source_lookup[match.source_key]}")
+            st.write(f"{source_count}")
         with cols[1]:
-            st.write(f"{target_lookup[match.target_concept_id]}")
+            st.write(f"{source_name}")
         with cols[2]:
-            st.write(f"{match.similarity_score:.2f}")
+            st.write(f"{target_lookup[match.target_concept_id]}")
         with cols[3]:
-            st.write(f"{match.confirmation_status}")
+            st.write(f"{match.similarity_score:.2f}")
         with cols[4]:
+            st.write(f"{match.confirmation_status}")
+        with cols[5]:
             default_idx = 0
             target_choices = [("", "No Change")] + target_options
 
@@ -216,7 +222,7 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
                 st.session_state.modified_mappings[idx] = selected[0]
             elif idx in st.session_state.modified_mappings:
                 del st.session_state.modified_mappings[idx]
-        with cols[5]:
+        with cols[6]:
             # set confirmation flag for where unconfirmed (no intervention), or where intervention occurs (idx stored)
             needs_confirmation = not match.confirmation_status or idx in st.session_state.modified_mappings
             # activate button when confirmation task possible
