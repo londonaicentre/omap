@@ -83,7 +83,8 @@ class ModelHandler:
                     target_concept_id=target_table.concepts[best_match_idx].concept_id,
                     similarity_score=float(row[best_match_idx]),
                     confirmation_status="False",
-                    confirmation_timestamp=None
+                    first_confirmation_timestamp = None,
+                    last_update_timestamp=None
                 )
             )
 

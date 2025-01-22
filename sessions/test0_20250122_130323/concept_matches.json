@@ -1,0 +1,946 @@
+[
+  {
+    "source_key": 777186969,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:03:34.822588",
+    "last_update_timestamp": "2025-01-22T13:10:28.101641"
+  },
+  {
+    "source_key": 451555161,
+    "target_concept_id": 37208669,
+    "similarity_score": "0.82",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:03:36.250378",
+    "last_update_timestamp": "2025-01-22T13:04:33.875040"
+  },
+  {
+    "source_key": 552822723,
+    "target_concept_id": 37208670,
+    "similarity_score": "0.69",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:03:38.149967",
+    "last_update_timestamp": "2025-01-22T13:04:33.875044"
+  },
+  {
+    "source_key": 734595718,
+    "target_concept_id": 37208670,
+    "similarity_score": "0.53",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:03:43.439172",
+    "last_update_timestamp": "2025-01-22T13:04:33.875048"
+  },
+  {
+    "source_key": 756484390,
+    "target_concept_id": 2309847,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:03:57.752711",
+    "last_update_timestamp": "2025-01-22T13:05:27.303617"
+  },
+  {
+    "source_key": 829925081,
+    "target_concept_id": 129380949,
+    "similarity_score": "0.62",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875063",
+    "last_update_timestamp": "2025-01-22T13:04:33.875064"
+  },
+  {
+    "source_key": 318936217,
+    "target_concept_id": 298957,
+    "similarity_score": "0.59",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875068",
+    "last_update_timestamp": "2025-01-22T13:04:33.875068"
+  },
+  {
+    "source_key": 568159229,
+    "target_concept_id": 2030847,
+    "similarity_score": "0.80",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875075",
+    "last_update_timestamp": "2025-01-22T13:04:33.875076"
+  },
+  {
+    "source_key": 414899982,
+    "target_concept_id": 20016,
+    "similarity_score": "0.65",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875080",
+    "last_update_timestamp": "2025-01-22T13:04:33.875081"
+  },
+  {
+    "source_key": 757168548,
+    "target_concept_id": 37208669,
+    "similarity_score": "0.61",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875084",
+    "last_update_timestamp": "2025-01-22T13:04:33.875085"
+  },
+  {
+    "source_key": 881043533,
+    "target_concept_id": 37208999,
+    "similarity_score": "0.65",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875088",
+    "last_update_timestamp": "2025-01-22T13:04:33.875089"
+  },
+  {
+    "source_key": 726724926,
+    "target_concept_id": 37392955,
+    "similarity_score": "0.52",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875092",
+    "last_update_timestamp": "2025-01-22T13:04:33.875093"
+  },
+  {
+    "source_key": 657592750,
+    "target_concept_id": 37208670,
+    "similarity_score": "0.76",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875096",
+    "last_update_timestamp": "2025-01-22T13:04:33.875097"
+  },
+  {
+    "source_key": 183372210,
+    "target_concept_id": 37208553,
+    "similarity_score": "0.49",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875100",
+    "last_update_timestamp": "2025-01-22T13:04:33.875100"
+  },
+  {
+    "source_key": 148303643,
+    "target_concept_id": 2309847,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:27.024607",
+    "last_update_timestamp": "2025-01-22T13:05:27.303659"
+  },
+  {
+    "source_key": 932455205,
+    "target_concept_id": 129380949,
+    "similarity_score": "0.70",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875114",
+    "last_update_timestamp": "2025-01-22T13:04:33.875114"
+  },
+  {
+    "source_key": 211989039,
+    "target_concept_id": 23097,
+    "similarity_score": "0.54",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875118",
+    "last_update_timestamp": "2025-01-22T13:04:33.875118"
+  },
+  {
+    "source_key": 767938490,
+    "target_concept_id": 298957,
+    "similarity_score": "0.43",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875122",
+    "last_update_timestamp": "2025-01-22T13:04:33.875122"
+  },
+  {
+    "source_key": 290850347,
+    "target_concept_id": 2030847,
+    "similarity_score": "0.88",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875126",
+    "last_update_timestamp": "2025-01-22T13:04:33.875126"
+  },
+  {
+    "source_key": 131570745,
+    "target_concept_id": 20016,
+    "similarity_score": "0.66",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:04:33.875129",
+    "last_update_timestamp": "2025-01-22T13:04:33.875130"
+  },
+  {
+    "source_key": 304257354,
+    "target_concept_id": 37208680,
+    "similarity_score": "0.61",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303677",
+    "last_update_timestamp": "2025-01-22T13:05:27.303678"
+  },
+  {
+    "source_key": 207604722,
+    "target_concept_id": 37208644,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303688",
+    "last_update_timestamp": "2025-01-22T13:06:07.793359"
+  },
+  {
+    "source_key": 669813384,
+    "target_concept_id": 37208596,
+    "similarity_score": "0.68",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303692",
+    "last_update_timestamp": "2025-01-22T13:05:27.303693"
+  },
+  {
+    "source_key": 828308454,
+    "target_concept_id": 37208999,
+    "similarity_score": "0.75",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303696",
+    "last_update_timestamp": "2025-01-22T13:05:27.303697"
+  },
+  {
+    "source_key": 791214085,
+    "target_concept_id": 37393851,
+    "similarity_score": "0.62",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303700",
+    "last_update_timestamp": "2025-01-22T13:05:27.303701"
+  },
+  {
+    "source_key": 196745870,
+    "target_concept_id": 37208670,
+    "similarity_score": "0.62",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303704",
+    "last_update_timestamp": "2025-01-22T13:05:27.303705"
+  },
+  {
+    "source_key": 314875027,
+    "target_concept_id": 37208553,
+    "similarity_score": "0.91",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303708",
+    "last_update_timestamp": "2025-01-22T13:05:27.303708"
+  },
+  {
+    "source_key": 390254348,
+    "target_concept_id": 12039656,
+    "similarity_score": "0.72",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303712",
+    "last_update_timestamp": "2025-01-22T13:05:27.303712"
+  },
+  {
+    "source_key": 269443313,
+    "target_concept_id": 129380949,
+    "similarity_score": "0.71",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303716",
+    "last_update_timestamp": "2025-01-22T13:05:27.303716"
+  },
+  {
+    "source_key": 674709435,
+    "target_concept_id": 1238764,
+    "similarity_score": "0.67",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303720",
+    "last_update_timestamp": "2025-01-22T13:05:27.303720"
+  },
+  {
+    "source_key": 509484972,
+    "target_concept_id": 298957,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303730",
+    "last_update_timestamp": "2025-01-22T13:06:07.793399"
+  },
+  {
+    "source_key": 879483041,
+    "target_concept_id": 2030847,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303740",
+    "last_update_timestamp": "2025-01-22T13:06:07.793409"
+  },
+  {
+    "source_key": 939806533,
+    "target_concept_id": 12398965,
+    "similarity_score": "0.47",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303744",
+    "last_update_timestamp": "2025-01-22T13:05:27.303744"
+  },
+  {
+    "source_key": 843408823,
+    "target_concept_id": 2398765,
+    "similarity_score": "0.82",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303748",
+    "last_update_timestamp": "2025-01-22T13:05:27.303748"
+  },
+  {
+    "source_key": 777717694,
+    "target_concept_id": 37208680,
+    "similarity_score": "0.73",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303751",
+    "last_update_timestamp": "2025-01-22T13:05:27.303752"
+  },
+  {
+    "source_key": 827557390,
+    "target_concept_id": 37208644,
+    "similarity_score": "0.60",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303755",
+    "last_update_timestamp": "2025-01-22T13:05:27.303756"
+  },
+  {
+    "source_key": 252406024,
+    "target_concept_id": 37208596,
+    "similarity_score": "0.69",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303759",
+    "last_update_timestamp": "2025-01-22T13:05:27.303759"
+  },
+  {
+    "source_key": 391559763,
+    "target_concept_id": 37208681,
+    "similarity_score": "0.67",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303763",
+    "last_update_timestamp": "2025-01-22T13:05:27.303763"
+  },
+  {
+    "source_key": 701304211,
+    "target_concept_id": 37393851,
+    "similarity_score": "0.53",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303767",
+    "last_update_timestamp": "2025-01-22T13:05:27.303767"
+  },
+  {
+    "source_key": 581507035,
+    "target_concept_id": 37208553,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:05:27.303777",
+    "last_update_timestamp": "2025-01-22T13:06:07.793440"
+  },
+  {
+    "source_key": 546463517,
+    "target_concept_id": 12039656,
+    "similarity_score": "0.78",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793444",
+    "last_update_timestamp": "2025-01-22T13:06:07.793444"
+  },
+  {
+    "source_key": 466479853,
+    "target_concept_id": 129380949,
+    "similarity_score": "0.85",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793448",
+    "last_update_timestamp": "2025-01-22T13:06:07.793448"
+  },
+  {
+    "source_key": 106778655,
+    "target_concept_id": 1238764,
+    "similarity_score": "0.51",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793452",
+    "last_update_timestamp": "2025-01-22T13:06:07.793452"
+  },
+  {
+    "source_key": 760626899,
+    "target_concept_id": 203017,
+    "similarity_score": "0.78",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793456",
+    "last_update_timestamp": "2025-01-22T13:06:07.793456"
+  },
+  {
+    "source_key": 522849370,
+    "target_concept_id": 2030847,
+    "similarity_score": "0.85",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793460",
+    "last_update_timestamp": "2025-01-22T13:06:07.793464"
+  },
+  {
+    "source_key": 273404684,
+    "target_concept_id": 12398965,
+    "similarity_score": "0.53",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793467",
+    "last_update_timestamp": "2025-01-22T13:06:07.793468"
+  },
+  {
+    "source_key": 905495552,
+    "target_concept_id": 2398765,
+    "similarity_score": "0.45",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793471",
+    "last_update_timestamp": "2025-01-22T13:06:07.793472"
+  },
+  {
+    "source_key": 185077840,
+    "target_concept_id": 37208680,
+    "similarity_score": "0.70",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793475",
+    "last_update_timestamp": "2025-01-22T13:06:07.793476"
+  },
+  {
+    "source_key": 867990568,
+    "target_concept_id": 37208669,
+    "similarity_score": "0.79",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793479",
+    "last_update_timestamp": "2025-01-22T13:06:07.793480"
+  },
+  {
+    "source_key": 841854982,
+    "target_concept_id": 37208596,
+    "similarity_score": "0.71",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793483",
+    "last_update_timestamp": "2025-01-22T13:06:07.793484"
+  },
+  {
+    "source_key": 91985200,
+    "target_concept_id": 37392955,
+    "similarity_score": "0.64",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793487",
+    "last_update_timestamp": "2025-01-22T13:06:07.793488"
+  },
+  {
+    "source_key": 885618166,
+    "target_concept_id": 37208681,
+    "similarity_score": "0.54",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793491",
+    "last_update_timestamp": "2025-01-22T13:06:07.793492"
+  },
+  {
+    "source_key": 78004817,
+    "target_concept_id": 37393851,
+    "similarity_score": "0.58",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793495",
+    "last_update_timestamp": "2025-01-22T13:06:07.793495"
+  },
+  {
+    "source_key": 424557427,
+    "target_concept_id": 2309847,
+    "similarity_score": "0.79",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793499",
+    "last_update_timestamp": "2025-01-22T13:06:07.793499"
+  },
+  {
+    "source_key": 750966696,
+    "target_concept_id": 12039656,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:00.351787",
+    "last_update_timestamp": "2025-01-22T13:06:41.399105"
+  },
+  {
+    "source_key": 400914397,
+    "target_concept_id": 23097,
+    "similarity_score": "0.85",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793513",
+    "last_update_timestamp": "2025-01-22T13:06:07.793513"
+  },
+  {
+    "source_key": 332303493,
+    "target_concept_id": 1238764,
+    "similarity_score": "0.24",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793517",
+    "last_update_timestamp": "2025-01-22T13:06:07.793517"
+  },
+  {
+    "source_key": 951480801,
+    "target_concept_id": 203017,
+    "similarity_score": "0.61",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793520",
+    "last_update_timestamp": "2025-01-22T13:06:07.793521"
+  },
+  {
+    "source_key": 575255396,
+    "target_concept_id": 12398965,
+    "similarity_score": "0.76",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793524",
+    "last_update_timestamp": "2025-01-22T13:06:07.793525"
+  },
+  {
+    "source_key": 555177852,
+    "target_concept_id": 20016,
+    "similarity_score": "0.72",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:07.793528",
+    "last_update_timestamp": "2025-01-22T13:06:07.793529"
+  },
+  {
+    "source_key": 949193743,
+    "target_concept_id": 2398765,
+    "similarity_score": "0.38",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399129",
+    "last_update_timestamp": "2025-01-22T13:06:41.399130"
+  },
+  {
+    "source_key": 824757476,
+    "target_concept_id": 37208644,
+    "similarity_score": "0.65",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399134",
+    "last_update_timestamp": "2025-01-22T13:06:41.399134"
+  },
+  {
+    "source_key": 86748329,
+    "target_concept_id": 37392955,
+    "similarity_score": "0.57",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399138",
+    "last_update_timestamp": "2025-01-22T13:06:41.399138"
+  },
+  {
+    "source_key": 460572335,
+    "target_concept_id": 37208670,
+    "similarity_score": "0.58",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399142",
+    "last_update_timestamp": "2025-01-22T13:06:41.399145"
+  },
+  {
+    "source_key": 892829932,
+    "target_concept_id": 37208553,
+    "similarity_score": "0.79",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399149",
+    "last_update_timestamp": "2025-01-22T13:06:41.399149"
+  },
+  {
+    "source_key": 852295390,
+    "target_concept_id": 2309847,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:23.017555",
+    "last_update_timestamp": "2025-01-22T13:07:42.656691"
+  },
+  {
+    "source_key": 375640547,
+    "target_concept_id": 129380949,
+    "similarity_score": "0.74",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399163",
+    "last_update_timestamp": "2025-01-22T13:06:41.399163"
+  },
+  {
+    "source_key": 99149481,
+    "target_concept_id": 1238764,
+    "similarity_score": "0.37",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399167",
+    "last_update_timestamp": "2025-01-22T13:06:41.399167"
+  },
+  {
+    "source_key": 230304731,
+    "target_concept_id": 298957,
+    "similarity_score": "0.53",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399171",
+    "last_update_timestamp": "2025-01-22T13:06:41.399171"
+  },
+  {
+    "source_key": 513351507,
+    "target_concept_id": 203017,
+    "similarity_score": "0.77",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399174",
+    "last_update_timestamp": "2025-01-22T13:06:41.399175"
+  },
+  {
+    "source_key": 369551614,
+    "target_concept_id": 20016,
+    "similarity_score": "0.58",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399178",
+    "last_update_timestamp": "2025-01-22T13:06:41.399179"
+  },
+  {
+    "source_key": 440177866,
+    "target_concept_id": 37208644,
+    "similarity_score": "0.55",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399183",
+    "last_update_timestamp": "2025-01-22T13:06:41.399183"
+  },
+  {
+    "source_key": 874675764,
+    "target_concept_id": 37208596,
+    "similarity_score": "0.83",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399187",
+    "last_update_timestamp": "2025-01-22T13:06:41.399187"
+  },
+  {
+    "source_key": 710224421,
+    "target_concept_id": 37392955,
+    "similarity_score": "0.50",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399191",
+    "last_update_timestamp": "2025-01-22T13:06:41.399191"
+  },
+  {
+    "source_key": 479732784,
+    "target_concept_id": 37393851,
+    "similarity_score": "0.58",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399195",
+    "last_update_timestamp": "2025-01-22T13:06:41.399195"
+  },
+  {
+    "source_key": 63679156,
+    "target_concept_id": 37208553,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399205",
+    "last_update_timestamp": "2025-01-22T13:07:42.656731"
+  },
+  {
+    "source_key": 311460848,
+    "target_concept_id": 12039656,
+    "similarity_score": "0.71",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399209",
+    "last_update_timestamp": "2025-01-22T13:06:41.399209"
+  },
+  {
+    "source_key": 607037471,
+    "target_concept_id": 23097,
+    "similarity_score": "0.60",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399213",
+    "last_update_timestamp": "2025-01-22T13:06:41.399213"
+  },
+  {
+    "source_key": 107677506,
+    "target_concept_id": 1238764,
+    "similarity_score": "0.49",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399217",
+    "last_update_timestamp": "2025-01-22T13:06:41.399217"
+  },
+  {
+    "source_key": 490339152,
+    "target_concept_id": 203017,
+    "similarity_score": "0.81",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:06:41.399221",
+    "last_update_timestamp": "2025-01-22T13:06:41.399221"
+  },
+  {
+    "source_key": 480861688,
+    "target_concept_id": 12398965,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656755",
+    "last_update_timestamp": "2025-01-22T13:07:42.656755"
+  },
+  {
+    "source_key": 842466132,
+    "target_concept_id": 12398965,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656764",
+    "last_update_timestamp": "2025-01-22T13:07:42.656765"
+  },
+  {
+    "source_key": 905446478,
+    "target_concept_id": 2398765,
+    "similarity_score": "0.47",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656772",
+    "last_update_timestamp": "2025-01-22T13:07:42.656772"
+  },
+  {
+    "source_key": 382726157,
+    "target_concept_id": 37208680,
+    "similarity_score": "0.85",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656775",
+    "last_update_timestamp": "2025-01-22T13:07:42.656776"
+  },
+  {
+    "source_key": 160639967,
+    "target_concept_id": 37208596,
+    "similarity_score": "0.65",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656779",
+    "last_update_timestamp": "2025-01-22T13:07:42.656780"
+  },
+  {
+    "source_key": 865892671,
+    "target_concept_id": 37208681,
+    "similarity_score": "0.61",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656783",
+    "last_update_timestamp": "2025-01-22T13:07:42.656783"
+  },
+  {
+    "source_key": 654601261,
+    "target_concept_id": 37393851,
+    "similarity_score": "0.49",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656787",
+    "last_update_timestamp": "2025-01-22T13:07:42.656787"
+  },
+  {
+    "source_key": 952494908,
+    "target_concept_id": 37208553,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656796",
+    "last_update_timestamp": "2025-01-22T13:07:42.656796"
+  },
+  {
+    "source_key": 125218176,
+    "target_concept_id": 12039656,
+    "similarity_score": "0.80",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656803",
+    "last_update_timestamp": "2025-01-22T13:07:42.656804"
+  },
+  {
+    "source_key": 832097676,
+    "target_concept_id": 23097,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656812",
+    "last_update_timestamp": "2025-01-22T13:07:42.656813"
+  },
+  {
+    "source_key": 465766010,
+    "target_concept_id": 1238764,
+    "similarity_score": "0.38",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656818",
+    "last_update_timestamp": "2025-01-22T13:07:42.656818"
+  },
+  {
+    "source_key": 505144900,
+    "target_concept_id": 203017,
+    "similarity_score": "0.81",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656821",
+    "last_update_timestamp": "2025-01-22T13:07:42.656822"
+  },
+  {
+    "source_key": 201418591,
+    "target_concept_id": 2030847,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656831",
+    "last_update_timestamp": "2025-01-22T13:07:42.656831"
+  },
+  {
+    "source_key": 653718033,
+    "target_concept_id": 12398965,
+    "similarity_score": "0.78",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656834",
+    "last_update_timestamp": "2025-01-22T13:07:42.656835"
+  },
+  {
+    "source_key": 836291512,
+    "target_concept_id": 2398765,
+    "similarity_score": "0.63",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656838",
+    "last_update_timestamp": "2025-01-22T13:07:42.656838"
+  },
+  {
+    "source_key": 141969335,
+    "target_concept_id": 37208680,
+    "similarity_score": "0.80",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656842",
+    "last_update_timestamp": "2025-01-22T13:07:42.656845"
+  },
+  {
+    "source_key": 122335521,
+    "target_concept_id": 37208669,
+    "similarity_score": "0.80",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656848",
+    "last_update_timestamp": "2025-01-22T13:07:42.656849"
+  },
+  {
+    "source_key": 842916194,
+    "target_concept_id": 37208596,
+    "similarity_score": "0.79",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656852",
+    "last_update_timestamp": "2025-01-22T13:07:42.656852"
+  },
+  {
+    "source_key": 66375444,
+    "target_concept_id": 37392955,
+    "similarity_score": "0.34",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656856",
+    "last_update_timestamp": "2025-01-22T13:07:42.656856"
+  },
+  {
+    "source_key": 90992030,
+    "target_concept_id": 37208670,
+    "similarity_score": "0.79",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:42.656859",
+    "last_update_timestamp": "2025-01-22T13:07:42.656860"
+  },
+  {
+    "source_key": 975388955,
+    "target_concept_id": 37393851,
+    "similarity_score": "0.59",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:50.417330",
+    "last_update_timestamp": "2025-01-22T13:07:50.417340"
+  },
+  {
+    "source_key": 660622055,
+    "target_concept_id": 2309847,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:07:59.589225",
+    "last_update_timestamp": "2025-01-22T13:07:59.589234"
+  },
+  {
+    "source_key": 761440870,
+    "target_concept_id": 12039656,
+    "similarity_score": "0.84",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:08:02.662386",
+    "last_update_timestamp": "2025-01-22T13:08:02.662392"
+  },
+  {
+    "source_key": 888490747,
+    "target_concept_id": 23097,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:08:07.350317",
+    "last_update_timestamp": "2025-01-22T13:08:07.350329"
+  },
+  {
+    "source_key": 739156499,
+    "target_concept_id": 298957,
+    "similarity_score": "0.43",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:08:08.973631",
+    "last_update_timestamp": "2025-01-22T13:08:08.973637"
+  },
+  {
+    "source_key": 598271134,
+    "target_concept_id": 203017,
+    "similarity_score": "0.66",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:08:13.057102",
+    "last_update_timestamp": "2025-01-22T13:08:13.057107"
+  },
+  {
+    "source_key": 727401242,
+    "target_concept_id": 20016,
+    "similarity_score": "0.56",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:08:14.408246",
+    "last_update_timestamp": "2025-01-22T13:08:14.408252"
+  },
+  {
+    "source_key": 553212755,
+    "target_concept_id": 2398765,
+    "similarity_score": "0.59",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-22T13:08:15.671906",
+    "last_update_timestamp": "2025-01-22T13:08:15.671911"
+  },
+  {
+    "source_key": 789622821,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041106",
+    "last_update_timestamp": "2025-01-22T13:09:43.041111"
+  },
+  {
+    "source_key": 125379874,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041112",
+    "last_update_timestamp": "2025-01-22T13:09:43.041112"
+  },
+  {
+    "source_key": 324347194,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041113",
+    "last_update_timestamp": "2025-01-22T13:09:43.041113"
+  },
+  {
+    "source_key": 740037802,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041114",
+    "last_update_timestamp": "2025-01-22T13:09:43.041114"
+  },
+  {
+    "source_key": 173090834,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041115",
+    "last_update_timestamp": "2025-01-22T13:09:43.041115"
+  },
+  {
+    "source_key": 602507956,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041115",
+    "last_update_timestamp": "2025-01-22T13:09:43.041116"
+  },
+  {
+    "source_key": 674089986,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041116",
+    "last_update_timestamp": "2025-01-22T13:09:43.041117"
+  },
+  {
+    "source_key": 500469424,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041117",
+    "last_update_timestamp": "2025-01-22T13:09:43.041118"
+  },
+  {
+    "source_key": 270948957,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041118",
+    "last_update_timestamp": "2025-01-22T13:09:43.041119"
+  },
+  {
+    "source_key": 342670650,
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-22T13:09:43.041119",
+    "last_update_timestamp": "2025-01-22T13:09:43.041119"
+  }
+]

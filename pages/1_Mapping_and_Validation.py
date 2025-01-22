@@ -162,7 +162,7 @@ def display_headings():
         with headings[3]:
             st.write(f"Similarity")
         with headings[4]:
-            st.write(f"Confirmation")
+            st.write(f"Status")
         with headings[5]:
             st.write(f"Modify Target")
         with headings[6]:
@@ -302,12 +302,18 @@ def save_confirmed_mappings(session, start_idx, end_idx):
                     match.target_concept_id = st.session_state.modified_mappings[idx] # align to whichever new concept
                     match.similarity_score = -1.0
                     match.confirmation_status = "Rejected" if match.target_concept_id == 0 else "True" # handle where user selects 'no match''
-                match.confirmation_timestamp = datetime.now()
+
+                # logic to separate timestamps
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
 
             # if there are unconfirmed matches on current page that are NOT modified (i.e. No Change by default), these can be confirmed
             elif start_idx <= idx < end_idx and match.confirmation_status != "Rejected":
                 match.confirmation_status = "True"  # confirm the existing mapping
-                match.confirmation_timestamp = datetime.now()
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
 
         # Prepare and save JSON
         session_dir = f"sessions/{session.project_name}_{session.timestamp}"
@@ -319,8 +325,10 @@ def save_confirmed_mappings(session, start_idx, end_idx):
                 "target_concept_id": match.target_concept_id,
                 "similarity_score": (f"{float(match.similarity_score):.2f}"),
                 "confirmation_status": match.confirmation_status,
-                "confirmation_timestamp": (match.confirmation_timestamp.isoformat()
-                                      if match.confirmation_timestamp else None)
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
             }
             for match in session.concept_matches
         ]
@@ -366,7 +374,9 @@ def save_single_mapping(session, row_idx):
         else:
             single_match.confirmation_status = "True"
 
-        single_match.confirmation_timestamp = datetime.now()
+        if single_match.first_confirmation_timestamp is None:
+            single_match.first_confirmation_timestamp = datetime.now()
+        single_match.last_update_timestamp = datetime.now()
 
         session_dir = f"sessions/{session.project_name}_{session.timestamp}"
         matches_path = f"{session_dir}/concept_matches.json"
@@ -378,8 +388,10 @@ def save_single_mapping(session, row_idx):
                 "target_concept_id": match.target_concept_id,
                 "similarity_score": (f"{float(match.similarity_score):.2f}"),
                 "confirmation_status": match.confirmation_status,
-                "confirmation_timestamp": (match.confirmation_timestamp.isoformat()
-                                      if match.confirmation_timestamp else None)
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
             }
             for match in session.concept_matches
         ]
@@ -419,7 +431,9 @@ def reject_unconfirmed_mappings(session, start_idx, end_idx):
                 match.target_concept_id = 0
                 match.similarity_score = -1.0
                 match.confirmation_status = "Rejected"
-                match.confirmation_timestamp = datetime.now()
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
 
         # Prepare and save JSON
         session_dir = f"sessions/{session.project_name}_{session.timestamp}"
@@ -431,8 +445,10 @@ def reject_unconfirmed_mappings(session, start_idx, end_idx):
                 "target_concept_id": match.target_concept_id,
                 "similarity_score": (f"{float(match.similarity_score):.2f}"),
                 "confirmation_status": match.confirmation_status,
-                "confirmation_timestamp": (match.confirmation_timestamp.isoformat()
-                                      if match.confirmation_timestamp else None)
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
             }
             for match in session.concept_matches
         ]

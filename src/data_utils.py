@@ -136,7 +136,8 @@ class ConceptMatch:
     target_concept_id: int
     similarity_score: float
     confirmation_status: str #"True", "False", "Rejected" -> to define w/ enum
-    confirmation_timestamp: datetime | None
+    first_confirmation_timestamp: datetime | None
+    last_update_timestamp: datetime | None
 
 def read_and_validate_csv(file, tableclass):
     try:
