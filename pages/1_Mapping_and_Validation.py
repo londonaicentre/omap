@@ -79,7 +79,6 @@ def load_mapping_session():
                 return False
     return False
 
-@st.cache_data # only generate this once
 def create_concept_lookups(session):
     """
     Create lookup dictionaries and list of replacement options from session concepts. Mappings are stored on unique key pairs, rather than multiple strings.
