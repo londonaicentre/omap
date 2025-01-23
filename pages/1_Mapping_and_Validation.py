@@ -9,9 +9,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from src.session_utils import list_saved_sessions, load_session, ProjectSession
 print("It's OK you can look now.")
 
-### Streamlit page: Mapping / Validation
+### Streamlit page: Mapping / confirmation
 ### 1) Load saved mapping session
-### 2) Display paginated mapping pairs with validation status
+### 2) Display paginated mapping pairs with confirmation status
 ### 3) Allow target concept updates through dropdown selection and track metadata
 ### 4) Save updated mappings to JSON on confirmation
 
@@ -89,12 +89,12 @@ def create_concept_lookups(session):
 
     Returns:
         tuple:
-            source_lookup (dict): Maps source_key to concept_name
+            source_lookup (dict): Maps source_key to (concept_name, concept_count)
             target_lookup (dict): Maps concept_id to concept_name
             target_options (list): List of (concept_id, concept_name) tuples for dropdown options
     """
     source_lookup = {
-        concept.source_key: concept.concept_name
+        concept.source_key: (concept.concept_name, concept.concept_count)
         for concept in session.source_table.concepts
     }
     target_lookup = {
@@ -140,15 +140,43 @@ def setup_pagination(total_items, items_per_page=20):
     st.write(f"Showing mappings {start_idx + 1} to {end_idx} of {total_items}")
     return start_idx, end_idx, total_pages
 
+
+def display_headings():
+    """
+    Creates and displays headings for below columns
+
+    Returns:
+        Streamlit UI:
+            Row of column headings aligned to mapping content
+    """
+
+    with st.container():
+        headings = st.columns([1, 3, 3, 1, 1, 3, 1])
+
+        with headings[0]:
+            st.write(f"Count")
+        with headings[1]:
+            st.write(f"Source Concepts")
+        with headings[2]:
+            st.write(f"Target Concepts")
+        with headings[3]:
+            st.write(f"Similarity")
+        with headings[4]:
+            st.write(f"Status")
+        with headings[5]:
+            st.write(f"Modify Target")
+        with headings[6]:
+            st.write(f"")
+
 def display_mapping_row(idx, match, source_lookup, target_lookup, target_options):
     """
-    Creates and displays a single concept mapping row which includes source, target, score, validation status and dropdown selector for update.
+    Creates and displays a single concept mapping row which includes source, target, score, confirmation status and dropdown selector for update.
 
     Args:
         idx (int):
             Index of the mapping row
         match (ConceptMatch):
-            Concept match object (source_key to target concept_id) with similarity_score + validation flag
+            Concept match object (source_key to target concept_id) with similarity_score + confirmation flag
         source_lookup (dict):
             Dictionary mapping source_key to source concept_name
         target_lookup (dict):
@@ -163,32 +191,48 @@ def display_mapping_row(idx, match, source_lookup, target_lookup, target_options
             Container with 5 columns per mapping row
     """
     with st.container():
-        cols = st.columns([3, 3, 1, 1, 4])
+        cols = st.columns([1, 3, 3, 1, 1, 3, 1])
+
+        source_name, source_count = source_lookup[match.source_key]
 
         with cols[0]:
-            st.write(f"Source: {source_lookup[match.source_key]}")
+            st.write(f"{source_count}")
         with cols[1]:
-            st.write(f"Target: {target_lookup[match.target_concept_id]}")
+            st.write(f"{source_name}")
         with cols[2]:
-            st.write(f"Score: {match.similarity_score:.3f}")
+            st.write(f"{target_lookup[match.target_concept_id]}")
         with cols[3]:
-            st.write(f"Validated: {match.validation_status}")
+            st.write(f"{match.similarity_score:.2f}")
         with cols[4]:
+            st.write(f"{match.confirmation_status}")
+        with cols[5]:
             default_idx = 0
             target_choices = [("", "No Change")] + target_options
 
             selected = st.selectbox(
-                "Update target",
+                "Select target",
                 target_choices,
                 default_idx,
-                format_func=lambda x: x[1] if x[1] else "No Change",
-                key=f"select_{idx}"
+                format_func=lambda x: x[1], # redundant -> if x[1] else "No Change",
+                key=f"select_{idx}",
+                label_visibility="collapsed"
             )
 
-            if selected[0]:
+            if selected[0] is not None and selected[0] != "":
                 st.session_state.modified_mappings[idx] = selected[0]
             elif idx in st.session_state.modified_mappings:
                 del st.session_state.modified_mappings[idx]
+        with cols[6]:
+            # set confirmation flag for where unconfirmed (no intervention), or where intervention occurs (idx stored)
+            needs_confirmation = not match.confirmation_status or idx in st.session_state.modified_mappings
+            # activate button when confirmation task possible
+            confirm_row = st.button("Confirm", key=f"confirm_{idx}", disabled=not needs_confirmation)
+            if confirm_row:
+                success, message = save_single_mapping(st.session_state.current_session, idx)
+                if success:
+                    st.rerun()
+                else:
+                    st.error(message)
 
 def handle_navigation(total_pages):
     """
@@ -206,24 +250,31 @@ def handle_navigation(total_pages):
         Streamlit UI:
             Three columns containing previous, confiurm, next buttons
     """
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        if st.button("< Previous", disabled=st.session_state.page == 0):
+        prev = st.button("< Previous", disabled=st.session_state.page == 0)
+        if prev:
             st.session_state.page -= 1
             st.rerun()
 
     with col2:
-        return st.button("CONFIRM ALL", type="primary")
+        confirm = st.button("CONFIRM ALL", type="primary")
 
     with col3:
-        if st.button("Next >", disabled=st.session_state.page >= total_pages - 1):
+        reject = st.button("REJECT UNCONFIRMED", type="secondary")
+
+    with col4:
+        next = st.button("Next >", disabled=st.session_state.page >= total_pages-1)
+        if next:
             st.session_state.page += 1
             st.rerun()
 
-def save_validated_mappings(session, start_idx, end_idx):
+    return confirm, reject
+
+def save_confirmed_mappings(session, start_idx, end_idx):
     """
-    Save validated concept mappings to JSON and update current session
+    Save confirmed concept mappings to JSON and update current session
 
     Args:
         session (ProjectSession):
@@ -237,19 +288,32 @@ def save_validated_mappings(session, start_idx, end_idx):
         bool:
             True if save successful, False otherwise
         Session states:
-            current_session (ProjectSession) is updated by passing new targets from modified_mappings. validation_status is set to True, and timestamp added.
-        modified_mappings:
-            Used to determine which matches need target updates
+            current_session (ProjectSession) is updated by passing new targets from modified_mappings.
+            confirmation_status is set to True, and timestamp added.
     """
     try:
         for idx, match in enumerate(session.concept_matches):
-            # for each idx in modified_mappings state, update the target_concept_id in project session to match
+
+            # If idx has been updated it is in modified_mappings state -> update the target_concept_id in project session to match
             if idx in st.session_state.modified_mappings:
-                match.target_concept_id = st.session_state.modified_mappings[idx]
-            # simpler approach - bulk validate through single confirm all
-            if start_idx <= idx < end_idx:
-                match.validation_status = True
-                match.validation_timestamp = datetime.now()
+                if st.session_state.modified_mappings[idx] == "":  # No Change
+                    match.confirmation_status = "True"
+                else:
+                    match.target_concept_id = st.session_state.modified_mappings[idx] # align to whichever new concept
+                    match.similarity_score = -1.0
+                    match.confirmation_status = "Rejected" if match.target_concept_id == 0 else "True" # handle where user selects 'no match''
+
+                # logic to separate timestamps
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
+
+            # if there are unconfirmed matches on current page that are NOT modified (i.e. No Change by default), these can be confirmed
+            elif start_idx <= idx < end_idx and match.confirmation_status != "Rejected":
+                match.confirmation_status = "True"  # confirm the existing mapping
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
 
         # Prepare and save JSON
         session_dir = f"sessions/{session.project_name}_{session.timestamp}"
@@ -259,11 +323,12 @@ def save_validated_mappings(session, start_idx, end_idx):
             {
                 "source_key": match.source_key,
                 "target_concept_id": match.target_concept_id,
-                "similarity_score": ("NA" if match.similarity_score == "NA"
-                                  else f"{float(match.similarity_score):.3f}"),
-                "validation_status": match.validation_status,
-                "validation_timestamp": (match.validation_timestamp.isoformat()
-                                      if match.validation_timestamp else None)
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
+                "confirmation_status": match.confirmation_status,
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
             }
             for match in session.concept_matches
         ]
@@ -271,10 +336,134 @@ def save_validated_mappings(session, start_idx, end_idx):
         with open(matches_path, 'w') as f:
             json.dump(matches_json, f, indent=2)
 
+        # clean up all modified mappings
+        st.session_state.modified_mappings = {}
+
         return True, "Mappings saved successfully"
 
     except Exception as e:
         return False, f"Failed to save matches: {e}"
+
+def save_single_mapping(session, row_idx):
+    """
+    Save a single confirmed concept mapping to JSON
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+        row_idx (int):
+            Index of the row being confirmed
+
+    Returns:
+        bool:
+            True if save successful, False otherwise
+        Session states:
+            current_session (ProjectSession) is updated by passing new target (single row) from modified_mappings.
+            confirmation_status for single mapping is set to True, and timestamp added.
+    """
+    try:
+        single_match = session.concept_matches[row_idx]
+
+        # for particular row id only, swap in from modified_mappings, and clear entry
+        if row_idx in st.session_state.modified_mappings:
+            single_match.target_concept_id = st.session_state.modified_mappings[row_idx]
+            single_match.similarity_score = -1.0
+            del st.session_state.modified_mappings[row_idx]
+            # if the target concept is 'no matching' then confirmation status should be "Rejected"
+            single_match.confirmation_status = "Rejected" if single_match.target_concept_id == 0 else "True"
+        else:
+            single_match.confirmation_status = "True"
+
+        if single_match.first_confirmation_timestamp is None:
+            single_match.first_confirmation_timestamp = datetime.now()
+        single_match.last_update_timestamp = datetime.now()
+
+        session_dir = f"sessions/{session.project_name}_{session.timestamp}"
+        matches_path = f"{session_dir}/concept_matches.json"
+
+        # even though we have updated only a single mapping, we still dump the entire object as json
+        matches_json = [
+            {
+                "source_key": match.source_key,
+                "target_concept_id": match.target_concept_id,
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
+                "confirmation_status": match.confirmation_status,
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
+            }
+            for match in session.concept_matches
+        ]
+
+        with open(matches_path, 'w') as f:
+            json.dump(matches_json, f, indent=2)
+
+        return True, "Row confirmed successfully"
+
+    except Exception as e:
+        return False, f"Failed to save match: {e}"
+
+def reject_unconfirmed_mappings(session, start_idx, end_idx):
+    """
+    Rejects all unconfirmed mappings on page. Sets target concept as 0, saves to JSON
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+        start_idx (int):
+            Start index of current page
+        end_idx (int):
+            End index of current page
+
+    Returns:
+        bool:
+            True if save successful, False otherwise
+        Session states:
+            current_session (ProjectSession) is updated by passing new targets from modified_mappings.
+            confirmation_status is set to Rejected, and timestamp added.
+    """
+    try:
+        for idx in range(start_idx, end_idx):
+            match = session.concept_matches[idx]
+            # reject any unconfirmed mappings
+            if match.confirmation_status != "True":
+                match.target_concept_id = 0
+                match.similarity_score = -1.0
+                match.confirmation_status = "Rejected"
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
+
+        # Prepare and save JSON
+        session_dir = f"sessions/{session.project_name}_{session.timestamp}"
+        matches_path = f"{session_dir}/concept_matches.json"
+
+        matches_json = [
+            {
+                "source_key": match.source_key,
+                "target_concept_id": match.target_concept_id,
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
+                "confirmation_status": match.confirmation_status,
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
+            }
+            for match in session.concept_matches
+        ]
+
+        with open(matches_path, 'w') as f:
+            json.dump(matches_json, f, indent=2)
+
+        # clean up all modified mappings
+        st.session_state.modified_mappings = {}
+
+        return True, "Mappings saved successfully"
+
+    except Exception as e:
+        return False, f"Failed to save matches: {e}"
+
 
 def main():
     st.set_page_config(layout="wide")
@@ -290,22 +479,39 @@ def main():
     start_idx, end_idx, total_pages = setup_pagination(len(session.concept_matches))
 
     # Display mappings
+    display_headings()
+
     for idx, match in enumerate(session.concept_matches[start_idx:end_idx]):
         global_idx = start_idx + idx
         display_mapping_row(global_idx, match, source_lookup, target_lookup, target_options)
 
     # Handle navigation and saving
-    if handle_navigation(total_pages):
-        success, message = save_validated_mappings(session, start_idx, end_idx)
+    confirm_clicked, reject_clicked = handle_navigation(total_pages)
+
+    if confirm_clicked:
+        success, message = save_confirmed_mappings(session, start_idx, end_idx)
 
         if success:
-            st.session_state.modified_mappings = {}
             if st.session_state.page < total_pages - 1:
-                st.session_state.page += 1
-                st.success("Saved modified mappings. Moving to next page...")
+                #st.session_state.page += 1
+                st.success("Saved modified mappings.")
                 st.rerun()
             else:
                 st.success("Saved mappings. This is the last page.")
+                st.rerun()
+        else:
+            st.error(message)
+
+    elif reject_clicked:
+        success, message = reject_unconfirmed_mappings(session, start_idx, end_idx)
+
+        if success:
+            if st.session_state.page < total_pages - 1:
+                #st.session_state.page += 1
+                st.success("Rejected unconfirmed mappings.")
+                st.rerun()
+            else:
+                st.success("Rejected unconfirmed mappings. This is the last page.")
                 st.rerun()
         else:
             st.error(message)

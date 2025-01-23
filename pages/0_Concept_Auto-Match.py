@@ -99,7 +99,7 @@ def create_concept_dataframe(concepts, is_source=True):
 
 def handle_file_upload(file_type='source'):
     """
-    Handles file upload and validation for source and target concepts.
+    Handles file upload and confirmation for source and target concepts.
 
     Args:
         filetype (str):
@@ -219,7 +219,7 @@ def handle_session_save():
                     st.session_state.session_saved = True
                     st.session_state.project_name = project_name
                     st.success(message)
-                    st.info("Concept matches saved for HITL validation")
+                    st.info("Concept matches saved for HITL confirmation")
                     return True
                 else:
                     st.error(message)

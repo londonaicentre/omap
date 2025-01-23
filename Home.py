@@ -1,11 +1,12 @@
 import streamlit as st
 
 def main():
-    st.title("Concept Mapper")
-    st.sidebar.success("Start by uploading data...")
+    st.title("OMAP for OMOP")
 
     st.markdown("""
-    ## Welcome to Concept Mapper
+    ## Welcome to the Ontology Mapping tool
+
+    **O**ntology **Map**ping, assisted by Language AI, built in Streamlit, to support OMOP development
     """)
 
 if __name__ == "__main__":

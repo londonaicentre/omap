@@ -65,7 +65,7 @@ class SourceConceptTable:
                     errors.append(f"Row {idx}: {e}")
 
             if errors:
-                return False, f"Validation errors: " + "\n".join(errors)
+                return False, f"confirmation errors: " + "\n".join(errors)
 
             return True, SourceConceptTable(valid_concepts)
 
@@ -88,7 +88,7 @@ class TargetConcept:
                 concept_name=str(row['concept_name']),
                 vocabulary_id=str(row['vocabulary_id'])
             )
-        ### can add other validation
+        ### can add other confirmation
         except ValueError as e:
             raise ValueError(f"Type conversion failed: {e}")
 
@@ -103,7 +103,16 @@ class TargetConceptTable:
             return False, f"Missing required columns. Expected: {TargetConceptTable.target_columns}"
 
         try:
-            valid_concepts = []
+            # target concepts must always has a 'no match' option
+            # this is the official OMOP representation of 'no matchign concept'
+            valid_concepts = [
+                TargetConcept(
+                    concept_id=0,
+                    concept_code='No matching concept',
+                    concept_name='No matching concept',
+                    vocabulary_id='None'
+                )
+            ]
             errors = []
 
             for idx, row in df.iterrows():
@@ -114,7 +123,7 @@ class TargetConceptTable:
                     errors.append(f"Row {idx}: {e}")
 
             if errors:
-                return False, f"Validation errors: " + "\n".join(errors)
+                return False, f"confirmation errors: " + "\n".join(errors)
 
             return True, TargetConceptTable(valid_concepts)
 
@@ -125,9 +134,10 @@ class TargetConceptTable:
 class ConceptMatch:
     source_key: int
     target_concept_id: int
-    similarity_score: float | str  # will use NA where concept corrected by HITL
-    validation_status: bool
-    validation_timestamp: datetime | None
+    similarity_score: float
+    confirmation_status: str #"True", "False", "Rejected" -> to define w/ enum
+    first_confirmation_timestamp: datetime | None
+    last_update_timestamp: datetime | None
 
 def read_and_validate_csv(file, tableclass):
     try:

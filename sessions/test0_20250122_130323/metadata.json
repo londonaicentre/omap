@@ -1,0 +1,11 @@
+{
+    "project_name": "test0",
+    "timestamp": "20250122_130323",
+    "source_count": 118,
+    "target_count": 22,
+    "similarity_matrix_size": [
+        118,
+        22
+    ],
+    "matches_count": 118
+}

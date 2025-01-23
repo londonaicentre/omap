@@ -72,6 +72,9 @@ class ModelHandler:
 
     def generate_initial_matches(self, source_table, target_table, similarities):
         matches = []
+
+        count_dict = {concept.source_key: concept.concept_count for concept in source_table.concepts}
+
         for i, row in enumerate(similarities):
             best_match_idx = np.argmax(row)
             matches.append(
@@ -79,8 +82,13 @@ class ModelHandler:
                     source_key=source_table.concepts[i].source_key,
                     target_concept_id=target_table.concepts[best_match_idx].concept_id,
                     similarity_score=float(row[best_match_idx]),
-                    validation_status=False,
-                    validation_timestamp=None
+                    confirmation_status="False",
+                    first_confirmation_timestamp = None,
+                    last_update_timestamp=None
                 )
             )
+
+        # sorting by desc
+        matches.sort(key=lambda x: count_dict[x.source_key], reverse=True) # in place
+
         return matches
