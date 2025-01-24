@@ -1,0 +1,3513 @@
+concept_id,concept_name,concept_code,vocabulary_id
+21235093,Cetomacrogol 1000 + Emulsifying Wax + Liquid paraffin + White soft paraffin,10028511000001109,dm+d
+21253661,Camphor + Industrial methylated spirit + Oleic acid,10032411000001105,dm+d
+21291131,Industrial methylated spirit + Soft soap,10032511000001109,dm+d
+21309828,Diethyl phthalate + Methyl salicylate,10032611000001108,dm+d
+21179087,Chalk + Magnesium carbonate + Magnesium Trisilicate + Sodium Bicarbonate,10032711000001104,dm+d
+21235286,Wasp venom,10032811000001107,dm+d
+21198072,Barium,10032911000001102,dm+d
+21235287,Belladonna,10033011000001105,dm+d
+21198073,Betaine,10033111000001106,dm+d
+21253861,White soft paraffin,10033211000001100,dm+d
+21235288,Magnesium carbonate + Magnesium trisilicate + Sodium bicarbonate,10033311000001108,dm+d
+21198074,White soft paraffin + Dimeticone,10033411000001101,dm+d
+21291132,Wool fat,10033511000001102,dm+d
+21235289,Ubidecarenone,10033611000001103,dm+d
+21291133,Tolnaftate + Chlorhexidine,10033711000001107,dm+d
+21216782,Tolnaftate + Benzalkonium,10033811000001104,dm+d
+21272513,Tiludronic acid,10033911000001109,dm+d
+21198075,Tragacanth,10034011000001107,dm+d
+21235290,Turpentine oil,10034111000001108,dm+d
+21179271,Salbutamol + Ipratropium,10034211000001102,dm+d
+21198076,Dithranol + Salicylic acid,10034311000001105,dm+d
+21272514,Simvastatin + Ezetimibe,10034411000001103,dm+d
+21291134,Saccharin,10034511000001104,dm+d
+21198077,Salicylic acid + Camphor,10034611000001100,dm+d
+21253862,Arsenic,10034711000001109,dm+d
+21179272,Calcium carbonate + Magnesium carbonate,10034811000001101,dm+d
+21179273,Bee venom,10034911000001106,dm+d
+21309829,Calcium carbonate + Simeticone,10035011000001106,dm+d
+21198078,Albumin human,10035111000001107,dm+d
+21272515,Ascorbic acid + Nicotinamide,10035211000001101,dm+d
+21198079,Calamine + Dibrompropamidine,10035311000001109,dm+d
+21179274,Carnitine,10035411000001102,dm+d
+21216783,Cascara + Senna,10035511000001103,dm+d
+21291135,Carbomer 980,10035611000001104,dm+d
+21290946,Carbomer 974P,10035711000001108,dm+d
+21179275,Carob seed,10035811000001100,dm+d
+21216784,Carob seed + Calcium lactate,10035911000001105,dm+d
+21253863,Cetylpyridinium,10036011000001102,dm+d
+21198080,Cetylpyridinium + Menthol,10036111000001101,dm+d
+21235291,Chlorobutanol,10036211000001107,dm+d
+21309830,Spironolactone + Chlorothiazide,10036311000001104,dm+d
+21198081,Aldioxa + Chloroxylenol,10036411000001106,dm+d
+21198082,Choriogonadotropin alfa,10036811000001108,dm+d
+21253864,Ciclesonide,10036911000001103,dm+d
+21216785,Ciclosporin,10037011000001104,dm+d
+21272516,Choline salicylate + Glycerol,10037111000001103,dm+d
+21309831,Citric acid + Ipecacuanha,10037211000001109,dm+d
+21198083,Chorionic gonadotrophin,10037411000001108,dm+d
+21198084,Chromium,10037711000001102,dm+d
+21253865,Helium + Oxygen gas,10037811000001105,dm+d
+21179276,Dequalinium,10037911000001100,dm+d
+21272517,Dexamfetamine,10038011000001103,dm+d
+21253866,Darbepoetin alfa,10038111000001102,dm+d
+21272518,Dexibuprofen,10038211000001108,dm+d
+21272519,Dextromethorphan + Pseudoephedrine,10038311000001100,dm+d
+21216786,Dextromethorphan + Menthol,10038411000001107,dm+d
+21272520,Dextromethorphan + Triprolidine,10038511000001106,dm+d
+21235292,Dibrompropamidine,10038711000001101,dm+d
+21290950,Dichlorobenzyl alcohol + Amylmetacresol,10039011000001108,dm+d
+21272521,Dimeticone,10039111000001109,dm+d
+21309832,Diethylstilbestrol + Lactic acid,10039211000001103,dm+d
+21291136,Distigmine,10039311000001106,dm+d
+21272522,Diethylamine salicylate,10039511000001100,dm+d
+21253867,Dimeticone + Cetrimide,10039711000001105,dm+d
+21235293,Dimeticone + Benzalkonium,10039811000001102,dm+d
+21179277,Dimethyl sulfone + Ascorbic acid,10040211000001106,dm+d
+21272523,Diphenhydramine + Dextromethorphan,10040311000001103,dm+d
+21309833,Diphenhydramine + Pholcodine,10040411000001105,dm+d
+21179278,Edrophonium,10040511000001109,dm+d
+21309834,Enalapril + Hydrochlorothiazide,10040611000001108,dm+d
+21216591,Ephedrine + Chlorphenamine,10040711000001104,dm+d
+21179099,Eicosapentaenoic acid + Docosahexaenoic acid,10040911000001102,dm+d
+21309835,Erlotinib,10041011000001105,dm+d
+21179279,Ethanolamine oleate,10041111000001106,dm+d
+21198085,Ethylmorphine,10041211000001100,dm+d
+21235295,Eucalyptus oil,10041311000001108,dm+d
+21235296,Fenoterol + Ipratropium,10041411000001101,dm+d
+21179101,Wheat grain,10041511000001102,dm+d
+21253672,Wild cherry,10041611000001103,dm+d
+21291137,Oleic acid + Turpentine oil,10041711000001107,dm+d
+21290952,Valerian + Lemon balm,10041811000001104,dm+d
+21253673,Nicotinamide + Pyridoxine + Riboflavin + Thiamine,10041911000001109,dm+d
+21216787,Fludroxycortide,10042011000001102,dm+d
+21216788,Fluticasone + Salmeterol,10042111000001101,dm+d
+21179280,Formoterol,10042211000001107,dm+d
+21253868,Fosphenytoin,10042311000001104,dm+d
+21309836,Framycetin,10042411000001106,dm+d
+21309837,Ubidecarenone + Alpha tocopherol,10042511000001105,dm+d
+21198086,Galactose + Palmitic acid,10042611000001109,dm+d
+21216789,Undecenoic acid + Dibrompropamidine,10042711000001100,dm+d
+21272524,Undecenoic acid + Dichlorophen,10042811000001108,dm+d
+21216790,Galactose,10042911000001103,dm+d
+21235297,Garlic,10043011000001106,dm+d
+21216791,Tilactase,10043111000001107,dm+d
+21272525,Ginkgo biloba,10043211000001101,dm+d
+21291138,Tinzaparin,10043311000001109,dm+d
+21290955,Glucosamine sulfate,10043411000001102,dm+d
+21272526,Acacia + Starch + Tragacanth,10043511000001103,dm+d
+21179281,Glatiramer,10043611000001104,dm+d
+21272527,Triclofos,10043711000001108,dm+d
+21216593,Glucosamine hydrochloride,10043811000001100,dm+d
+21291139,Trientine,10043911000001105,dm+d
+21291140,Trimetaphan,10044011000001108,dm+d
+21309657,Glucose + Lidocaine,10044111000001109,dm+d
+21235104,Tripotassium dicitratobismuthate,10044211000001103,dm+d
+21291141,Trospium,10044311000001106,dm+d
+21272528,Guaifenesin + Cetylpyridinium,10044411000001104,dm+d
+21253869,Guaifenesin + Pseudoephedrine,10044511000001100,dm+d
+21253870,Camphor + Soft soap + Turpentine oil,10044611000001101,dm+d
+21216792,Turpentine oil + Acetic acid,10044711000001105,dm+d
+21290958,Guaifenesin + Menthol,10044811000001102,dm+d
+21253871,Adrenaline + Guanethidine,10044911000001107,dm+d
+21216793,Guaiacol + Codeine,10045011000001107,dm+d
+21272529,Hexylresorcinol,10045111000001108,dm+d
+21179282,Halquinol,10045211000001102,dm+d
+21253872,Salicylamide + Benzocaine,10045311000001105,dm+d
+21291142,Hexylresorcinol + Benzalkonium,10045411000001103,dm+d
+21216794,Hydrochlorothiazide + Quinapril,10045511000001104,dm+d
+21309838,Salicylic acid + Desoximetasone,10045611000001100,dm+d
+21272318,Calcium chloride dihydrate + Potassium chloride + Sodium chloride,10045711000001109,dm+d
+21216597,Calcium chloride + Sodium chloride + Sodium lactate + Potassium chloride,10045811000001101,dm+d
+21253679,Emulsifying ointment + Phenoxyethanol,10045911000001106,dm+d
+21272530,Squill + Capsicum,10046011000001103,dm+d
+21216598,Camphorated opium + Squill oxymel,10046111000001102,dm+d
+21272531,Mucin + Xylitol,10046211000001108,dm+d
+21291143,Acetic acid + Honey + Squill,10046311000001100,dm+d
+21197897,Squill + Ipecacuanha,10046511000001106,dm+d
+21272320,Squill,10046611000001105,dm+d
+21309660,Salicylic acid + Mucopolysaccharide polysulfate,10046711000001101,dm+d
+21291144,Salicylic acid + Podophyllum resin,10046911000001104,dm+d
+21198087,Secobarbital,10047011000001100,dm+d
+21253873,Sodium amidotrizoate,10047111000001104,dm+d
+21198088,Sodium aurothiomalate,10047211000001105,dm+d
+21291145,Sodium cromoglicate,10047311000001102,dm+d
+21309839,Hydrocortisone + Sodium fusidate,10047411000001109,dm+d
+21179283,Sodium glycerophosphate,10047511000001108,dm+d
+21272323,Hypochlorite,10047611000001107,dm+d
+21272532,Ammonia + Eucalyptus oil,10047711000001103,dm+d
+21253874,Palifermin,10047811000001106,dm+d
+21253875,Hamamelis + Naphazoline,10048211000001109,dm+d
+21309840,Hydrocortisone + Pramocaine,10048311000001101,dm+d
+21291146,Hydromorphone,10048411000001108,dm+d
+21179284,Hydroxocobalamin,10048511000001107,dm+d
+21253876,Sodium nitroprusside,10048611000001106,dm+d
+21309841,Sodium pidolate,10048711000001102,dm+d
+21253877,Sodium salicylate,10048811000001105,dm+d
+21291147,Sodium tetradecyl sulfate,10048911000001100,dm+d
+21309664,Sodium valproate,10049011000001109,dm+d
+21179109,Somatorelin,10049111000001105,dm+d
+21216795,Strontium ranelate,10049211000001104,dm+d
+21216796,Sulfamethoxypyridazine,10049311000001107,dm+d
+21216797,Sultiame,10049411000001100,dm+d
+21235298,Suxamethonium,10049511000001101,dm+d
+21309842,Rasagiline,10049611000001102,dm+d
+21179285,Reviparin,10049711000001106,dm+d
+21309843,Papaveretum + Hyoscine hydrobromide,10049811000001103,dm+d
+21309844,Paracetamol + Sodium salicylate,10049911000001108,dm+d
+21272533,Paracetamol + Phenylephrine,10050011000001104,dm+d
+21309845,Tramadol + Paracetamol,10050111000001103,dm+d
+21309846,Paracetamol + Ascorbic acid,10050211000001109,dm+d
+21179286,Pethidine + Promethazine,10050311000001101,dm+d
+21291148,Colestyramine,10050411000001108,dm+d
+21179287,Phenylpropanolamine + Chlorphenamine,10050511000001107,dm+d
+21216607,Pholcodine + Promethazine,10050611000001106,dm+d
+21198089,Porfimer,10050711000001102,dm+d
+21253878,Propantheline,10050911000001100,dm+d
+21253879,Propranolol + Bendroflumethiazide,10051111000001109,dm+d
+21291149,Propiverine,10051511000001100,dm+d
+21235299,Pyridostigmine,10051711000001105,dm+d
+21216798,Cortisone,10051811000001102,dm+d
+21235300,Pseudoephedrine + Brompheniramine,10052411000001109,dm+d
+21216799,Pseudoephedrine + Diphenhydramine,10052511000001108,dm+d
+21216800,Pseudoephedrine + Chlorphenamine,10052611000001107,dm+d
+21291150,Pseudoephedrine + Triprolidine,10052711000001103,dm+d
+21309847,Pseudoephedrine + Acrivastine,10052811000001106,dm+d
+21216801,Proxymetacaine + Fluorescein,10052911000001101,dm+d
+21291151,Neomycin + Gramicidin,10053011000001109,dm+d
+21235301,Fluocinolone + Neomycin,10053111000001105,dm+d
+21309848,Neomycin + Prednisolone,10053211000001104,dm+d
+21291152,Nicotinamide,10053311000001107,dm+d
+21216802,Nortriptyline + Fluphenazine,10053411000001100,dm+d
+21253880,Ibuprofen + Codeine,10070011000001102,dm+d
+21309849,Glyceryl trinitrate,10070111000001101,dm+d
+21235302,Glycerol,10070211000001107,dm+d
+21253682,Levothyroxine,10071011000001106,dm+d
+21216803,Ibuprofen + Levomenthol,10071111000001107,dm+d
+21291153,Glycopyrronium,10071211000001101,dm+d
+21291154,Lumiracoxib,10075911000001107,dm+d
+21198090,Cod liver oil,10076011000001104,dm+d
+21291155,Gadoxetic acid,10076111000001103,dm+d
+21216804,Protamine,10076211000001109,dm+d
+21198091,Diphenhydramine + Levomenthol,10076311000001101,dm+d
+21179288,Ibuprofen + Pseudoephedrine,10076411000001108,dm+d
+21253881,Lidocaine + Aminoacridine,10076511000001107,dm+d
+21253882,Colistimethate,10076611000001106,dm+d
+21290772,Ketoprofen,10099000,dm+d
+21253883,Rotigotine,10143611000001108,dm+d
+21216805,Aluminium oxide + Magnesium hydroxide + Oxetacaine,10147611000001100,dm+d
+21309850,Potassium canrenoate,10150711000001105,dm+d
+21309851,Benzathine benzylpenicillin,10153011000001103,dm+d
+21197909,Retinol,10164411000001102,dm+d
+21309852,Peracetic acid,10166611000001108,dm+d
+21291156,Casein,10166811000001107,dm+d
+21198092,Ivabradine,10166911000001102,dm+d
+21179289,Ipratropium,10167011000001103,dm+d
+21291157,Octocog alfa,10167111000001102,dm+d
+21216806,Posaconazole,10167211000001108,dm+d
+21198093,Bismuth subnitrate,10167311000001100,dm+d
+21179290,Certoparin,10167411000001107,dm+d
+21253884,Dalteparin,10167511000001106,dm+d
+21198094,Danaparoid,10167611000001105,dm+d
+21179291,Diphtheria + Tetanus + Pertussis + Poliomyelitis vaccine,10167711000001101,dm+d
+21235303,Enoxaparin,10167811000001109,dm+d
+21235118,Fresh frozen plasma,10170111000001106,dm+d
+21309853,Cryoprecipitate,10170311000001108,dm+d
+21179292,Diphtheria + Tetanus + Pertussis + Poliomyelitis + Haemophilus influenzae type B vaccine,10170711000001107,dm+d
+21272534,Diphtheria + Tetanus + Pertussis + Haemophilus influenzae type B vaccine,10171011000001101,dm+d
+21309854,Medium-chain triglycerides,10196411000001107,dm+d
+21291158,Amiloride + Cyclopenthiazide,10196511000001106,dm+d
+21179293,Meglumine amidotrizoate + Sodium amidotrizoate,10196611000001105,dm+d
+21198095,Fusafungine,10201011000001105,dm+d
+21291159,Hamamelis + Cetrimide,10201111000001106,dm+d
+21309855,Haemophilus influenzae type b + Meningococcal group C vaccine,10201211000001100,dm+d
+21216807,Imidapril,10201311000001108,dm+d
+21235304,Inositol nicotinate,10201411000001101,dm+d
+21198096,Ispaghula husk + Mebeverine,10201511000001102,dm+d
+21253885,Codeine + Kaolin,10201611000001103,dm+d
+21235305,Lidocaine + Phenylephrine,10201711000001107,dm+d
+21253689,Losartan + Hydrochlorothiazide,10201811000001104,dm+d
+21179118,Malic acid,10201911000001109,dm+d
+21309675,Mangafodipir,10202011000001102,dm+d
+21179294,Mesalazine,10202111000001101,dm+d
+21309856,Miconazole + Fluprednidene,10202211000001107,dm+d
+21198097,Mivacurium,10202311000001104,dm+d
+21235306,Moroctocog alfa,10202411000001106,dm+d
+21198098,Neomycin + Chlorhexidine,10202511000001105,dm+d
+21272535,Galsulfase,10207411000001109,dm+d
+21290969,Lauromacrogol 400 + Heparinoid,10207611000001107,dm+d
+21235307,Pamidronic acid,10208111000001103,dm+d
+21179295,Nicotinic acid,10208711000001102,dm+d
+21235308,Rabies immunoglobulin,10209111000001105,dm+d
+21216808,Cytomegalovirus immunoglobulin,10238411000001103,dm+d
+21309857,Ferucarbotran,10239311000001104,dm+d
+21272536,Carbetocin,10257111000001108,dm+d
+21253692,Sodium phosphate dibasic + Monopotassium phosphate,10257611000001100,dm+d
+21291160,Nystatin + Chlorhexidine,10257811000001101,dm+d
+21235309,Nonoxinol,10257911000001106,dm+d
+21309859,Phentolamine + Aviptadil,10258011000001108,dm+d
+21291161,Paracetamol + Isometheptene,10258111000001109,dm+d
+21198099,Povidone,10258211000001103,dm+d
+21290970,Homeopathic sulphur,10258411000001104,dm+d
+21272341,Homeopathic calcarea sulphurica,10258511000001100,dm+d
+21309679,Homeopathic phytolacca decandra,10258611000001101,dm+d
+21309680,Homeopathic calendula officinalis,10258711000001105,dm+d
+21197918,Homeopathic arnica montana + Homeopathic urtica urens,10258811000001102,dm+d
+21216626,Homeopathic calendula officinalis + Homeopathic hypericum perforatum,10258911000001107,dm+d
+21272342,Homeopathic dulcamara + Homeopathic lysimachia nummularia,10259011000001103,dm+d
+21235310,Estradiol + Levonorgestrel,10259111000001102,dm+d
+21216809,Norethisterone,10259211000001108,dm+d
+21198100,Estradiol + Norethisterone,10259311000001100,dm+d
+21253886,Estradiol + Drospirenone,10259411000001107,dm+d
+21235311,Ethinylestradiol + Drospirenone,10259511000001106,dm+d
+21198101,Estradiol + Dydrogesterone,10259611000001105,dm+d
+21291162,Estradiol + Norgestrel,10259711000001101,dm+d
+21309860,Estradiol + Medroxyprogesterone,10259811000001109,dm+d
+21309861,Ethinylestradiol + Norethisterone,10259911000001104,dm+d
+21179296,Conjugated oestrogens + Norgestrel,10260011000001102,dm+d
+21309862,Mestranol + Norethisterone,10260111000001101,dm+d
+21253887,Olmesartan + Hydrochlorothiazide,10275711000001100,dm+d
+21272538,Methyl nicotinate,10275911000001103,dm+d
+21309863,Glutamine,10276011000001106,dm+d
+21291163,Normal immunoglobulin human,10284111000001108,dm+d
+21179297,Fibrinogen + Thrombin,10284211000001102,dm+d
+21253888,Interferon gamma,10284311000001105,dm+d
+21291164,Cerium nitrate + Sulfadiazine silver,10303711000001103,dm+d
+21309693,Prednisone,10312003,dm+d
+21198102,Glucose + Caffeine,10319811000001106,dm+d
+21216810,Lactic acid + Sodium pidolate,10319911000001101,dm+d
+21272539,Lidocaine + Cetalkonium,10320011000001104,dm+d
+21309864,Lidocaine + Domiphen,10320111000001103,dm+d
+21179298,Timolol + Travoprost,10324511000001103,dm+d
+21197926,Antithymocyte immunoglobulin (rabbit),10354911000001106,dm+d
+21198103,Gadofosveset trisodium,10357311000001101,dm+d
+21216811,Borax,10367511000001102,dm+d
+21272540,Clioquinol + Flumetasone,10367611000001103,dm+d
+21235312,Fluocinolone + Clioquinol,10367711000001107,dm+d
+21198104,Daunorubicin (liposomal),10367811000001104,dm+d
+21253889,Glutathione,10367911000001109,dm+d
+21179299,Lactose,10368011000001106,dm+d
+21216812,Chloroform,10379611000001104,dm+d
+21235313,Phenoxyethanol,10379711000001108,dm+d
+21253890,Tigecycline,10379811000001100,dm+d
+21235314,Rotavirus vaccine,10379911000001105,dm+d
+21216813,Levomenthol,10380311000001109,dm+d
+21272351,Invalid - Hytellose,10381211000001107,dm+d
+21198105,Etynodiol,10382411000001101,dm+d
+21291166,Pentane + Levomenthol,10383811000001107,dm+d
+21178917,Mercaptopurine,1039008,dm+d
+21253702,Homeopathic pulsatilla nigricans,10404711000001106,dm+d
+21309684,Homeopathic passiflora incarnata,10404811000001103,dm+d
+21309685,Homeopathic hypericum officianalis,10404911000001108,dm+d
+21179300,Clove oil + Lidocaine,10419011000001107,dm+d
+21179301,Clove oil + Chlorobutanol,10419111000001108,dm+d
+21198106,Coal tar + Lecithin,10419211000001102,dm+d
+21179302,Lavender oil,10419311000001105,dm+d
+21291167,Copper sulphate,10419411000001103,dm+d
+21291168,Rose water,10419511000001104,dm+d
+21291169,High Purity Factor IX,10419611000001100,dm+d
+21253891,High Purity Factor VIII,10419711000001109,dm+d
+21197927,High Purity Factor VIII + von Willebrand factor,10419811000001101,dm+d
+21309865,Glycerol + Sucrose,10419911000001106,dm+d
+21179303,Morphine + Peppermint oil,10420011000001108,dm+d
+21235315,L-alanyl-l-glutamine,10420111000001109,dm+d
+21272541,Inosine acedoben dimepranol,10420211000001103,dm+d
+21309866,Amifampridine,10424911000001102,dm+d
+21198107,Indigo carmine,10425611000001109,dm+d
+21216635,Ferric subsulfate,10426411000001102,dm+d
+21291170,Pentosan polysulfate sodium,10480111000001100,dm+d
+21216463,Doxycycline,10504007,dm+d
+21272542,Sodium calcium edetate,10516111000001109,dm+d
+21253892,Coal tar + Allantoin,10564611000001106,dm+d
+21198108,Cade oil + Coal tar,10564711000001102,dm+d
+21216814,Tar,10564811000001105,dm+d
+21309867,Cardamom,10564911000001100,dm+d
+21179304,Calcium carbonate + Opium,10565011000001100,dm+d
+21235316,Chloroform + Morphine,10565111000001104,dm+d
+21309868,Copper,10565211000001105,dm+d
+21197929,Coumarin,10565311000001102,dm+d
+21309687,Tree pollen,10567911000001106,dm+d
+21272354,Grass pollen,10568011000001108,dm+d
+21198109,Glucose + Treacle,10568111000001109,dm+d
+21272543,Morphine + Cocaine,10568211000001103,dm+d
+21309869,Myrrh,10568311000001106,dm+d
+21216815,Pyridoxal phosphate,10568411000001104,dm+d
+21235317,Macrogol 3350,10568511000001100,dm+d
+21253893,Iodine + Potassium iodide,10568611000001101,dm+d
+21290981,Norethisterone acetate,10568711000001105,dm+d
+21179305,Estradiol + Norethisterone acetate,10568811000001102,dm+d
+21291171,Ethinylestradiol + Norethisterone acetate,10568911000001107,dm+d
+21216640,Bifidobacterium + Lactobacillus,10569011000001103,dm+d
+21272355,Lactobacillus,10569111000001102,dm+d
+21253707,St. John's wort,10569211000001108,dm+d
+21290983,Dried yeast,10569311000001100,dm+d
+21291172,Cranberry,10569411000001107,dm+d
+21216816,Phenolphthalein + Rhubarb,10569511000001106,dm+d
+21253894,Frangula bark + Taraxacum,10569611000001105,dm+d
+21216642,Factor VIII Inhibitor Bypassing Fraction,10569711000001101,dm+d
+21197931,Evening primrose oil,10569811000001109,dm+d
+21272544,Siberian ginseng,10569911000001104,dm+d
+21291173,Passion flower,10570011000001100,dm+d
+21272545,Potassium perchlorate,10573411000001101,dm+d
+21290984,Sodium acid phosphate + Potassium dihydrogen phosphate,10576211000001107,dm+d
+21197932,Sodium hydroxybutyrate,10584811000001107,dm+d
+21179306,Raspberry leaf,10599011000001101,dm+d
+21198110,Iodoform,10599111000001100,dm+d
+21253895,Potassium chloride + Sodium chloride + Sodium lactate,10599211000001106,dm+d
+21235318,Bimatoprost + Timolol,10599311000001103,dm+d
+21197933,Sodium dichloroisocyanurate,10599411000001105,dm+d
+21235133,Dronabinol + Cannabidiol,10599511000001109,dm+d
+21216643,Acetyl-L-carnitine,10604811000001100,dm+d
+21253896,Rimonabant,10621211000001106,dm+d
+21290987,Amphotericin B (lipid formulation),10621311000001103,dm+d
+21290989,Citronella oil,10640811000001101,dm+d
+21272546,Chlorocresol,10641211000001108,dm+d
+21235135,Fig + Senna,10641411000001107,dm+d
+21216817,Sesame oil,10641911000001104,dm+d
+21272358,Levofolinic acid,10685611000001102,dm+d
+21216818,Sorafenib,10702811000001104,dm+d
+21179307,Insulin human,10702911000001109,dm+d
+21272124,Glucagon,10712001,dm+d
+21309870,Glycine + Ethanol,10753211000001101,dm+d
+21178954,Haloperidol,10756001,dm+d
+21179308,Phenylephrine + Cyclopentolate,10783011000001102,dm+d
+21272547,Sunitinib,10819511000001106,dm+d
+21272360,Lipoic acid,10820011000001102,dm+d
+21309871,Magnesium chloride + Calcium carbonate,10826311000001101,dm+d
+21235034,Sibutramine,108373009,dm+d
+21216492,Remifentanil,108379008,dm+d
+21234978,Risperidone,108386000,dm+d
+21309554,Desflurane,108393001,dm+d
+21253601,Sevoflurane,108395008,dm+d
+21235101,Fosphenytoin,108397000,dm+d
+21234966,Topiramate,108400009,dm+d
+21178952,Gabapentin,108402001,dm+d
+21253493,Tiagabine,108403006,dm+d
+21178881,Zolmitriptan,108406003,dm+d
+21216496,Naratriptan,108408002,dm+d
+21291174,Parathyroid hormone,10840811000001106,dm+d
+21216450,Rizatriptan,108411001,dm+d
+21235223,Dronabinol,108415005,dm+d
+21290857,Ondansetron,108418007,dm+d
+21197770,Dolasetron,108421009,dm+d
+21216466,Granisetron,108424001,dm+d
+21216819,Deferasirox,10842611000001108,dm+d
+21235001,Mirtazapine,108430001,dm+d
+21216400,Venlafaxine,108432009,dm+d
+21216497,Nefazodone,108435006,dm+d
+21290864,Pimozide,108438008,dm+d
+21309578,Olanzapine,108441004,dm+d
+21216490,Quetiapine,108443001,dm+d
+21309677,Mivacurium,108446009,dm+d
+21216556,Rocuronium,108449002,dm+d
+21216555,Cisatracurium,108452005,dm+d
+21272161,Tizanidine,108461005,dm+d
+21290944,Tolcapone,108464002,dm+d
+21272202,Selegiline,108466000,dm+d
+21216425,Pergolide,108468004,dm+d
+21235008,Pramipexole,108471007,dm+d
+21234980,Ropinirole,108473005,dm+d
+21216474,Milrinone,108480007,dm+d
+21309475,Isosorbide mononitrate,108484003,dm+d
+21272184,Donepezil,108497001,dm+d
+21309467,Adenosine,108502004,dm+d
+21178927,Tramadol,108507005,dm+d
+21309552,Nabumetone,108508000,dm+d
+21197760,Etodolac,108510003,dm+d
+21234930,Ketorolac,108512006,dm+d
+21216498,Nisoldipine,108524004,dm+d
+21178990,Nicardipine,108526002,dm+d
+21234931,Isradipine,108533002,dm+d
+21178944,Felodipine,108535009,dm+d
+21309469,Amlodipine,108537001,dm+d
+21309545,Midodrine,108539003,dm+d
+21290781,Carteolol,108544005,dm+d
+21216416,Bisoprolol,108547003,dm+d
+21309493,Carvedilol,108551001,dm+d
+21197973,Guanfacine,108553003,dm+d
+21234989,Doxazosin,108556006,dm+d
+21309518,Tamsulosin,108559004,dm+d
+21216439,Trandolapril,108562001,dm+d
+21272210,Ramipril,108564000,dm+d
+21235006,Moexipril,108566003,dm+d
+21253559,Fosinopril,108569005,dm+d
+21178899,Lisinopril,108575001,dm+d
+21290849,Quinapril,108578004,dm+d
+21272117,Valsartan,108581009,dm+d
+21234994,Irbesartan,108585000,dm+d
+21178906,Candesartan,108587008,dm+d
+21272175,Epoprostenol,108593000,dm+d
+21272139,Cerivastatin,108596008,dm+d
+21178888,Atorvastatin,108600003,dm+d
+21253699,Fenofibrate,108603001,dm+d
+21197790,Salmeterol,108605008,dm+d
+21309476,Zafirlukast,108614003,dm+d
+21253897,Brilliant green + Crystal violet,10861511000001106,dm+d
+21216418,Budesonide,108622005,dm+d
+21197912,Ipratropium,108624006,dm+d
+21253590,Nedocromil,108627004,dm+d
+21290898,Dornase alfa,108630006,dm+d
+21253558,Fluticasone,108632003,dm+d
+21235123,Colfosceril palmitate,108638004,dm+d
+21234924,Azelastine,108644000,dm+d
+21178946,Fexofenadine,108650005,dm+d
+21197709,Loratadine,108652002,dm+d
+21197719,Cetirizine,108655000,dm+d
+21309602,Ranitidine bismuth citrate,108662009,dm+d
+21197799,Nizatidine,108664005,dm+d
+21290775,Lansoprazole,108666007,dm+d
+21253540,Ursodeoxycholic acid,108669000,dm+d
+21216500,Olsalazine,108673002,dm+d
+21216473,Infliximab,108675009,dm+d
+21234973,Rifabutin,108684009,dm+d
+21290784,Cidofovir,108688007,dm+d
+21272169,Stavudine,108690008,dm+d
+21253547,Ritonavir,108693005,dm+d
+21178959,Indinavir,108695003,dm+d
+21272126,Lamivudine,108698001,dm+d
+21253580,Saquinavir,108700005,dm+d
+21197797,Nevirapine,108704001,dm+d
+21178989,Nelfinavir,108706004,dm+d
+21197758,Eflornithine,108715006,dm+d
+21234952,Atovaquone,108718008,dm+d
+21272406,Fosfomycin,108720006,dm+d
+21197804,Palivizumab,108725001,dm+d
+21235079,Varicella vaccine,108729007,dm+d
+21216657,Interferon beta-1a,108749003,dm+d
+21253741,Interferon beta 1b,108751004,dm+d
+21272314,Glatiramer,108754007,dm+d
+21290826,Ifosfamide,108757000,dm+d
+21234943,Carboplatin,108759002,dm+d
+21272135,Capecitabine,108761006,dm+d
+21197893,Fludarabine,108763009,dm+d
+21234925,Bicalutamide,108766001,dm+d
+21309524,Estramustine,108768000,dm+d
+21197725,Anastrozole,108774000,dm+d
+21197704,Letrozole,108777007,dm+d
+21290797,Topotecan,108779005,dm+d
+21309541,Irinotecan,108783005,dm+d
+21178957,Idarubicin,108786002,dm+d
+21309546,Mitoxantrone,108791001,dm+d
+21253495,Vinorelbine,108792008,dm+d
+21179160,Interferon alfa-2a,108796006,dm+d
+21253740,Interferon alfa-2b,108797002,dm+d
+21290785,Cladribine,108800000,dm+d
+21253488,Aldesleukin,108804009,dm+d
+21272183,Docetaxel,108806006,dm+d
+21290806,Rituximab,108809004,dm+d
+21197773,Gemcitabine,108811008,dm+d
+21235109,Porfimer,108816003,dm+d
+21234955,Mesna,108821000,dm+d
+21290754,Amifostine,108823002,dm+d
+21197715,Brimonidine,108827001,dm+d
+21197781,Metipranolol,108831007,dm+d
+21290817,Dorzolamide,108834004,dm+d
+21178902,Brinzolamide,108836002,dm+d
+21272127,Latanoprost,108838001,dm+d
+21290856,Olopatadine,108845001,dm+d
+21290808,Emedastine,108846000,dm+d
+21197726,Fluorometholone,108851006,dm+d
+21234976,Rimexolone,108852004,dm+d
+21253738,Loteprednol,108857005,dm+d
+21197707,Lodoxamide,108859008,dm+d
+21234935,Levocabastine,108863001,dm+d
+21253761,Hyprolose,108872009,dm+d
+21309595,Tyloxapol,108888009,dm+d
+21253598,Hyetellose,108889001,dm+d
+21178875,Adapalene,108903004,dm+d
+21234975,Tazarotene,108906007,dm+d
+21253570,Azelaic acid,108908008,dm+d
+21309465,Acitretin,108914001,dm+d
+21178994,Penciclovir,108918003,dm+d
+21290804,Sulconazole,108920000,dm+d
+21272159,Terbinafine,108925005,dm+d
+21178893,Becaplermin,108936003,dm+d
+21234992,Imiquimod,108939005,dm+d
+21235032,Colecalciferol,108943009,dm+d
+21235319,Human papillomavirus vaccine,10894511000001106,dm+d
+21179007,Tryptophan,108952000,dm+d
+21309506,L-Methionine,108956002,dm+d
+21290811,Epoetin alfa,108964008,dm+d
+21197763,Filgrastim,108965009,dm+d
+21309511,Ticlopidine,108971003,dm+d
+21234909,Abciximab,108974006,dm+d
+21253609,Anagrelide,108976008,dm+d
+21253520,Clopidogrel,108979001,dm+d
+21272548,Alglucosidase alfa,10898011000001107,dm+d
+21216435,Tirofiban,108981004,dm+d
+21272336,Enoxaparin,108984007,dm+d
+21253687,Dalteparin,108986009,dm+d
+21272334,Danaparoid,108992003,dm+d
+21216410,Lepirudin,108995001,dm+d
+21253586,Reteplase,108998004,dm+d
+21216440,Tranexamic acid,109006003,dm+d
+21197695,Aprotinin,109008002,dm+d
+21234995,Levonorgestrel,109032009,dm+d
+21309508,Testosterone,109033004,dm+d
+21234983,Finasteride,109035006,dm+d
+21290813,Follitropin alfa,109042006,dm+d
+21216461,Follitropin beta,109044007,dm+d
+21198111,Hemin,10905411000001102,dm+d
+21234944,Carboprost,109057004,dm+d
+21291012,Triamcinolone hexacetonide,109068004,dm+d
+21179154,Methylprednisolone sodium succinate,109069007,dm+d
+21253898,Diphtheria antitoxin,10906911000001103,dm+d
+21235021,Repaglinide,109074004,dm+d
+21234910,Acarbose,109077006,dm+d
+21235320,Pralidoxime mesylate,10907711000001102,dm+d
+21197775,Glimepiride,109079009,dm+d
+21272106,Metformin,109081006,dm+d
+21178958,Imiglucerase,109090004,dm+d
+21178982,Ropivacaine,109094008,dm+d
+21235137,Fomepizole,109100006,dm+d
+21216594,Trientine,109102003,dm+d
+21197915,Mercaptamine,109109007,dm+d
+21216438,Tolterodine,109113000,dm+d
+21197939,Tiger snake venom antiserum,10911511000001103,dm+d
+21272105,Alprostadil,109119001,dm+d
+21179146,Saw-scaled viper venom antiserum,10912011000001103,dm+d
+21309584,Sildenafil,109123009,dm+d
+21179100,Ethanolamine oleate,109125002,dm+d
+21216448,Tacrolimus,109129008,dm+d
+21216565,Mycophenolate mofetil,109131004,dm+d
+21234957,Daclizumab,109133001,dm+d
+21197701,Basiliximab,109135008,dm+d
+21197812,Cabergoline,109139002,dm+d
+21234974,Riluzole,109141001,dm+d
+21234934,Leflunomide,109143003,dm+d
+21253713,Polyvalent snake venom antisera,10916511000001107,dm+d
+21179147,Stonefish venom antiserum,10917811000001107,dm+d
+21235140,Funnel web spider venom antiserum,10918411000001109,dm+d
+21253714,Black widow spider venom antiserum,10919011000001105,dm+d
+21272220,Sermorelin,109203000,dm+d
+21235044,Iohexol,109218004,dm+d
+21272189,Iopamidol,109219007,dm+d
+21309601,Meglumine iotalamate,109221002,dm+d
+21198112,C1-esterase inhibitor,10922111000001106,dm+d
+21272190,Ioversol,109222009,dm+d
+21197948,Sulfan blue,109225006,dm+d
+21272549,Pioglitazone + Metformin,10923911000001102,dm+d
+21253899,Erdosteine,10927411000001103,dm+d
+21253717,European viper snake venom antiserum,10928211000001103,dm+d
+21197940,Parabuthus species scorpion venom antiserum,10932311000001106,dm+d
+21235321,Fibrinogen,10978311000001107,dm+d
+21216821,Varenicline,10980311000001101,dm+d
+21179148,Antithymocyte immunoglobulin (equine),10984011000001106,dm+d
+21179309,Dasatinib,10987911000001104,dm+d
+21272550,Buprenorphine + Naloxone,11062311000001100,dm+d
+21235322,Unithiol,11089211000001103,dm+d
+21290751,Alprazolam,111127002,dm+d
+21272271,Noradrenaline,111130009,dm+d
+21253506,Lactulose,111137007,dm+d
+21309557,Glucose,111138002,dm+d
+21253499,Povidone-Iodine,111144003,dm+d
+21290962,Cortisone,111150008,dm+d
+21291025,Corticotropin,111153005,dm+d
+21216421,Chlorpropamide,111154004,dm+d
+21253582,Calcium folinate,111157006,dm+d
+21253646,Poliomyelitis vaccine,111164008,dm+d
+21290767,Azathioprine,111165009,dm+d
+21179310,Cinnarizine + Dimenhydrinate,11142811000001106,dm+d
+21235142,Glucosamine sulfate + Chondroitin,11145411000001101,dm+d
+21179311,Aluminium hydroxide + Simeticone,11150111000001101,dm+d
+21291175,Amlodipine + Valsartan,11169511000001106,dm+d
+21272364,Prussian blue insoluble,11254511000001103,dm+d
+21235323,Darunavir,11254611000001104,dm+d
+21291176,Ranibizumab,11268411000001101,dm+d
+21253900,Lanthanum carbonate,11279211000001100,dm+d
+21216822,Defibrotide,11360111000001100,dm+d
+21272551,5-Methoxypsoralen,11388411000001106,dm+d
+21235143,Hexaminolevulinate,11390111000001102,dm+d
+21179149,Sodium ascorbate + Ascorbic acid,11391111000001108,dm+d
+21179312,Sitaxentan,11394511000001102,dm+d
+21179313,Citrulline,11457111000001101,dm+d
+21197946,Apple mistletoe,11466011000001105,dm+d
+21290996,Apple mistletoe + Copper carbonate,11466111000001106,dm+d
+21235145,Apple mistletoe + Mercuric sulfate,11466211000001100,dm+d
+21235146,Apple mistletoe + Silver carbonate,11466311000001108,dm+d
+21272366,Oak mistletoe + Copper carbonate,11466411000001101,dm+d
+21216652,Oak mistletoe + Mercuric sulfate,11466511000001102,dm+d
+21216653,Oak mistletoe + Silver carbonate,11466611000001103,dm+d
+21309695,Oak mistletoe,11466711000001107,dm+d
+21235147,Pine mistletoe,11466811000001104,dm+d
+21253722,Pine mistletoe + Mercuric sulphate,11466911000001109,dm+d
+21216823,Measles vaccine,11474211000001103,dm+d
+21216824,Sitagliptin,11475011000001107,dm+d
+21235324,Idursulfase,11491811000001107,dm+d
+21235325,Lauromacrogol 400,11503911000001107,dm+d
+21309872,Cytarabine (liposomal),11563811000001103,dm+d
+21179003,Eptifibatide,116065005,dm+d
+21309507,Desogestrel,116074007,dm+d
+21216477,Poractant alfa,116075008,dm+d
+21197705,Levetiracetam,116076009,dm+d
+21309683,Rotavirus vaccine,116077000,dm+d
+21178941,Efavirenz,116078005,dm+d
+21178970,Modafinil,116082007,dm+d
+21272099,Abacavir,116084008,dm+d
+21178884,Amprenavir,116088006,dm+d
+21216501,Orlistat,116093009,dm+d
+21253549,Rofecoxib,116095002,dm+d
+21178940,Temozolomide,116099008,dm+d
+21234921,Zanamivir,116100000,dm+d
+21178898,Levobupivacaine,116103003,dm+d
+21216402,Zaleplon,116104009,dm+d
+21290801,Sirolimus,116109004,dm+d
+21178942,Exemestane,116115004,dm+d
+21197759,Entacapone,116116003,dm+d
+21235047,Calcium acetate,116118002,dm+d
+21272131,Bexarotene,116346006,dm+d
+21197803,Oxcarbazepine,116511002,dm+d
+21272153,Melatonin,116523008,dm+d
+21235009,Citric acid,116545009,dm+d
+21197688,Alclometasone,116570009,dm+d
+21197729,Clobetasone,116576003,dm+d
+21197738,Deflazacort,116578002,dm+d
+21216428,Diflucortolone,116581007,dm+d
+21309505,Amyl nitrite,116655003,dm+d
+21216417,Bromocriptine,116656002,dm+d
+21197708,Loperamide,116726003,dm+d
+21216512,Pentastarch,116779008,dm+d
+21197741,Dextropropoxyphene,117005003,dm+d
+21179093,Cetylpyridinium,11719000,dm+d
+21272552,Epoetin delta,11749011000001104,dm+d
+21253901,Paliperidone,11757411000001101,dm+d
+21235150,Dichlorobenzyl alcohol,11764311000001105,dm+d
+21198113,Ephedrine + Ipecacuanha,11764411000001103,dm+d
+21309698,Wheat dextrin,11788811000001107,dm+d
+21272191,Methysergide,11796006,dm+d
+21253727,Isopropyl alcohol + Hydrogen peroxide,11800011000001102,dm+d
+21309699,Homeopathic cinnabar,11803111000001108,dm+d
+21216825,Eculizumab,11824911000001102,dm+d
+21290812,Etanercept,118259007,dm+d
+21197771,Doxepin,11841005,dm+d
+21235024,Naproxen,11847009,dm+d
+21179314,Ademetionine,11953711000001107,dm+d
+21272207,Procainamide,11959009,dm+d
+21291177,Aliskiren,11985511000001108,dm+d
+21178991,Nystatin,12096000,dm+d
+21309873,Tuberculin purified protein derivative,12111611000001109,dm+d
+21179315,Methoxy polyethylene glycol-epoetin beta,12162511000001103,dm+d
+21234998,Metronidazole,1222004,dm+d
+21178880,Pancreatin,12236006,dm+d
+21309701,Glucosamine hydrochloride + Chondroitin,12285011000001100,dm+d
+21178993,Oxytocin,12369008,dm+d
+21272116,Vinblastine,12436009,dm+d
+21216528,Magnesium citrate,12495006,dm+d
+21309513,Triamterene,12512008,dm+d
+21179316,Follitropin alfa + Lutropin alfa,12521611000001108,dm+d
+21253732,Sodium cromoglicate + Xylometazoline,12545911000001102,dm+d
+21216443,Triclosan,125577003,dm+d
+21272553,Colesevelam,12559911000001102,dm+d
+21290790,Meloxicam,125694008,dm+d
+21197706,Linezolid,125695009,dm+d
+21309594,Verteporfin,125708009,dm+d
+21272388,Risedronate sodium,126136003,dm+d
+21290821,Goserelin,126138002,dm+d
+21253512,Chloroxylenol,126151007,dm+d
+21235026,Octreotide,126155003,dm+d
+21178918,Mesterolone,126166005,dm+d
+21309514,Urofollitropin,126185008,dm+d
+21309553,Nafarelin,126196000,dm+d
+21216668,Histrelin,126198004,dm+d
+21197935,Insulin human,126210001,dm+d
+21178877,Insulin glargine,126212009,dm+d
+21309592,Calcipotriol,126232005,dm+d
+21179112,Paricalcitol,126233000,dm+d
+21235073,Castor oil,12629011000001109,dm+d
+21197753,Tenecteplase,127967007,dm+d
+21179317,Melperone,12817611000001106,dm+d
+21197919,Estradiol,12839006,dm+d
+21179318,Maraviroc,12846611000001102,dm+d
+21197952,Ephedrine + Dextromethorphan,12850511000001100,dm+d
+21253902,Rufinamide,12867611000001105,dm+d
+21272373,Serrapeptase,12867711000001101,dm+d
+21197953,Cystine,12884311000001107,dm+d
+21179319,Leucine,12884411000001100,dm+d
+21272375,Beclometasone + Formoterol,12913411000001108,dm+d
+21216503,Peginterferon alfa-2b,129477009,dm+d
+21235000,Mifepristone,129483007,dm+d
+21234961,Terazosin,129484001,dm+d
+21290786,Perindopril,129486004,dm+d
+21178939,Telmisartan,129487008,dm+d
+21272167,Somatropin,129495007,dm+d
+21179320,Raltegravir,13123011000001103,dm+d
+21309590,Dextran,13132007,dm+d
+21272377,Flupentixol dihydrochloride,13314611000001107,dm+d
+21197955,Fluphenazine hydrochloride,13314711000001103,dm+d
+21309874,Haloperidol decanoate,13314811000001106,dm+d
+21291004,Methylprednisolone acetate,13331211000001104,dm+d
+21198115,Methylprednisolone sodium succinate,13331311000001107,dm+d
+21309875,Stiripentol,13409311000001107,dm+d
+21253578,Cefadroxil,13414000,dm+d
+21309577,Nortriptyline,13432000,dm+d
+21179156,Vildagliptin + Metformin,13439311000001104,dm+d
+21216826,Vildagliptin,13439611000001109,dm+d
+21235153,Pentastarch + Sodium chloride,13445411000001107,dm+d
+21309703,Dextran 40 + Glucose,13445511000001106,dm+d
+21179157,Dextran 40 + Sodium chloride,13445611000001105,dm+d
+21253737,Dextran 70 + Glucose,13445711000001101,dm+d
+21179158,Dextran 70 + Sodium chloride,13445811000001109,dm+d
+21253817,Budesonide + Formoterol,134495000,dm+d
+21178921,Desloratadine,134506008,dm+d
+21178876,Almotriptan,134529000,dm+d
+21179070,Botulinum B toxin,134541007,dm+d
+21253776,Abacavir + Lamivudine + Zidovudine,134571004,dm+d
+21309486,Lopinavir + Ritonavir,134573001,dm+d
+21253496,Zoledronic acid,134600006,dm+d
+21197796,Nateglinide,134604002,dm+d
+21234977,Tegafur + Uracil,134625002,dm+d
+21197794,Rasburicase,134670005,dm+d
+21178964,Minocycline,13512003,dm+d
+21272247,Acetylcholine,13525006,dm+d
+21197958,Pralidoxime chloride,13551311000001108,dm+d
+21216409,Bisacodyl,13565005,dm+d
+21179159,Dabigatran etexilate,13568411000001103,dm+d
+21253739,Testosterone enantate,13570211000001109,dm+d
+21272378,Testosterone propionate,13570311000001101,dm+d
+21291006,Testosterone undecanoate,13570411000001108,dm+d
+21309704,Glucosamine sulfate + Ascorbic acid,13572611000001107,dm+d
+21235154,Chlorhexidine + Sodium fluoride,13572711000001103,dm+d
+21178980,Potassium iodate,135748009,dm+d
+21291007,Menthol + Peppermint oil,13587411000001104,dm+d
+21235155,Glucose + Glycerol,13590811000001102,dm+d
+21216658,Chloroquine phosphate,13590911000001107,dm+d
+21272379,Chloroquine sulfate,13591011000001104,dm+d
+21178986,Pyrazinamide,13592004,dm+d
+21198116,Nilotinib,13600811000001109,dm+d
+21216540,Interferon alfa,136111001,dm+d
+21309613,Interferon beta,136112008,dm+d
+21235121,Interferon gamma,136113003,dm+d
+21290845,Dexamethasone + Tobramycin,136209004,dm+d
+21197712,Bifonazole,136216003,dm+d
+21198117,Fesoterodine,13622611000001101,dm+d
+21198118,Epoetin zeta,13640611000001104,dm+d
+21216659,Lactoperoxidase,13644411000001108,dm+d
+21291008,Glucosamine sulfate + Dimethyl sulfone,13644511000001107,dm+d
+21235050,Hydrocortisone + Potassium hydroxyquinoline sulfate,13659611000001107,dm+d
+21197784,Dimercaprol,13664004,dm+d
+21272537,Methyl salicylate,13665211000001100,dm+d
+21291009,Levothyroxine + Liothyronine,13668011000001102,dm+d
+21272380,Japanese encephalitis vaccine,13753911000001109,dm+d
+21309876,Ferric carboxymaltose,13763911000001100,dm+d
+21197961,Connaught strain Bacillus of Calmette-Guerin,13775511000001101,dm+d
+21179162,TICE strain Bacillus of Calmette-Guerin,13775611000001102,dm+d
+21309877,Lithium carbonate,13775711000001106,dm+d
+21272554,Lithium citrate,13775811000001103,dm+d
+21179321,Fosaprepitant,13784411000001108,dm+d
+21216661,Methylnaltrexone bromide,13807711000001105,dm+d
+21197713,Biotin,13813003,dm+d
+21197962,Quinine bisulfate,13816311000001106,dm+d
+21291010,Quinine dihydrochloride,13816411000001104,dm+d
+21179163,Quinine hydrochloride,13816511000001100,dm+d
+21309707,Quinine sulphate,13816611000001101,dm+d
+21309599,Hyoscine hydrobromide,13868111000001109,dm+d
+21290874,Hyoscine butylbromide,13868211000001103,dm+d
+21197954,Flupentixol decanoate,13868311000001106,dm+d
+21309604,Promethazine hydrochloride,13868411000001104,dm+d
+21197827,Promethazine teoclate,13868511000001100,dm+d
+21197782,Beclometasone,1389007,dm+d
+21291011,Phenobarbital sodium,13912111000001101,dm+d
+21197746,Spironolactone,13929005,dm+d
+21253742,Norethisterone enantate,13964211000001102,dm+d
+21234968,Valproic acid,13965000,dm+d
+21216827,Triamcinolone hexacetonide,13995811000001102,dm+d
+21216662,Triamcinolone acetonide,13995911000001107,dm+d
+21235159,Aluminium acetate,14022211000001106,dm+d
+21216663,Hydrocortisone butyrate,14129711000001101,dm+d
+21197716,Capreomycin,14170004,dm+d
+21198119,Lacosamide,14209711000001108,dm+d
+21216828,Etravirine,14231511000001106,dm+d
+21291013,Levocarnitine,14239011000001104,dm+d
+21272193,Calamine,1434005,dm+d
+21272555,Rivaroxaban,14561711000001102,dm+d
+21253745,Nitric oxide,14665011000001108,dm+d
+21272383,Oxygen + Carbon dioxide,14665211000001103,dm+d
+21197964,Helium + Oxygen,14665411000001104,dm+d
+21179164,Nitrous oxide + Oxygen,14665511000001100,dm+d
+21235160,Calcium carbonate + Ergocalciferol,14688211000001108,dm+d
+21253903,Ketanserin,14692811000001106,dm+d
+21290783,Chloroquine,14728000,dm+d
+21197864,Hepatitis A vaccine,14745005,dm+d
+21309878,Sugammadex,14756211000001105,dm+d
+21179166,Glycerol + Ipecacuanha,14778011000001104,dm+d
+21197965,Cyclomethicone + Isopropyl myristate,14789311000001103,dm+d
+21198114,Antithrombin alfa,14790911000001109,dm+d
+21290759,Cocaine,14816004,dm+d
+21291015,Fumaric acid,14817911000001108,dm+d
+21197966,Diphencyprone,14935411000001109,dm+d
+21197967,Oxycodone + Naloxone,15024911000001100,dm+d
+21309709,Icatibant,15046111000001107,dm+d
+21309710,Glucosamine hydrochloride + Ascorbic acid,15049311000001102,dm+d
+21179322,Ustekinumab,15119211000001106,dm+d
+21197968,Olive oil + Soya oil,15131111000001107,dm+d
+21235162,Calcium acetate + Magnesium carbonate,15219011000001103,dm+d
+21272384,Coal tar + Salicylic acid,15219611000001105,dm+d
+21290809,Enalapril,15222008,dm+d
+21216665,Coal tar + Clobetasol,15232111000001104,dm+d
+21272385,Coal tar + Betamethasone,15232411000001109,dm+d
+21179167,Trimetazidine,15238711000001100,dm+d
+21235099,Folinic acid,1528001,dm+d
+21198120,Risedronate sodium,15297811000001100,dm+d
+21179323,Sodium clodronate,15297911000001105,dm+d
+21235326,Etidronate disodium,15298011000001107,dm+d
+21235163,Pamidronate disodium,15298111000001108,dm+d
+21235327,Prasugrel,15361611000001102,dm+d
+21253747,Ethinylestradiol + Etonogestrel,15364811000001101,dm+d
+21197971,Coconut oil,15368211000001108,dm+d
+21234936,Levodopa,15383004,dm+d
+21309587,Ethinylestradiol,15432003,dm+d
+21179168,Ichthammol + Hydrocortisone,15434111000001106,dm+d
+21235164,Brinzolamide + Timolol,15465711000001103,dm+d
+21309711,Sulfapyridine,15465811000001106,dm+d
+21216666,Estradiol + Dienogest,15487811000001103,dm+d
+21235328,Factor XI,15514911000001105,dm+d
+21291016,Ichthammol + Clobetasone,15515211000001100,dm+d
+21272389,Agomelatine,15516211000001106,dm+d
+21179169,Hydroxypropyl guar,15516311000001103,dm+d
+21197972,Flunarizine,15525511000001105,dm+d
+21272390,Magnesium chloride,15531411000001106,dm+d
+21179170,Valerian + Hops,15608311000001105,dm+d
+21272391,Kaolin + Zinc oxide,15621211000001103,dm+d
+21235166,Influenza H1N1 vaccine,15651811000001103,dm+d
+21253904,Amfetamine + Dexamfetamine,15844411000001106,dm+d
+21216829,Liraglutide,15859811000001109,dm+d
+21179171,Rupatadine,15859911000001104,dm+d
+21179172,Nicotinic acid + Laropiprant,15926311000001102,dm+d
+21216830,Tafluprost,15926811000001106,dm+d
+21216405,Azatadine,1594006,dm+d
+21253905,Tolvaptan,15977011000001101,dm+d
+21235169,Ibuprofen + Phenylephrine,15991011000001102,dm+d
+21272160,Terfenadine,16037009,dm+d
+21179173,Clobetasol + Salicylic acid,16061911000001107,dm+d
+21253751,Ulipristal,16098911000001100,dm+d
+21198121,Tocilizumab,16099911000001108,dm+d
+21198122,Saxagliptin,16109311000001103,dm+d
+21253752,Ketoprofen + Omeprazole,16168311000001108,dm+d
+21216670,Eslicarbazepine,16187311000001109,dm+d
+21235170,Menthol + Anise oil,16226511000001105,dm+d
+21291018,Tocofersolan,16239411000001101,dm+d
+21179174,Calamine + Coal tar,16245311000001107,dm+d
+21272394,Pristinamycin,16251011000001105,dm+d
+21216672,Ubidecarenone + Magnesium oxide,16454911000001106,dm+d
+21197978,Timolol + Amiloride + Hydrochlorothiazide,16460611000001102,dm+d
+21253753,Canakinumab,16591711000001109,dm+d
+21272397,Mepenzolate bromide,16599711000001108,dm+d
+21235171,Prucalopride,16599811000001100,dm+d
+21290824,Hydrocortisone,16602005,dm+d
+21309712,Characterised autologous human cartilage cells,16615511000001108,dm+d
+21216673,Vinflunine,16698611000001100,dm+d
+21216674,Mifamurtide,16699211000001107,dm+d
+21197979,Calcium carbonate + Sodium alginate + Sodium bicarbonate,16742011000001108,dm+d
+21216675,Liquorice + Ipecacuanha,16757711000001109,dm+d
+21272120,Cefradine,16791000,dm+d
+21272238,Conjugated oestrogens,16832004,dm+d
+21234927,Urea,16858004,dm+d
+21179013,Proguanil,16970001,dm+d
+21216660,Lithium carbonate,16977003,dm+d
+21253754,Dapoxetine,17009111000001108,dm+d
+21272398,Chondroitin + Fish oil,17013711000001108,dm+d
+21179177,Coal tar + Clobetasone,17019211000001104,dm+d
+21179178,Epoetin theta,17019311000001107,dm+d
+21253755,Bupivacaine + Fentanyl,17066911000001103,dm+d
+21216676,Olanzapine embonate,17067211000001109,dm+d
+21291179,Dronedarone,17068211000001108,dm+d
+21216831,Valerian,17086511000001108,dm+d
+21216832,Felbamate,17173511000001100,dm+d
+21179324,Ofatumumab,17191411000001107,dm+d
+21291019,Tamsulosin + Dutasteride,17198211000001104,dm+d
+21235174,Sodium hyaluronate + Dexpanthenol,17199611000001106,dm+d
+21179179,Histamine,17234811000001104,dm+d
+21309714,Indacaterol,17304311000001108,dm+d
+21197736,Dapsone,17308007,dm+d
+21253906,Denosumab,17309811000001100,dm+d
+21309715,Ferrous citrate,17309911000001105,dm+d
+21253759,Glucosamine hydrochloride + Dimethyl sulfone,17328311000001109,dm+d
+21272400,Taurolidine,17328411000001102,dm+d
+21272401,Corifollitropin alfa,17362111000001104,dm+d
+21179180,Calcium citrate + Colecalciferol,17383111000001108,dm+d
+21216677,Ash mistletoe,17487711000001105,dm+d
+21235176,Dichlorodifluoromethane + Chloroform,17526311000001108,dm+d
+21291023,Industrial methylated spirit + Glycerol,17556211000001104,dm+d
+21216678,Homeopathic coffea cruda,17629211000001101,dm+d
+21179181,Homeopathic oopherinum,17629511000001103,dm+d
+21309716,Chlordiazepoxide + Clidinium,17650711000001102,dm+d
+21272403,Hydrolysed whey protein + Maltodextrin,17650811000001105,dm+d
+21291024,Homeopathic aconite,17650911000001100,dm+d
+21253760,Homeopathic agaricus muscarius,17651011000001108,dm+d
+21272556,Corticotropin,17651111000001109,dm+d
+21198123,Hyprolose,17651211000001103,dm+d
+21253762,Eosin,17660311000001106,dm+d
+21272381,Lithium citrate,17805003,dm+d
+21272404,Almond oil + Lanolin anhydrous,17845511000001105,dm+d
+21291026,Laurilsulfate,17905911000001103,dm+d
+21235177,Cellulose,17963511000001105,dm+d
+21291027,Roflumilast,17965611000001108,dm+d
+21197696,Auranofin,18002004,dm+d
+21216679,Iron isomaltoside 1000,18024011000001108,dm+d
+21216680,Paracetamol + Dihydrocodeine,18035111000001105,dm+d
+21309615,Co-dydramol,18035211000001104,dm+d
+21197839,Co-amilozide,18036711000001103,dm+d
+21235063,Co-beneldopa,18036811000001106,dm+d
+21272257,Co-cyprindiol,18036911000001101,dm+d
+21272259,Co-danthrusate,18037011000001102,dm+d
+21290900,Co-phenotrope,18037111000001101,dm+d
+21197841,Co-prenozide,18037211000001107,dm+d
+21197842,Co-proxamol,18037311000001104,dm+d
+21253634,Co-tenidone,18037411000001106,dm+d
+21179049,Co-trimoxazole,18037511000001105,dm+d
+21197840,Co-zidocapt,18037611000001109,dm+d
+21235064,Co-triamterzide,18037711000001100,dm+d
+21216514,Co-codaprin,18037811000001108,dm+d
+21253764,Flutrimazole,18041211000001103,dm+d
+21291029,Ammonium bromide + Potassium bromide + Sodium bromide,18047411000001107,dm+d
+21309717,Benzbromarone,18075311000001109,dm+d
+21234954,Fluocinonide,18125000,dm+d
+21309718,Mecobalamin,18132411000001100,dm+d
+21253765,Prasterone + Calcium carbonate,18134611000001105,dm+d
+21309719,Naproxen + Esomeprazole,18246011000001105,dm+d
+21272557,Ticagrelor,18309511000001108,dm+d
+21197982,Amiloride + Furosemide,18370211000001106,dm+d
+21272218,Pindolol,18381001,dm+d
+21216683,Glycerol + Starch,18411411000001102,dm+d
+21291031,Conestat alfa,18484611000001104,dm+d
+21216684,Cholesterol,18522011000001100,dm+d
+21197780,Methylphenidate,18548003,dm+d
+21253768,Paracetamol + Ibuprofen,18595711000001104,dm+d
+21272407,Fingolimod,18750111000001103,dm+d
+21253770,Bilastine,18757911000001104,dm+d
+21216685,Collagenase clostridium histolyticum,18766111000001107,dm+d
+21197984,Eribulin,18773111000001108,dm+d
+21253563,Hexachlorophene,1878008,dm+d
+21291180,Retigabine,18781611000001108,dm+d
+21272142,Permethrin,1887004,dm+d
+21197757,Econazole,18952006,dm+d
+21253530,Didanosine,19194001,dm+d
+21235179,Fluorouracil + Salicylic acid,19196011000001104,dm+d
+21197710,Lorazepam,19225000,dm+d
+21216487,Prilocaine,19232009,dm+d
+21178936,Sulfinpyrazone,19261005,dm+d
+21272408,Botulism antitoxin,19317211000001100,dm+d
+21216460,Flurazepam,19403009,dm+d
+21309576,Netilmicin,19405002,dm+d
+21216834,Ipilimumab,19447111000001108,dm+d
+21216686,Didecyldimethylammonium chloride,19447211000001102,dm+d
+21198124,Boceprevir,19449011000001103,dm+d
+21216687,Belatacept,19477011000001106,dm+d
+21291181,Fampridine,19488711000001103,dm+d
+21198125,Apixaban,19510611000001104,dm+d
+21309723,Linagliptin,19523211000001102,dm+d
+21216689,Methylprednisolone aceponate,19525611000001101,dm+d
+21235181,Abiraterone,19528811000001106,dm+d
+21235329,Telaprevir,19529211000001100,dm+d
+21291034,Oxitriptan,19532711000001103,dm+d
+21309879,Belimumab,19534511000001103,dm+d
+21178981,Sulfadiazine silver,19630009,dm+d
+21216691,Etilefrine,19678211000001104,dm+d
+21253772,Choline dihydrogen citrate,19693911000001107,dm+d
+21216692,Clotiapine,19724611000001101,dm+d
+21197938,Botulinum antitoxin,19743411000001100,dm+d
+21197988,Phenylephrine + Tropicamide,19807811000001104,dm+d
+21291036,Chenodeoxycholic acid,19822411000001108,dm+d
+21272137,Ceftriaxone,19841008,dm+d
+21235182,Rilpivirine,19842811000001108,dm+d
+21216693,Aminolevulinic acid hydrochloride,19843911000001105,dm+d
+21272409,Glycerol + Magnesium sulfate + Phenol,19898811000001102,dm+d
+21272410,Insulin zinc mixed human,19902111000001101,dm+d
+21253773,Industrial methylated spirit + Povidone-Iodine,19903811000001100,dm+d
+21272411,Ornithine,19931711000001104,dm+d
+21291037,Potassium ascorbate,19980411000001109,dm+d
+21235183,Sodium acetate,20078411000001108,dm+d
+21216835,Vemurafenib,20117011000001103,dm+d
+21272412,Shingles (Herpes Zoster) vaccine,20142211000001104,dm+d
+21197991,Salicylic acid + Hydrous wool fat,20142311000001107,dm+d
+21272156,Dextromethorphan,2016004,dm+d
+21291039,Paclitaxel albumin,20176411000001103,dm+d
+21272158,Dihydrotachysterol,20237006,dm+d
+21272413,Catumaxomab,20325011000001109,dm+d
+21309727,Pipobroman,20439311000001104,dm+d
+21235185,Amitriptyline + Ketamine,20448811000001100,dm+d
+21272414,Zinc sulphate + Adrenaline,20468911000001101,dm+d
+21291040,Camphor + Sulfurated potash + Zinc sulfate,20469611000001103,dm+d
+21309728,Coal tar + Zinc oxide,20470211000001103,dm+d
+21216695,Doxorubicin liposomal pegylated,20479711000001103,dm+d
+21235186,Fidaxomicin,20555211000001102,dm+d
+21216589,Chorionic gonadotrophin,20577002,dm+d
+21216429,Diflunisal,20865003,dm+d
+21179325,Prasterone,20932011000001107,dm+d
+21309729,Piperaquine + Artenimol,20937211000001104,dm+d
+21291043,Aclidinium bromide,21021511000001105,dm+d
+21235187,Fluticasone + Formoterol,21094411000001101,dm+d
+21253775,Pyrogallol,21129411000001104,dm+d
+21272415,Articaine + Adrenaline,21142911000001100,dm+d
+21216836,Ivacaftor,21179411000001103,dm+d
+21291044,Allicin,21202711000001109,dm+d
+21272416,Amphotericin B sodium cholesteryl sulfate complex,21202811000001101,dm+d
+21235188,Disodium edetate,21203211000001108,dm+d
+21253777,Tenofovir disoproxil + Emtricitabine + Rilpivirine,21203311000001100,dm+d
+21272558,Pasireotide,21209211000001105,dm+d
+21309880,Crizotinib,21210511000001103,dm+d
+21309881,Perampanel,21216211000001104,dm+d
+21291046,Salicylic acid + Starch + Zinc oxide,21246511000001105,dm+d
+21253778,Protionamide,21248611000001105,dm+d
+21216700,Linagliptin + Metformin,21248711000001101,dm+d
+21179186,Ferrous calcium citrate,21269511000001107,dm+d
+21216701,Citric acid + Potassium citrate + Sodium citrate,21271311000001108,dm+d
+21235330,Ruxolitinib,21280411000001100,dm+d
+21235178,Aspirin + Codeine,21300711000001102,dm+d
+21216702,Amphotericin B phospholipid complex,21302711000001103,dm+d
+21235190,Glycerol trioleate,21307511000001106,dm+d
+21235191,Ceftaroline fosamil,21387311000001104,dm+d
+21235192,Racecadotril,21496811000001101,dm+d
+21235193,Pixantrone,21517111000001102,dm+d
+21309733,Brentuximab vedotin,21572811000001102,dm+d
+21253907,Dapagliflozin,21636511000001106,dm+d
+21291047,Ingenol mebutate,21636611000001105,dm+d
+21216703,Aflibercept,21674911000001109,dm+d
+21272241,Magnesium trisilicate,21691008,dm+d
+21179024,Iron dextran,21767006,dm+d
+21272418,Sodium perchlorate,21864511000001101,dm+d
+21178929,Trihexyphenidyl,2190009,dm+d
+21272419,Chondroitin,21907711000001107,dm+d
+21272420,Salicylic acid + Trichloroacetic acid,21914811000001106,dm+d
+21291048,Insulin degludec,21938911000001104,dm+d
+21235194,Fluticasone + Azelastine,21991211000001107,dm+d
+21216704,Linaclotide,21991511000001105,dm+d
+21272559,Mirabegron,21991811000001108,dm+d
+21253783,Tegafur + Gimeracil + Oteracil,21994011000001104,dm+d
+21179187,Lixisenatide,22020311000001105,dm+d
+21253784,Coal tar + Salicylic acid + Sulfur,22028111000001105,dm+d
+21235195,Hydrocortisone + Tretinoin + Hydroquinone,22069811000001104,dm+d
+21179188,Magnesium lactate,22122611000001109,dm+d
+21291049,Tafamidis,22130611000001105,dm+d
+21291182,Pertuzumab,22146711000001104,dm+d
+21272329,Glycopyrronium,22168005,dm+d
+21234996,Metolazone,22198003,dm+d
+21272421,Clindamycin + Hydrocortisone,22207511000001102,dm+d
+21272422,Perindopril erbumine,22209011000001101,dm+d
+21272423,Perindopril arginine,22209111000001100,dm+d
+21197997,Perindopril tosilate,22209211000001106,dm+d
+21235196,Perindopril arginine + Indapamide,22209311000001103,dm+d
+21235197,Perindopril erbumine + Indapamide,22209411000001105,dm+d
+21253785,Perindopril tosilate + Indapamide,22209511000001109,dm+d
+21272424,Trehalose,22209811000001107,dm+d
+21216706,Carbomer,22219111000001103,dm+d
+21291050,Triclabendazole,22224211000001100,dm+d
+21291051,Ocriplasmin,22324611000001106,dm+d
+21272425,Salicylic acid + Phenol + Pyrogallol,22362711000001100,dm+d
+21216707,Polyethylene oxide,22373711000001100,dm+d
+21235199,Estradiol + Nomegestrol,22381711000001105,dm+d
+21272426,Betamethasone + Propylene glycol,22382911000001101,dm+d
+21235200,Cade oil + Salicylic acid,22392111000001103,dm+d
+21309737,Betamethasone + Coal tar + Salicylic acid,22393011000001108,dm+d
+21309738,Nalmefene,22404211000001106,dm+d
+21197998,Levobupivacaine + Fentanyl,22426511000001107,dm+d
+21272427,Copper citrate,22440011000001100,dm+d
+21197999,Ajmaline,22466911000001109,dm+d
+21216708,Colecalciferol + Folic acid,22467011000001108,dm+d
+21179326,Cocaine + Adrenaline,22507611000001109,dm+d
+21309739,Menthol + Phenol + Calamine,22509411000001102,dm+d
+21272428,Menthol + Phenol,22510211000001105,dm+d
+21198000,Potassium hydroxide,22554111000001100,dm+d
+21198001,Citric acid + Glucose + Sodium citrate,22586111000001103,dm+d
+21272429,Fluocinolone acetonide,22636611000001106,dm+d
+21179190,Fluocinolone acetonide + Clioquinol,22636711000001102,dm+d
+21216709,Fluocinolone acetonide + Neomycin,22636911000001100,dm+d
+21198126,Enzalutamide,22647811000001108,dm+d
+21178905,Calcitonin,22657006,dm+d
+21179191,Coal tar + Salicylic acid + Clobetasone,22677911000001104,dm+d
+21197776,Hydralazine,22696000,dm+d
+21179192,Calamine + Ichthammol,22700011000001104,dm+d
+21272560,Bosutinib,22703311000001107,dm+d
+21309882,Vismodegib,22788211000001106,dm+d
+21309740,Propylene glycol + Clobetasol,22916811000001100,dm+d
+21235028,Oxytetracycline,22969001,dm+d
+21216711,Sodium hyaluronate + Chondroitin,23022911000001103,dm+d
+21272115,Vincristine,23079006,dm+d
+21253788,Dabrafenib,23117411000001106,dm+d
+21272432,Tenofovir disoproxil + Cobicistat + Elvitegravir + Emtricitabine,23167611000001108,dm+d
+21272561,Pomalidomide,23292811000001109,dm+d
+21198127,Regorafenib,23323411000001103,dm+d
+21235202,Coal tar + Zinc oxide + Salicylic acid,23406911000001103,dm+d
+21272562,Afatinib,23414911000001108,dm+d
+21291052,Caffeine citrate,23428011000001108,dm+d
+21291053,Colestilan,23557511000001107,dm+d
+21291054,Lomitapide,23592411000001102,dm+d
+21291183,Ponatinib,23592511000001103,dm+d
+21235203,Meningococcal group B vaccine,23612311000001102,dm+d
+21179195,Alogliptin,23638511000001100,dm+d
+21198002,Alogliptin + Metformin,23638611000001101,dm+d
+21272434,Fluticasone + Vilanterol,23662511000001107,dm+d
+21216712,Solifenacin + Tamsulosin,23675711000001101,dm+d
+21253790,Potassium chloride + Magnesium chloride + Procaine,23678911000001105,dm+d
+21309742,Macitentan,23712611000001104,dm+d
+21216713,Dolutegravir,23942511000001102,dm+d
+21179197,DL-Methionine,23965611000001103,dm+d
+21309743,DL-Phenylalanine,23974411000001107,dm+d
+21253791,Policosanol,23976311000001106,dm+d
+21309744,Perindopril erbumine + Amlodipine,23983911000001106,dm+d
+21179198,L-Ornithine-L-Aspartate,23993111000001107,dm+d
+21309745,Glucose + Sodium chloride + Sodium citrate,24001811000001107,dm+d
+21179199,Trastuzumab emtansine,24002411000001100,dm+d
+21216714,Tolonium chloride,24018311000001108,dm+d
+21216715,Cobicistat,24033311000001109,dm+d
+21309746,Elvitegravir,24033411000001102,dm+d
+21198003,Dapagliflozin + Metformin,24056711000001100,dm+d
+21272435,Dimethyl fumarate,24056811000001108,dm+d
+21309883,Canagliflozin,24104111000001107,dm+d
+21198004,Lipegfilgrastim,24118511000001107,dm+d
+21235204,Phenprocoumon,24256111000001106,dm+d
+21198005,Riociguat,24406211000001105,dm+d
+21235331,Avanafil,24422011000001108,dm+d
+21235205,Dithranol + Zinc oxide + Salicylic acid,24440411000001102,dm+d
+21216452,Ethambutol,24450004,dm+d
+21291057,Hydrocortisone + Salicylic acid + Sulfur,24471511000001109,dm+d
+21234959,Methylcellulose,24504000,dm+d
+21253908,Teriflunomide,24511211000001107,dm+d
+21272436,von Willebrand factor,24556511000001108,dm+d
+21309748,Clioquinol + Coal tar + Betamethasone,24557411000001106,dm+d
+21272437,Bedaquiline,24564711000001103,dm+d
+21235206,Sofosbuvir,24573011000001106,dm+d
+21309749,Simeprevir,24601811000001103,dm+d
+21291058,Turoctocog alfa,24609411000001104,dm+d
+21198006,Bromhexine,24617211000001106,dm+d
+21253792,Brivudine,24617711000001104,dm+d
+21309750,Eptotermin alfa,24618311000001102,dm+d
+21291059,Propylene glycol + Coal tar,24623911000001102,dm+d
+21235207,Diosmin + Hesperidin,24640811000001102,dm+d
+21253793,Umeclidinium bromide + Vilanterol,24645211000001107,dm+d
+21179202,Elosulfase alfa,24659411000001106,dm+d
+21291060,Lithium chloride,24662111000001101,dm+d
+21198008,Olodaterol,24663711000001108,dm+d
+21235332,Vedolizumab,24663811000001100,dm+d
+21309751,Copper histidine,24682311000001102,dm+d
+21291061,Benznidazole,24682911000001101,dm+d
+21291062,Doxylamine + Pyridoxine,24685311000001108,dm+d
+21253795,Estradiol + Cyproterone,24687611000001105,dm+d
+21272439,Salicylic acid + Sulfur + Hydrocortisone,24844411000001104,dm+d
+21179106,Sodium amidotrizoate,24891006,dm+d
+21178955,Hexetidine,2497003,dm+d
+21309752,Dithranol + Salicylic acid + Coal tar,25040011000001107,dm+d
+21291064,Propylene glycol + Clobetasol + Coal tar,25041611000001105,dm+d
+21179327,Siltuximab,25045511000001109,dm+d
+21309492,Carisoprodol,25076002,dm+d
+21216444,Trilostane,25142008,dm+d
+21272440,Iodine + Boric acid,25193511000001105,dm+d
+21179205,Lidocaine + Tetracaine + Adrenaline,25199011000001104,dm+d
+21290750,Allopurinol,25246002,dm+d
+21235333,Empagliflozin,25304211000001100,dm+d
+21197783,Ichthammol,25398003,dm+d
+21309754,Formocresol,25450411000001105,dm+d
+21291065,Brinzolamide + Brimonidine,25502411000001106,dm+d
+21309755,Obinutuzumab,25502511000001105,dm+d
+21253797,Potassium chloride + Magnesium chloride + Sodium chloride,25557011000001107,dm+d
+21309672,Cryoprecipitate,256401009,dm+d
+21291066,Ketamine + Morphine,25645211000001102,dm+d
+21197801,Omeprazole,25673006,dm+d
+21178904,Busulfan,2571007,dm+d
+21309663,Sodium nitroprusside,25849001,dm+d
+21179206,Trametinib,25965211000001106,dm+d
+21216397,Glipizide,26124005,dm+d
+21216719,Sucrase,26399711000001109,dm+d
+21290865,Diphenhydramine,26458009,dm+d
+21253524,Cyproheptadine,26462003,dm+d
+21178950,Dobutamine,26523005,dm+d
+21272173,Droperidol,26574002,dm+d
+21253798,Lurasidone,26664311000001101,dm+d
+21179021,Ferrous gluconate,26736008,dm+d
+21290998,Oxandrolone,2679000,dm+d
+21178963,Midazolam,26800000,dm+d
+21235208,Daclatasvir,26928511000001106,dm+d
+21253550,Sodium polystyrene sulfonate,27085003,dm+d
+21272133,Bupivacaine,27196008,dm+d
+21290831,Methylprednisolone,27242001,dm+d
+21309477,Zidovudine,27479000,dm+d
+21290990,Parathyroid hormone,27518004,dm+d
+21178879,Alteplase,27638005,dm+d
+21235209,Abacavir + Lamivudine + Dolutegravir,27653011000001108,dm+d
+21309471,Amoxicillin,27658006,dm+d
+21179027,Piroxicam,27754002,dm+d
+21309756,Delamanid,27777011000001109,dm+d
+21235210,Glucose + Sodium chloride + Sodium bicarbonate,27777811000001103,dm+d
+21291068,Umeclidinium bromide,27896111000001103,dm+d
+21253799,Copper gluconate,27944711000001108,dm+d
+21272441,Creatine,27945611000001103,dm+d
+21272443,Teduglutide,27948111000001101,dm+d
+21216720,Idelalisib,27966511000001101,dm+d
+21235211,Peginterferon beta-1a,27983711000001101,dm+d
+21253800,Penfluridol,27987311000001107,dm+d
+21272444,Roxithromycin,27988411000001101,dm+d
+21272445,Disodium hydrogen phosphate dodecahydrate,28003311000001103,dm+d
+21253801,Simoctocog alfa,28009711000001101,dm+d
+21235212,Cabozantinib,28013211000001109,dm+d
+21179208,Indacaterol + Glycopyrronium,28050011000001101,dm+d
+21291069,Canagliflozin + Metformin,28050111000001100,dm+d
+21234950,Pentostatin,28149003,dm+d
+21253560,Doxapram,28235004,dm+d
+21309757,Insulin degludec + Liraglutide,28279811000001108,dm+d
+21179209,Aclidinium bromide + Formoterol,28367211000001102,dm+d
+21272446,Bisoprolol + Aspirin,28367311000001105,dm+d
+21291070,Ibrutinib,28393111000001103,dm+d
+21235213,Sofosbuvir + Ledipasvir,28394611000001109,dm+d
+21253802,Darunavir + Cobicistat,28395611000001105,dm+d
+21253803,Dienogest,28424211000001108,dm+d
+21216458,Fluocinolone,28426008,dm+d
+21216721,Sucroferric oxyhydroxide,28453911000001100,dm+d
+21234985,Flucytosine,28506006,dm+d
+21253804,Emulsifying wax,28558211000001107,dm+d
+21235214,Calcium gluconate + Calcium lactate,28589211000001107,dm+d
+21290758,Chloral hydrate,28748001,dm+d
+21179210,Paritaprevir + Ritonavir + Ombitasvir,28769611000001106,dm+d
+21309884,Ramucirumab,28783211000001109,dm+d
+21272447,Dulaglutide,28783311000001101,dm+d
+21309759,Apremilast,28783411000001108,dm+d
+21253805,Dasabuvir,28786711000001109,dm+d
+21309760,Nintedanib,28786811000001101,dm+d
+21235215,Yellow soft paraffin + Wool fat + Salicylic acid,28793911000001101,dm+d
+21179211,Asparaginase,28801511000001109,dm+d
+21272448,Sodium acetate + Sodium oxybate + Sodium propionate,28897911000001107,dm+d
+21179212,Coal Tar + Salicylic Acid + Clobetasol,28940711000001107,dm+d
+21309761,Sulfur + Hydrocortisone,28987111000001104,dm+d
+21198011,Marshmallow + Thyme,29004911000001103,dm+d
+21216722,Thyme,29005011000001103,dm+d
+21179213,Honey + Menthol,29005111000001102,dm+d
+21309762,Cholic acid,29024111000001106,dm+d
+21272187,Halcinonide,29058003,dm+d
+21253594,Oxymetazoline,29129004,dm+d
+21253610,Chlormethine,29156002,dm+d
+21197814,Rifampicin,29175007,dm+d
+21179214,Manidipine,29175711000001102,dm+d
+21272449,Molsidomine,29176611000001101,dm+d
+21235216,Trimebutine + Ruscogenins,29194111000001109,dm+d
+21179215,Monosodium glutamate + Monosodium aspartate,29214511000001102,dm+d
+21216723,Secukinumab,29215811000001103,dm+d
+21197717,Captopril,29439004,dm+d
+21309763,Hydrocortisone + Salicylic acid,29595311000001100,dm+d
+21272450,Levomilnacipran,29597011000001105,dm+d
+21253806,Rilmenidine,29684511000001102,dm+d
+21198012,Tisopurine,29685511000001101,dm+d
+21179216,Tiratricol,29691111000001107,dm+d
+21272451,Menatetrenone,29692011000001103,dm+d
+21179218,Lyophilised bacterial lysates of Escherichia coli,29692611000001105,dm+d
+21309764,Urapidil,29693111000001108,dm+d
+21216724,Borage oil,29717711000001107,dm+d
+21272452,Menthol + Hydrocortisone,29726311000001104,dm+d
+21309470,Amoxapine,29840005,dm+d
+21253807,Nifurtimox,29863711000001100,dm+d
+21198016,Lenvatinib,29874611000001101,dm+d
+21253566,Isocarboxazid,29877002,dm+d
+21178913,Betamethasone,29896003,dm+d
+21291074,Edoxaban,29905911000001105,dm+d
+21198017,Gadoteric acid,29914411000001100,dm+d
+21309766,Tafluprost + Timolol,29926111000001105,dm+d
+21216725,Miltefosine,29945211000001107,dm+d
+21216727,Tiotropium + Olodaterol,29987611000001105,dm+d
+21253521,Cyanocobalamin,30010009,dm+d
+21291075,Pembrolizumab,30037111000001101,dm+d
+21272453,Esketamine,30068311000001106,dm+d
+21309560,Senna,30125007,dm+d
+21235217,Naloxegol,30200311000001101,dm+d
+21290995,Spiramycin,302007,dm+d
+21253808,Cangrelor,30207611000001105,dm+d
+21179219,Patent blue V,30249211000001109,dm+d
+21198018,Atazanavir + Cobicistat,30250511000001101,dm+d
+21272454,Magnesium amino acids chelate,30294511000001101,dm+d
+21198019,"N,N-Dimethylglycine",30295811000001102,dm+d
+21290795,Thiamine,30306003,dm+d
+21272141,Cisapride,30317002,dm+d
+21309768,Empagliflozin + Metformin,30320611000001109,dm+d
+21309769,Pyrogallol + Wheatgerm oil,30422711000001107,dm+d
+21235061,Erythromycin,30427009,dm+d
+21234928,Clomifene,30466001,dm+d
+21272455,Vortioxetine,30730111000001104,dm+d
+21198020,Evolocumab,30731011000001109,dm+d
+21291076,Ceritinib,30759611000001100,dm+d
+21290840,Mannitol,30761007,dm+d
+21291077,Ichthammol + Clioquinol + Hydrocortisone,30783611000001107,dm+d
+21235218,Netupitant + Palonosetron,30793511000001109,dm+d
+21272457,Diclofenamide,30798011000001108,dm+d
+21253810,Betamethasone + Ichthammol,30806111000001105,dm+d
+21198128,Iopanoic acid,30808911000001107,dm+d
+21235219,Atropine + Adrenaline + Procaine,30839411000001101,dm+d
+21216728,Alirocumab,30912811000001107,dm+d
+21272459,Tenofovir disoproxil,30934411000001109,dm+d
+21216729,Tenofovir disoproxil + Efavirenz + Emtricitabine,30934511000001108,dm+d
+21272460,Tenofovir disoproxil + Emtricitabine,30934611000001107,dm+d
+21179220,Asfotase alfa,30936211000001100,dm+d
+21272461,Sebelipase alfa,30936311000001108,dm+d
+21198021,Coal tar + Salicylic acid + Hydrocortisone,30955111000001101,dm+d
+21235220,Ceftobiprole,31009711000001109,dm+d
+21198022,Ceftolozane + tazobactam,31009911000001106,dm+d
+21198023,Isavuconazole,31010011000001101,dm+d
+21198024,Albiglutide,31016111000001102,dm+d
+21179221,Efmoroctocog alfa,31072811000001104,dm+d
+21178883,Ampicillin,31087008,dm+d
+21291079,Sacubitril + Valsartan,31140011000001102,dm+d
+21179222,Idarucizumab,31140111000001101,dm+d
+21216730,Carfilzomib,31143711000001109,dm+d
+21235221,Blinatumomab,31144311000001107,dm+d
+21272462,Tenofovir alafenamide + Cobicistat + Elvitegravir + Emtricitabine,31145411000001104,dm+d
+21309770,Phenol + Zinc oxide,31147011000001101,dm+d
+21253811,Salicylic acid + Propylene glycol + Clobetasol,31147911000001102,dm+d
+21216731,Coal tar + Propylene glycol + Fluocinolone acetonide,31148811000001106,dm+d
+21272463,Aluminium chloride + Isopropyl alcohol,31150811000001106,dm+d
+21272464,Mepolizumab,31201911000001104,dm+d
+21309689,Fibrinogen,312063004,dm+d
+21290839,Hydrogen peroxide,31231007,dm+d
+21253556,Fluorouracil,3127006,dm+d
+21234922,Quinidine,31306009,dm+d
+21253812,Cobimetinib,31310911000001101,dm+d
+21216732,Methoxyflurane,31363511000001101,dm+d
+21272465,Racepinefrine,31626911000001101,dm+d
+21198025,Lumacaftor + Ivacaftor,31676711000001102,dm+d
+21272134,Buprenorphine,31684002,dm+d
+21309644,Bethanechol,31690003,dm+d
+21272466,Menaquinone-7 + Menatetrenone,31691711000001100,dm+d
+21309498,Pentamidine,31692006,dm+d
+21179231,Hyoscine butylbromide,317114008,dm+d
+21178979,Peppermint oil,317164001,dm+d
+21253814,Trofosfamide,31718811000001108,dm+d
+21272282,Liquorice,317272008,dm+d
+21309579,Pantoprazole,317317009,dm+d
+21234982,Esomeprazole,317331009,dm+d
+21235012,Kaolin light,317337008,dm+d
+21197786,Chalk,317346002,dm+d
+21253815,Doconexent,31741811000001107,dm+d
+21253543,Sodium picosulfate,317558003,dm+d
+21179196,Lactitol,317599009,dm+d
+21216733,Attenuated strain of Bacillus Calmette-Guerin,31770111000001105,dm+d
+21235011,Ipecacuanha,317849003,dm+d
+21178922,Dicobalt edetate,317870009,dm+d
+21216647,Sodium nitrite,317873006,dm+d
+21272361,Pralidoxime mesylate,317884004,dm+d
+21272265,Urea [13-C],317887006,dm+d
+21290836,Digoxin specific antibody,317916006,dm+d
+21197731,Cyclopenthiazide,317938008,dm+d
+21179224,Arginine + Lysine,31796611000001109,dm+d
+21290762,Xipamide,317968004,dm+d
+21179225,Meglumine iotalamate + Phenol,31798711000001101,dm+d
+21178926,Torasemide,318034005,dm+d
+21253685,Potassium canrenoate,318053000,dm+d
+21272180,Felodipine + Ramipril,318173007,dm+d
+21235025,Nebivolol,318638009,dm+d
+21234984,Fluconazole,31865003,dm+d
+21272152,Moxonidine,318706009,dm+d
+21234947,Cilazapril,318913001,dm+d
+21253816,RIVM strain Bacillus of Calmette-Guerin,31893511000001100,dm+d
+21216451,Eprosartan,318990002,dm+d
+21234932,Lacidipine,319299000,dm+d
+21272213,Nicorandil,319304004,dm+d
+21272229,Aspirin + Isosorbide mononitrate,319357003,dm+d
+21197700,Moxisylyte,319442006,dm+d
+21290827,Iloprost,319452005,dm+d
+21197844,Co-dergocrine mesilate,319455007,dm+d
+21290846,Dipyridamole + Aspirin,319796006,dm+d
+21272113,Streptokinase,319810009,dm+d
+21290966,Urokinase,319826005,dm+d
+21272123,Etamsylate,319848004,dm+d
+21178975,Factor VIII + von Willebrand factor,319925005,dm+d
+21309555,Factor XIII,319930009,dm+d
+21197922,Fibrinogen + Thrombin,319935004,dm+d
+21253503,Bezafibrate,319937007,dm+d
+21309464,Acipimox,319982006,dm+d
+21216422,Ciprofibrate,320016006,dm+d
+21290810,Enoximone,320067009,dm+d
+21309466,Acrivastine,320813002,dm+d
+21235004,Mizolastine,320830000,dm+d
+21178971,Montelukast,320883008,dm+d
+21272279,Oxygen gas,320917000,dm+d
+21309491,Carbocisteine,320933002,dm+d
+21178998,Pholcodine,320972003,dm+d
+21253507,Loprazolam,321119005,dm+d
+21290764,Zopiclone,321174005,dm+d
+21178894,Benperidol,321391002,dm+d
+21253515,Pericyazine,321467007,dm+d
+21290805,Sulpiride,321506004,dm+d
+21216532,Zuclopenthixol acetate,321584004,dm+d
+21272221,Sertindole,321603004,dm+d
+21197691,Amisulpride,321636003,dm+d
+21290765,Zotepine,321641006,dm+d
+21291178,Flupentixol decanoate,321649008,dm+d
+21179022,Fluphenazine decanoate,321669003,dm+d
+21253774,Fluspirilene,321692003,dm+d
+21197956,Haloperidol decanoate,321699007,dm+d
+21216533,Zuclopenthixol decanoate,321707006,dm+d
+21309480,Lithium,321719003,dm+d
+21272128,Lofepramine,321831005,dm+d
+21235005,Moclobemide,321911007,dm+d
+21179004,Sertraline,321958004,dm+d
+21290861,Paroxetine,321963000,dm+d
+21216423,Citalopram,321986007,dm+d
+21197795,Reboxetine,321995004,dm+d
+21178972,Nabilone,322124005,dm+d
+21291091,Promethazine teoclate,322155004,dm+d
+21253539,Tropisetron,322201005,dm+d
+21309771,Fenofibrate + Simvastatin,32222911000001104,dm+d
+21253536,Tolfenamic acid,322817007,dm+d
+21197748,Sumatriptan,322822007,dm+d
+21253494,Vigabatrin,322976008,dm+d
+21253572,Piracetam,322998004,dm+d
+21309522,Enflurane,32313007,dm+d
+21216432,Tetrabenazine,323260004,dm+d
+21234926,Nicotine,323283001,dm+d
+21234979,Rivastigmine,323368009,dm+d
+21272185,Galantamine,323377002,dm+d
+21309671,Benzathine benzylpenicillin,323404007,dm+d
+21216734,Clobetasol + Dithranol,32393211000001102,dm+d
+21309581,Imipenem + Cilastatin,323964004,dm+d
+21272171,Sodium fusidate,324312006,dm+d
+21179009,Quinupristin + Dalfopristin,324352008,dm+d
+21290796,Tinidazole,324550004,dm+d
+21216735,Methenamine,324575000,dm+d
+21216484,Noxytiolin,324586003,dm+d
+21290977,Inosine acedoben dimepranol,324757004,dm+d
+21216445,Valaciclovir,324820003,dm+d
+21197703,Zidovudine + Lamivudine,324859007,dm+d
+21178934,Sodium stibogluconate,324951006,dm+d
+21290753,Gliclazide,325238000,dm+d
+21290820,Gliquidone,325249006,dm+d
+21290837,Guar gum,325281002,dm+d
+21178907,Carbimazole,325325006,dm+d
+21309635,Iodine,325330005,dm+d
+21178925,Tibolone,325567003,dm+d
+21253533,Tetracosactide,325824002,dm+d
+21234962,Terlipressin,325927008,dm+d
+21216465,Gonadorelin,325995009,dm+d
+21235015,Rosiglitazone,326053005,dm+d
+21253596,Pioglitazone,326058001,dm+d
+21290848,Quinagolide,326066005,dm+d
+21272140,Cetrorelix,326083001,dm+d
+21234990,Ganirelix,326088005,dm+d
+21197774,Gemeprost,326128005,dm+d
+21272143,Atosiban,326166008,dm+d
+21216681,Fenticonazole,326274003,dm+d
+21216394,Acetic acid,326289007,dm+d
+21216454,Etonogestrel,326451000,dm+d
+21253693,Nonoxinol,326454008,dm+d
+21272442,Ergotamine,32647002,dm+d
+21309512,Treosulfan,326774002,dm+d
+21309572,Raltitrexed,326914003,dm+d
+21178885,Amsacrine,326955000,dm+d
+21272216,Oxaliplatin,327032007,dm+d
+21309551,Molgramostim,327112008,dm+d
+21309483,Lenograstim,327123007,dm+d
+21290778,Buserelin,327301004,dm+d
+21197744,Triptorelin,327370004,dm+d
+21234933,Lanreotide,327379003,dm+d
+21253537,Trastuzumab,327397006,dm+d
+21253612,Ferrous glycine sulfate,327421002,dm+d
+21290802,Sodium feredetate,327487001,dm+d
+21235051,Iron sorbitol,327522006,dm+d
+21216600,Hydroxocobalamin,327529002,dm+d
+21253552,Epoetin beta,327623006,dm+d
+21291165,Haem arginate,327794002,dm+d
+21309653,Albumin human,327830003,dm+d
+21290868,Hexastarch,327833001,dm+d
+21272166,Trimethoprim,32792001,dm+d
+21178900,Maprotiline,32823007,dm+d
+21253600,Sevelamer,329195003,dm+d
+21309520,Sodium fluoride,329199009,dm+d
+21309621,Stannous fluoride,329224004,dm+d
+21197792,Riboflavin,329260009,dm+d
+21179028,Potassium aminobenzoate,329290002,dm+d
+21216396,Alfacalcidol,329325000,dm+d
+21309516,Sodium phenylbutyrate,329472001,dm+d
+21253526,Deferiprone,329482000,dm+d
+21309654,Carnitine,329486002,dm+d
+21253588,Betacarotene,329507006,dm+d
+21197895,Garlic,329509009,dm+d
+21216406,Azapropazone,329543000,dm+d
+21216462,Domperidone,32955006,dm+d
+21309526,Fenbufen,329623001,dm+d
+21309510,Tiaprofenic acid,329889002,dm+d
+21235055,Piroxicam betadex,329903000,dm+d
+21253487,Acemetacin,329906008,dm+d
+21290793,Tenoxicam,329913008,dm+d
+21234911,Aceclofenac,329923004,dm+d
+21197739,Dexketoprofen,329961001,dm+d
+21272348,Hylan,330043005,dm+d
+21290818,Dorzolamide + Timolol,330733003,dm+d
+21290825,Hypromellose,330769006,dm+d
+21235035,Polyvinyl alcohol,330790003,dm+d
+21178978,Yellow soft paraffin,330825007,dm+d
+21178887,Apraclonidine,330870004,dm+d
+21290842,Rose bengal,330888007,dm+d
+21197785,Polynoxylin,331221002,dm+d
+21216437,Tolbutamide,33124007,dm+d
+21178932,Thymol,331322007,dm+d
+21235224,Gamolenic acid,332180007,dm+d
+21197749,Tacalcitol,332214000,dm+d
+21253527,Sulfur,332304007,dm+d
+21216696,Smallpox vaccine,33234009,dm+d
+21178976,Formaldehyde,332436004,dm+d
+21178977,Glutaraldehyde,332445003,dm+d
+21197743,Tioconazole,332967005,dm+d
+21178890,Amorolfine,332998007,dm+d
+21216399,Carbaryl,333035001,dm+d
+21253491,Malathion,333071000,dm+d
+21178996,Phenothrin,333096002,dm+d
+21197862,Industrial methylated spirit,333165009,dm+d
+21253510,Cetrimide,333179001,dm+d
+21197824,Potassium permanganate,333339003,dm+d
+21178908,Cefotaxime,3334000,dm+d
+21290749,Acetone,333511003,dm+d
+21235139,Anthrax vaccine,333521006,dm+d
+21309637,Pneumococcal vaccine,333598008,dm+d
+21197865,Rabies vaccine,333606008,dm+d
+21309638,Tetanus vaccine,333621002,dm+d
+21309639,Haemophilus influenzae type B vaccine,333680004,dm+d
+21290925,Tick-borne encephalitis vaccine,333699008,dm+d
+21272286,Hepatitis A + B vaccine,333702001,dm+d
+21253649,Hepatitis A + Typhoid vaccine,333707007,dm+d
+21197921,Normal immunoglobulin human,333711001,dm+d
+21216547,Tick-borne encephalitis immunoglobulin,333793002,dm+d
+21197702,Ketamine,333847008,dm+d
+21216433,Thioridazine,33588000,dm+d
+21178874,Acetazolamide,33664007,dm+d
+21216419,Carbachol,33675006,dm+d
+21216447,Sodium iopodate,337373009,dm+d
+21309500,Mefenamic acid,34364009,dm+d
+21309765,Natamycin,34462007,dm+d
+21235083,Arachis oil,346327000,dm+d
+21309562,Betamethasone + Clioquinol,346343007,dm+d
+21216483,Betamethasone + Clotrimazole,346344001,dm+d
+21253577,Betamethasone + Fusidic acid,346345000,dm+d
+21309561,Salicylic acid + Betamethasone,346347008,dm+d
+21216476,Boric acid,346349006,dm+d
+21216398,Bupivacaine + Adrenaline,346357009,dm+d
+21309548,Bupivacaine + Glucose,346358004,dm+d
+21235087,Butobarbital,346359007,dm+d
+21216517,Calcium polystyrene sulfonate,346361003,dm+d
+21216755,Co-careldopa,346377002,dm+d
+21272258,Co-danthramer,346378007,dm+d
+21272493,Co-danthrusate,346379004,dm+d
+21216756,Co-fluampicil,346380001,dm+d
+21309798,Co-magaldrox,346381002,dm+d
+21179189,Cocaine + Adrenaline,346385006,dm+d
+21253655,Maize starch,346392001,dm+d
+21198049,Co-cyprindiol,346395004,dm+d
+21179030,Diclofenac sodium + Misoprostol,346398002,dm+d
+21235037,Dimethyl sulfoxide,346400003,dm+d
+21253704,High Purity Factor IX,346425007,dm+d
+21179129,High Purity Factor VIII,346432003,dm+d
+21272223,Porcine Factor VIII,346434002,dm+d
+21235165,Factor XI,346436000,dm+d
+21216578,Fish oil,346441008,dm+d
+21253576,Glycine,346464005,dm+d
+21272226,Hydrocortisone + Fusidic acid,346494004,dm+d
+21309588,Hydrocortisone + Gentamicin,346495003,dm+d
+21309662,Hydrocortisone + Pramocaine,346496002,dm+d
+21272322,Hydrocortisone + Sodium fusidate,346497006,dm+d
+21309580,Chlorquinaldol + Hydrocortisone,346498001,dm+d
+21197806,Hydrocortisone + Clioquinol,346500000,dm+d
+21290768,Hydrocortisone + Clotrimazole,346501001,dm+d
+21216506,Hydrocortisone + Crotamiton,346502008,dm+d
+21272205,Econazole + Hydrocortisone,346504009,dm+d
+21216468,Lidocaine + Hydrocortisone,346505005,dm+d
+21216469,Hydrocortisone + Miconazole,346506006,dm+d
+21309533,Hydrocortisone + Neomycin,346507002,dm+d
+21309534,Oxytetracycline + Hydrocortisone,346509004,dm+d
+21290838,Hydrocortisone + Urea,346511008,dm+d
+21309535,Hydrotalcite,346512001,dm+d
+21216481,Kaolin + Morphine,346543008,dm+d
+21272121,Lidocaine + Adrenaline,346549007,dm+d
+21235031,Lidocaine + Chlorhexidine,346550007,dm+d
+21272225,Lidocaine + Fluorescein,346551006,dm+d
+21234938,Lidocaine + Prilocaine,346553009,dm+d
+21216485,Methylprednisolone + Lidocaine,346569002,dm+d
+21253501,Misoprostol + Naproxen,346577003,dm+d
+21235038,Ergometrine + Oxytocin,346605004,dm+d
+21216606,Papaveretum + Hyoscine hydrobromide,346606003,dm+d
+21179245,Co-codamol,346608002,dm+d
+21235030,Piperacillin + Tazobactam,346628003,dm+d
+21179008,Piperazine + Sennosides,346629006,dm+d
+21272224,Prilocaine + Felypressin,346644007,dm+d
+21197699,Rifampicin + Isoniazid,346670008,dm+d
+21179010,Rifampicin + Isoniazid + Pyrazinamide,346671007,dm+d
+21253731,Sodium cromoglicate + Salbutamol,346679009,dm+d
+21253534,Ticarcillin + Clavulanic acid,346687005,dm+d
+21178928,Triamcinolone + Chlortetracycline,346689008,dm+d
+21290799,Neomycin + Triamcinolone,346690004,dm+d
+21309515,Water,346712003,dm+d
+21253645,Hepatitis B vaccine,34689006,dm+d
+21272119,Zalcitabine,34693000,dm+d
+21309670,Cod liver oil,34816007,dm+d
+21253833,Co-simalcite,349796002,dm+d
+21216671,Pirenzepine,349802000,dm+d
+21234958,Kaolin,349807006,dm+d
+21234912,Alverine,349818006,dm+d
+21309488,Mebeverine,349819003,dm+d
+21234964,Thiopental,349829005,dm+d
+21197723,Cinchocaine,349831001,dm+d
+21309570,Proxymetacaine,349837002,dm+d
+21309523,Epirubicin,349848009,dm+d
+21272114,Vindesine,349851002,dm+d
+21290770,Dosulepin,349856007,dm+d
+21272243,Pipotiazine,349879008,dm+d
+21216502,Oxypertine,349883008,dm+d
+21216407,Lisuride,349894007,dm+d
+21309479,Betaxolol,349900007,dm+d
+21272138,Celiprolol,349901006,dm+d
+21216412,Levobunolol,349903009,dm+d
+21272104,Alfuzosin,349912006,dm+d
+21309539,Indoramin,349913001,dm+d
+21290816,Dopexamine,349922000,dm+d
+21178892,Bambuterol,349923005,dm+d
+21216455,Fenoterol,349924004,dm+d
+21272129,Lofexidine,349934008,dm+d
+21253668,Distigmine,349943004,dm+d
+21253660,Oxitropium,349953003,dm+d
+21234948,Cinnarizine,349958007,dm+d
+21309503,Mepyramine,349962001,dm+d
+21178974,Pizotifen,349963006,dm+d
+21216619,Mecysteine,349993000,dm+d
+21253581,Selenium,350057002,dm+d
+21197849,Pancuronium,350064000,dm+d
+21216493,Edetic acid,350076000,dm+d
+21290965,Protamine,350083007,dm+d
+21290791,Fluorescein,350086004,dm+d
+21235042,Silicone,350103006,dm+d
+21290780,Carmellose,350108002,dm+d
+21179006,Mandelic acid,350156008,dm+d
+21272337,Mepacrine,350225009,dm+d
+21179018,Chlorhexidine + Cetrimide,350265008,dm+d
+21290948,Dequalinium,350274005,dm+d
+21253519,Benzydamine,350307000,dm+d
+21290834,Paracetamol + Caffeine,350309002,dm+d
+21179248,Co-proxamol,350310007,dm+d
+21197762,Felbinac,350320002,dm+d
+21272212,Nefopam,350324006,dm+d
+21290927,Diphtheria + Tetanus vaccine,350327004,dm+d
+21290858,Orphenadrine,35035001,dm+d
+21197778,Liothyronine,350358003,dm+d
+21216411,Leuprorelin,350364005,dm+d
+21178948,Fosfestrol,350367003,dm+d
+21253676,Tinzaparin,350469004,dm+d
+21309582,Heparinoid,350470003,dm+d
+21234914,Menadiol,350547008,dm+d
+21234991,Hydroxyapatite,350558004,dm+d
+21272228,Glucose + Sodium chloride,350571001,dm+d
+21309730,Phosphate,350576006,dm+d
+21216446,Zinc,350591008,dm+d
+21197737,Debrisoquine,350602000,dm+d
+21272315,Trimetaphan,350607006,dm+d
+21216617,Inositol nicotinate,350626003,dm+d
+21253571,Naftidrofuryl,350627007,dm+d
+21197750,Ribavirin,35063004,dm+d
+21253502,Betahistine,350631001,dm+d
+21234917,Streptokinase + Streptodornase,350634009,dm+d
+21253562,Gemfibrozil,35282000,dm+d
+21234960,Daunorubicin,35300007,dm+d
+21309558,Paraldehyde,35324004,dm+d
+21235096,White soft paraffin,353601006,dm+d
+21309540,Iopromide,353903006,dm+d
+21309585,Iotrolan,353919004,dm+d
+21235053,Meglumine iotroxate,353929006,dm+d
+21253725,Gadoteridol,353946009,dm+d
+21178960,Iodixanol,353962003,dm+d
+21179005,Ispaghula husk,354033006,dm+d
+21272170,Sterculia,354034000,dm+d
+21179064,Liquid paraffin,354035004,dm+d
+21290843,Phenol,354036003,dm+d
+21178896,Ketotifen,354038002,dm+d
+21253500,Clomethiazole,354039005,dm+d
+21178891,Amphotericin B,354049008,dm+d
+21272177,Estriol,354050008,dm+d
+21235022,Benzoyl peroxide,354053005,dm+d
+21253523,Meptazinol,354055003,dm+d
+21253492,Papaveretum,354056002,dm+d
+21216403,Benorilate,354058001,dm+d
+21197789,Methylthioninium chloride,354064008,dm+d
+21197772,Gadodiamide,354088005,dm+d
+21272260,Co-flumactone,354276001,dm+d
+21179249,Co-dydramol,354278000,dm+d
+21253632,Co-amilofruse,354303007,dm+d
+21253832,Co-prenozide,354304001,dm+d
+21235013,Silver nitrate,35476001,dm+d
+21197913,Certoparin,356138003,dm+d
+21309547,Atenolol + Bendroflumethiazide,356519002,dm+d
+21197777,Iomeprol,356671000,dm+d
+21309484,Lercanidipine,356862006,dm+d
+21179066,Cholera vaccine,35736007,dm+d
+21235027,Oxybutynin,35768004,dm+d
+21197724,Pentagastrin,358180008,dm+d
+21290967,Lidocaine + Phenylephrine,358534004,dm+d
+21197900,Reviparin,359146001,dm+d
+21253677,Trospium,359380005,dm+d
+21253565,Imipramine,36113004,dm+d
+21253683,Primaquine,36391008,dm+d
+21290997,Tiabendazole,36594001,dm+d
+21290828,Medroxyprogesterone,36621009,dm+d
+21309667,Propantheline,36642006,dm+d
+21309525,Estropipate,36795002,dm+d
+21272136,Ceftazidime,36893000,dm+d
+21178987,Pyridoxine,36944009,dm+d
+21309496,Choline salicylate,370179008,dm+d
+21216420,Celecoxib,370187009,dm+d
+21290814,Frovatriptan,370215003,dm+d
+21309736,Chloroprocaine,370295004,dm+d
+21235041,Oxybuprocaine,370315001,dm+d
+21253724,Paromomycin,370323004,dm+d
+21235103,Ginkgo biloba,370454004,dm+d
+21197992,Gatifloxacin,371238005,dm+d
+21178919,Moxifloxacin,371296007,dm+d
+21216515,Dipotassium clorazepate,371349001,dm+d
+21197981,Felbamate,371387009,dm+d
+21234972,Sulfadiazine,371400009,dm+d
+21179183,Ziprasidone,373389002,dm+d
+21179025,Magnesium sulfate,37400007,dm+d
+21253585,Propylthiouracil,3814009,dm+d
+21234965,Tolnaftate,38166006,dm+d
+21216605,Suxamethonium,3822002,dm+d
+21272299,Polysaccharide-iron complex,38231004,dm+d
+21309538,Ibuprofen,38268001,dm+d
+21272125,Isotretinoin,38314008,dm+d
+21235040,Olmesartan,385540001,dm+d
+21272376,Dexmethylphenidate,385551001,dm+d
+21309490,Bosentan,385558007,dm+d
+21197756,Dutasteride,385570006,dm+d
+21253553,Ertapenem,385574002,dm+d
+21197805,Pimecrolimus,385581009,dm+d
+21290800,Valdecoxib,385583007,dm+d
+21253667,Darbepoetin alfa,385610007,dm+d
+21309501,Megestrol,38578004,dm+d
+21216534,Nitisinone,385997009,dm+d
+21272367,Measles vaccine,386012008,dm+d
+21253647,Rubella vaccine,386013003,dm+d
+21216717,Lovastatin,386024001,dm+d
+21309721,Carbidopa,386107009,dm+d
+21234918,Voriconazole,386116008,dm+d
+21272227,Oseltamivir,386142008,dm+d
+21179201,Delavirdine,386155009,dm+d
+21290953,Formoterol,386171009,dm+d
+21198009,Zileuton,386180009,dm+d
+21309531,Guaifenesin,386184000,dm+d
+21272201,Mesuximide,386187007,dm+d
+36079436,Perfluorohexyloctane,38726411000001107,dm+d
+21309781,Hyoscine (base),387639006,dm+d
+21272199,Nitrous oxide gas,388185005,dm+d
+21253716,Sodium thiosulphate,38828006,dm+d
+21179108,Pegfilgrastim,388379009,dm+d
+21309468,Insulin aspart,388452006,dm+d
+21178878,Insulin lispro,388454007,dm+d
+21178943,Famotidine,39128000,dm+d
+21197809,Levocetirizine,391595003,dm+d
+21272130,Lutropin alfa,391621007,dm+d
+21197689,Alemtuzumab,391632007,dm+d
+21197808,Imatinib,391634008,dm+d
+21216570,Agalsidase beta,391653003,dm+d
+21216414,Lornoxicam,391655005,dm+d
+21178897,Latanoprost + Timolol,391662001,dm+d
+21216441,Travoprost,391664000,dm+d
+21197732,Mepivacaine,391673008,dm+d
+21235017,Mepivacaine + Adrenaline,391867005,dm+d
+21216480,Ethyl chloride,391873006,dm+d
+21272347,Protein C human,391874000,dm+d
+21197883,Choriogonadotropin alfa,391878002,dm+d
+21216726,Dofetilide,392658005,dm+d
+35895098,COVID-19 vaccine,39330711000001103,dm+d
+21290884,Phenoxymethylpenicillin,39359008,dm+d
+21234987,Disulfiram,39516004,dm+d
+21216630,Fondaparinux,395236007,dm+d
+21253597,Cilostazol,395239000,dm+d
+21253602,Escitalopram,395246009,dm+d
+21309521,Eletriptan,395255007,dm+d
+21253546,Telithromycin,395260006,dm+d
+21197742,Tenofovir,395264002,dm+d
+21253541,Valganciclovir,395266000,dm+d
+21235003,Artemether + Lumefantrine,395268004,dm+d
+21309537,Ibandronic acid,395271007,dm+d
+21290893,Insulin aspart biphasic,395273005,dm+d
+21216408,Anakinra,395279009,dm+d
+21235029,Parecoxib,395289008,dm+d
+21290866,Etoricoxib,395292007,dm+d
+21235023,Bimatoprost,395300006,dm+d
+21253573,Calcipotriol + Betamethasone,395435009,dm+d
+21253603,Perindopril + Indapamide,395439003,dm+d
+21178912,Pentazocine,39608003,dm+d
+21253715,Succimer,397224000,dm+d
+21291041,Tiopronin,397225004,dm+d
+21272198,Fructose,39860005,dm+d
+21197861,Ethanol,398624005,dm+d
+21216575,Activated charcoal,398628008,dm+d
+21235036,Dapsone + Pyrimethamine,398651008,dm+d
+21197791,Lactic acid,398659005,dm+d
+21178935,Spironolactone + Furosemide,398666006,dm+d
+21216442,Triamterene + Chlortalidone,398672006,dm+d
+21272232,Yohimbine,398674007,dm+d
+21309549,Theophylline + Ephedrine,398682007,dm+d
+21197975,Gefitinib,398685009,dm+d
+21197692,Crisantaspase,398689003,dm+d
+21309573,Aprepitant,398690007,dm+d
+21216499,Nystatin + Tolnaftate,398693009,dm+d
+21253498,Atenolol + Nifedipine,398695002,dm+d
+21197807,Eplerenone,398699008,dm+d
+21272203,Nadolol + Bendroflumethiazide,398704000,dm+d
+21272172,Sodium benzoate,398718007,dm+d
+21272188,Valsartan + Hydrochlorothiazide,398722002,dm+d
+21178956,Telmisartan + Hydrochlorothiazide,398727008,dm+d
+21197687,Adalimumab,398728003,dm+d
+21235252,Co-trimoxazole,398731002,dm+d
+21309732,Argatroban,398738008,dm+d
+21272164,Triamterene + Benthiazide,398745008,dm+d
+21235039,Erythromycin + Isotretinoin,398749002,dm+d
+21197829,Zonisamide,398762003,dm+d
+21309593,Pyrimethamine + Sulfadoxine,398770008,dm+d
+21179111,Paracetamol + Sodium salicylate,398785002,dm+d
+21253554,Erythromycin + Tretinoin,398788000,dm+d
+21272222,Laronidase,398789008,dm+d
+21309481,Pindolol + Clopamide,398797001,dm+d
+21198051,Co-phenotrope,398798006,dm+d
+21272267,Zinc undecenoate + Undecenoic acid,398804008,dm+d
+21272235,Benzoyl peroxide + Potassium hydroxyquinoline sulfate,398807001,dm+d
+21290871,Metronidazole + Nystatin,398808006,dm+d
+21309517,Teriparatide,398823001,dm+d
+21290841,Menthol + Eucalyptus,398833009,dm+d
+21253635,Erythromycin + Zinc acetate,398835002,dm+d
+21216511,Neostigmine + Glycopyrronium,398839008,dm+d
+21290862,Peginterferon alfa-2a,398841009,dm+d
+21272192,Bumetanide + Potassium,398844001,dm+d
+21198026,Ichthammol + Zinc,398847008,dm+d
+21253796,Alefacept,398857009,dm+d
+21309532,Lisinopril + Hydrochlorothiazide,398858004,dm+d
+21234970,Sodium acid phosphate,398872008,dm+d
+21216554,Urea hydrogen peroxide,398879004,dm+d
+21253587,Benzoyl peroxide + Erythromycin,398890009,dm+d
+21197889,Diethylstilbestrol + Lactic acid,398896003,dm+d
+21179002,Enfuvirtide,398902008,dm+d
+21290855,Bortezomib,398907002,dm+d
+21197686,Acebutolol + Hydrochlorothiazide,398910009,dm+d
+21309589,Irbesartan + Hydrochlorothiazide,398914000,dm+d
+21179048,Co-methiamol,398918002,dm+d
+21253608,Triamterene + Furosemide,398924008,dm+d
+21178968,Bendroflumethiazide + Potassium,398940006,dm+d
+21216531,Zinc oxide,398971002,dm+d
+21253528,Dextranomer,400226004,dm+d
+21309559,Potassium iodide,400389005,dm+d
+21216479,Capsaicin,400416009,dm+d
+21178967,Aspirin + Metoclopramide,400487008,dm+d
+21309694,Methoxsalen,400526000,dm+d
+21309489,Bivalirudin,400610005,dm+d
+21309618,Hamamelis,400611009,dm+d
+21309565,Paracetamol + Metoclopramide,400658001,dm+d
+21235046,Aluminium sulfate,400677004,dm+d
+21272204,Paracetamol + Domperidone,400705003,dm+d
+21216507,Dipipanone + Cyclizine,400786000,dm+d
+21309472,Aspirin + Papaveretum,400819008,dm+d
+21253504,Ketoconazole,40232005,dm+d
+21197818,Calcium lactate,40339003,dm+d
+21216453,Etomidate,40429005,dm+d
+21179012,Senna + Ispaghula,404799008,dm+d
+21234981,Sterculia + Frangula,404801006,dm+d
+21253831,Co-amilozide,404822000,dm+d
+21309799,Co-tenidone,404824004,dm+d
+21291104,Co-zidocapt,404829009,dm+d
+21272256,Co-careldopa,404830004,dm+d
+21235113,Glycerol,404833002,dm+d
+21235151,Allantoin,404834008,dm+d
+21197951,Dexpanthenol,404842009,dm+d
+21179238,Promethazine hydrochloride,404843004,dm+d
+21178949,Fulvestrant,404845006,dm+d
+21272242,Meglumine gadopentetate,404846007,dm+d
+21216757,Co-triamterzide,404850000,dm+d
+21197831,Palonosetron,404851001,dm+d
+21290870,Emtricitabine,404855005,dm+d
+21179207,Thiamazole,404864000,dm+d
+21179119,Mitotane,404865004,dm+d
+21290761,Oxerutins,404868002,dm+d
+21253734,Sacrosidase,404875001,dm+d
+21272392,Testolactone,404877009,dm+d
+21179115,Thalidomide,404878004,dm+d
+21291035,Trichloroacetic acid,404881009,dm+d
+21235144,Trometamol,404882002,dm+d
+21216529,Phenytoin,40556005,dm+d
+21253489,Amitriptyline,40589005,dm+d
+21253579,Rosuvastatin,406436002,dm+d
+21253686,Daptomycin,406438001,dm+d
+21290883,Omalizumab,406442003,dm+d
+21178916,Memantine,406457005,dm+d
+21197875,Halibut liver oil,406459008,dm+d
+21272181,Fentanyl,40648001,dm+d
+21272321,Sodium cromoglicate,40652001,dm+d
+21216475,Aripiprazole,406785006,dm+d
+21179001,Efalizumab,407006005,dm+d
+21235033,Fosamprenavir,407018001,dm+d
+21197745,Solifenacin,407031006,dm+d
+21197755,Duloxetine,407033009,dm+d
+21309499,Atomoxetine,407038000,dm+d
+21253599,Epinastine,407069001,dm+d
+21216694,Nitazoxanide,407149009,dm+d
+21216539,Drotrecogin alfa,407729007,dm+d
+21253535,Tiotropium,407730002,dm+d
+21197718,Caspofungin,407732005,dm+d
+21290939,Thyrotropin alfa,407733000,dm+d
+21253545,Tadalafil,407734006,dm+d
+21253548,Temoporfin,407735007,dm+d
+21290869,Gadobutrol,407976008,dm+d
+21234920,Vardenafil,407979001,dm+d
+21272219,Ezetimibe,408041006,dm+d
+21235043,Methyl aminolevulinate,408043009,dm+d
+21309676,Miglustat,408044003,dm+d
+21272309,Carglumic acid,408045002,dm+d
+21179050,Ethinylestradiol + Norelgestromin,408088005,dm+d
+21216513,Dibotermin alfa,408090006,dm+d
+21179039,Magnesium malate,408112000,dm+d
+21234941,Carbamazepine,40820003,dm+d
+21290803,Streptomycin,40877002,dm+d
+21290757,Beractant,40905005,dm+d
+21216449,Talc,409109009,dm+d
+21290752,Rosiglitazone + Metformin,409120009,dm+d
+21216505,Pegvisomant,409204008,dm+d
+21272456,Ciprofloxacin + Dexamethasone,409287003,dm+d
+21291005,Perflutren,409291008,dm+d
+21197877,Bismuth subsalicylate,409307004,dm+d
+21253644,Mycophenolic acid,409331009,dm+d
+21197944,Nitric oxide gas,409378005,dm+d
+21197810,Cinacalcet,409391006,dm+d
+21179000,Cetuximab,409401002,dm+d
+21235045,Bevacizumab,409405006,dm+d
+21272382,Alitretinoin,409488005,dm+d
+21234939,Lomustine,40999006,dm+d
+21197779,Metaraminol,41015006,dm+d
+21216718,Rifapentine,410831004,dm+d
+21197994,Levodopa + Carbidopa + Entacapone,410860008,dm+d
+21272352,Sodium oxybate,410918008,dm+d
+21253607,Clotrimazole + Fluconazole,410945009,dm+d
+21309574,Bemiparin,410965002,dm+d
+21309591,Pemetrexed,411089001,dm+d
+21235167,Amfetamine + Dexamfetamine,411098003,dm+d
+21179102,Fluticasone + Salmeterol,411106009,dm+d
+21253678,Hexylresorcinol,411201006,dm+d
+21216486,Propylene glycol,411259004,dm+d
+21309734,Resorcinol,411296008,dm+d
+21272317,Halquinol,411311001,dm+d
+21272284,Linseed oil,411314009,dm+d
+21272200,Olive oil,411317002,dm+d
+21197787,Clove oil,411360006,dm+d
+21216584,Turpentine oil,411457000,dm+d
+21272231,Perphenazine,41147003,dm+d
+21253628,Insulin glulisine,411532008,dm+d
+21272101,Aciclovir,41193000,dm+d
+21272102,Adefovir,412073001,dm+d
+21216833,Aspirin + Codeine,412096001,dm+d
+21253604,Camphor,412108007,dm+d
+21272304,Ubidecarenone,412130008,dm+d
+21197822,Conjugated oestrogens + Medroxyprogesterone,412132000,dm+d
+21291022,Dexbrompheniramine + Pseudoephedrine,412170001,dm+d
+21290982,Echinacea,412179000,dm+d
+21216509,Ethinylestradiol + Norgestimate,412182005,dm+d
+21216646,Muromonab-CD3,412251003,dm+d
+21309681,Ethinylestradiol + Norethisterone,412256008,dm+d
+21253709,Passion flower,412267009,dm+d
+21253756,Valerian,412268004,dm+d
+21272386,Azacitidine,412329008,dm+d
+21272326,Phenylpropanolamine + Chlorphenamine,412349004,dm+d
+21197886,Chromium,412351000,dm+d
+21216508,Ethinylestradiol + Desogestrel,412362000,dm+d
+21197914,Diphtheria + Tetanus + Pertussis + Haemophilus influenzae type B vaccine,412373007,dm+d
+21290879,Zinc acetate,412376004,dm+d
+21290988,Fenofibrate micronised,412388002,dm+d
+21290957,Guaifenesin + Pseudoephedrine,412399000,dm+d
+21309586,Ethinylestradiol + Levonorgestrel,412420008,dm+d
+21272346,Glutamine,412421007,dm+d
+21272374,Leucine,412424004,dm+d
+21216525,Isoleucine,412426002,dm+d
+21291089,Isoleucine,412427006,dm+d
+21253698,Methyl salicylate + Menthol,412430004,dm+d
+21235120,Mestranol + Norethisterone,412450000,dm+d
+21290902,Potassium citrate + Citric acid,412488003,dm+d
+21272209,Protirelin,412496008,dm+d
+21235014,Paracetamol + Pseudoephedrine,412499001,dm+d
+21235098,Dextromethorphan + Pseudoephedrine,412500005,dm+d
+21179079,Sorbitol,412513004,dm+d
+21216645,Mannitol + Sorbitol,412514005,dm+d
+21216510,Hydrochlorothiazide + Metoprolol,412544008,dm+d
+21253618,Sodium citrate,412547001,dm+d
+21290978,Indigo carmine,412549003,dm+d
+21272371,Rifaximin,412554007,dm+d
+21179046,Co-codamol,412556009,dm+d
+21291045,Amphotericin B liposomal,412563009,dm+d
+21272288,Aspirin + Caffeine,412569008,dm+d
+21290771,Benzocaine + Triclosan,412587006,dm+d
+21272467,Calcium + Magnesium,412599004,dm+d
+21309722,Fampridine,413355004,dm+d
+21309605,Abacavir + Lamivudine,413381000,dm+d
+21309665,Tramadol + Paracetamol,413396001,dm+d
+21179092,Arsenic,413576005,dm+d
+21179073,Atazanavir,413591007,dm+d
+21235095,Betaine,413645006,dm+d
+21253611,Fluphenazine,41365009,dm+d
+21178983,Budesonide + Formoterol,413717007,dm+d
+21235052,Chlorhexidine + Isopropyl alcohol,413823008,dm+d
+21291042,Prasterone,413963008,dm+d
+21309673,Diphtheria + Tetanus + Pertussis + Poliomyelitis + Haemophilus influenzae type B vaccine,414004005,dm+d
+21272335,Diphtheria + Tetanus + Pertussis + Poliomyelitis vaccine,414005006,dm+d
+21235080,Diphtheria + Tetanus + Poliomyelitis vaccine,414006007,dm+d
+21235091,Tenofovir + Emtricitabine,414090006,dm+d
+21179016,Caffeine + Ergotamine,414121004,dm+d
+21197891,Erlotinib,414122006,dm+d
+21253706,Estradiol + Norethisterone acetate,414136001,dm+d
+21272395,Ethionamide,414148003,dm+d
+21309652,Simvastatin + Ezetimibe,414175005,dm+d
+21197916,Miconazole + Fluprednidene,414276001,dm+d
+21197949,Meglumine gadobenate,414307008,dm+d
+21272324,Hydromorphone,414428000,dm+d
+21253626,Insulin detemir,414518007,dm+d
+21309600,Isopropyl alcohol,414547000,dm+d
+21216648,Lanthanum carbonate,414570008,dm+d
+21253787,Monobenzone,414760009,dm+d
+21272357,Natalizumab,414804006,dm+d
+21290769,Dicycloverine,41493007,dm+d
+21179033,Oxycodone,414984009,dm+d
+21216572,Podophyllotoxin,415128000,dm+d
+21291071,Prednicarbate,415158006,dm+d
+21290886,Pregabalin,415159003,dm+d
+21197917,Nonacog alfa,415245003,dm+d
+21179107,Sodium glycerophosphate,415542004,dm+d
+21235141,Thrombin,415715002,dm+d
+21179041,Insulin isophane human,416089000,dm+d
+21309706,Micafungin,416233001,dm+d
+21272359,Entecavir,416248007,dm+d
+21272349,Pegaptanib,416268001,dm+d
+21253711,Ziconotide,416293004,dm+d
+21235060,Insulin isophane bovine,416313002,dm+d
+21216682,Pegaspargase,416337002,dm+d
+21272363,Darifenacin,416385001,dm+d
+21253631,Insulin protamine zinc bovine,416547003,dm+d
+21290959,Palifermin,416572003,dm+d
+21216628,Ethinylestradiol + Drospirenone,416617005,dm+d
+21216615,Meglumine amidotrizoate + Sodium amidotrizoate,416688007,dm+d
+21253666,Ciclesonide,416739001,dm+d
+21197837,Insulin isophane porcine,416742007,dm+d
+21253627,Insulin lispro biphasic,416891009,dm+d
+21216536,Insulin soluble bovine,416978009,dm+d
+21179084,Brimonidine + Timolol,417111004,dm+d
+21253771,Bromfenac,417155005,dm+d
+21179175,Aminosalicylic acid,417238004,dm+d
+21309610,Insulin isophane biphasic porcine,417302009,dm+d
+21197838,Insulin soluble human,417423002,dm+d
+21290964,Gadoxetic acid,417495000,dm+d
+21290894,Insulin isophane biphasic human,417535000,dm+d
+21291063,Trypan blue,417560000,dm+d
+21216644,Clofarabine,417601005,dm+d
+21290895,Insulin soluble porcine,417625002,dm+d
+21179063,Air gas,417696007,dm+d
+21253723,Exenatide,417734003,dm+d
+21197941,Dexrazoxane,417741009,dm+d
+21290875,Isopropyl alcohol + Triclosan,417873005,dm+d
+21197937,Deferasirox,417910004,dm+d
+21290994,Aluminium hydroxide + Simeticone,417922001,dm+d
+21253614,Magnesium glycerophosphate,417935005,dm+d
+21197888,Dexibuprofen,418027007,dm+d
+21216523,Ethinylestradiol + Gestodene,418031001,dm+d
+21179026,Betamethasone + Neomycin,418065000,dm+d
+21179139,Chlorocresol,418083008,dm+d
+21216542,Co-fluampicil,418084002,dm+d
+21216538,Potassium bicarbonate + Potassium chloride,418142007,dm+d
+21179037,Calcium glubionate + Calcium lactobionate,418145009,dm+d
+21216550,Fluocortolone hexanoate + Fluocortolone pivalate,418213007,dm+d
+21197828,Zinc oxide + Dimeticone,418216004,dm+d
+21179042,Tyrosine,418246001,dm+d
+21290938,Bacillus Calmette-Guerin,418268006,dm+d
+21290889,Proflavine,418275007,dm+d
+21179017,Colecalciferol + Calcium carbonate,418277004,dm+d
+21290903,Sodium alginate + Potassium bicarbonate,418316002,dm+d
+21253633,Co-magaldrox,418373003,dm+d
+21253616,Chlorocresol + Potassium hydroxyquinolone sulfate,418440009,dm+d
+21179038,Calcium phosphate + Colecalciferol,418457008,dm+d
+21235251,Co-beneldopa,418467003,dm+d
+21235184,Vandetanib,418520004,dm+d
+21290890,Docusate,418528006,dm+d
+21253730,Nelarabine,418538001,dm+d
+21290920,Liquid paraffin + Magnesium hydroxide,418557005,dm+d
+21309598,Ferrous sulfate + Folic acid,418558000,dm+d
+21272263,Sulfur hexafluoride,418601008,dm+d
+21253700,Tigecycline,418631002,dm+d
+21197843,Co-simalcite,418645008,dm+d
+21309611,Furosemide + Potassium chloride,418651003,dm+d
+21309596,Aluminium oxide,418673005,dm+d
+21216579,Tipranavir,418721002,dm+d
+21272236,Calcium sulphate,418745003,dm+d
+21179019,Ferric ammonium citrate + Folic acid,418777000,dm+d
+21290919,Doxorubicin (liposomal),418792004,dm+d
+21197872,Terpin + Codeine,418814007,dm+d
+21216614,Amiloride + Cyclopenthiazide,418826002,dm+d
+21197820,Lysine,418834008,dm+d
+21290992,Pioglitazone + Metformin,418835009,dm+d
+21253729,Mecasermin,418845006,dm+d
+21216549,Sodium alginate + Magnesium alginate,418957001,dm+d
+21197823,Citric acid + Magnesium carbonate,418971009,dm+d
+21290961,Rasagiline,419010007,dm+d
+21179040,Valine,419086006,dm+d
+21272239,Erythromycin ethyl succinate,419088007,dm+d
+21272234,Ammonium chloride + Diphenhydramine,419106007,dm+d
+21290882,Diclofenac sodium,419143009,dm+d
+21253656,Taurine,419158001,dm+d
+21235059,Potassium nitrate,419267005,dm+d
+21290878,Salicylic acid + Sulfur,419290000,dm+d
+21272237,Cetrimide + Benzalkonium,419324004,dm+d
+21179015,Ammonium chloride,419332007,dm+d
+21290971,Estradiol + Drospirenone,419371005,dm+d
+21197985,Mazindol,4194004,dm+d
+21235048,Cloral betaine,419402000,dm+d
+21290881,Diclofenac potassium,419433003,dm+d
+21309597,Ferrous gluconate + Folic acid,419441003,dm+d
+21253615,Magnesium glycinate,419458008,dm+d
+21290896,Potassium chloride + Sodium chloride,419513000,dm+d
+21197821,Magnesium oxide,419521006,dm+d
+21197825,Raloxifene,419530003,dm+d
+21235057,Ichthammol + Zinc oxide,419622009,dm+d
+21272245,Zinc oxide + Lidocaine,419646002,dm+d
+21216526,Lidocaine + Cetylpyridinium,419731002,dm+d
+21179052,Sodium acid phosphate + Sodium bicarbonate,419819009,dm+d
+21253748,Nepafenac,419829002,dm+d
+21216618,Ispaghula husk + Mebeverine,419919005,dm+d
+21197819,Chlorhexidine + Chlorobutanol,419926005,dm+d
+21272307,Calcium carbonate + Simeticone,419928006,dm+d
+21216521,Calcium phosphate,419939009,dm+d
+21179029,Potassium bicarbonate,419980002,dm+d
+21253630,Potassium chloride + Glucose + Sodium chloride,419981003,dm+d
+21197815,Benzoic acid + Salicylic acid,420081005,dm+d
+21179080,Soya oil,420116007,dm+d
+21290892,Magnesium orotate,420129007,dm+d
+21216530,Potassium chloride,420155008,dm+d
+21216522,Cinchocaine + Hydrocortisone,420178002,dm+d
+21272255,Ferrous fumarate + Folic acid,420207003,dm+d
+21235172,Lidocaine + Tetracaine,420214001,dm+d
+21290968,Galsulfase,420241006,dm+d
+21253650,Meningococcal groups A + C + W135 + Y vaccine,420261000,dm+d
+21235117,Posaconazole,420282006,dm+d
+21197882,Spironolactone + Chlorothiazide,420285008,dm+d
+21216566,Camphor + Chloroxylenol,420288005,dm+d
+21272431,Lubiprostone,420304008,dm+d
+21179032,Balsalazide,420306005,dm+d
+21309656,Acacia + Starch + Tragacanth,420310008,dm+d
+21197830,Benzocaine + Mepyramine,420322006,dm+d
+21235066,Zinc oxide + Cod liver oil,420339008,dm+d
+21309642,Anise oil,420343007,dm+d
+21197901,Pethidine + Promethazine,420348003,dm+d
+21272269,Castor oil + Zinc oxide,420350006,dm+d
+21272311,Dimeticone + Cetrimide,420354002,dm+d
+21179086,Carbon dioxide + Oxygen gas,420372008,dm+d
+21197848,Sodium acid phosphate + Sodium phosphate,420375005,dm+d
+21272308,Carbomer 980,420408005,dm+d
+21179097,Diphenhydramine + Pholcodine,420413009,dm+d
+21179089,Wool fat,420420002,dm+d
+21253617,Potassium chlorate,420421003,dm+d
+21290880,Zinc gluconate,420444000,dm+d
+21235049,Erythromycin stearate,420446003,dm+d
+21197863,Liquid paraffin + Almond oil,420448002,dm+d
+21272338,Pamidronic acid,420481001,dm+d
+21253665,Chlorobutanol,420493005,dm+d
+21309633,Hydrochloric acid,420502008,dm+d
+21309690,Varenicline,420507002,dm+d
+21197995,Decitabine,420517007,dm+d
+21290928,Tuberculosis vaccine,420538001,dm+d
+21290897,Medium-chain triglycerides + Soya oil,420539009,dm+d
+21179144,Alglucosidase alfa,420550007,dm+d
+21309661,Ammonia + Eucalyptus oil,420566009,dm+d
+21309606,Allantoin + Lidocaine,420574005,dm+d
+21309649,Retinol + Vitamin D,420577003,dm+d
+21272249,Aloin,420581003,dm+d
+21290930,Ipecacuanha + Sodium bicarbonate,420586008,dm+d
+21235119,Medium-chain triglycerides,420621009,dm+d
+21235161,Ranolazine,420624001,dm+d
+21290943,Phenol + Chlorhexidine,420635006,dm+d
+21179096,Diphenhydramine + Dextromethorphan,420639000,dm+d
+21216527,Lithium succinate + Zinc sulfate,420647000,dm+d
+21309645,Bisoprolol + Hydrochlorothiazide,420654006,dm+d
+21179088,White soft paraffin + Dimeticone,420664002,dm+d
+21216604,Sultiame,420672000,dm+d
+21179081,Stearic acid,420674004,dm+d
+21290921,White soft paraffin + Liquid paraffin,420677006,dm+d
+21197934,Sorafenib,420681006,dm+d
+21216608,Propranolol + Bendroflumethiazide,420686001,dm+d
+21309650,Simeticone + Loperamide,420703000,dm+d
+21179078,Soft paraffin + Wool fat,420704006,dm+d
+21253619,Zinc citrate,420711005,dm+d
+21290945,Tolnaftate + Benzalkonium,420726007,dm+d
+21197881,Carob seed,420737008,dm+d
+21253636,Glycerol + Thymol,420743005,dm+d
+21272316,Guaiacol + Codeine,420751008,dm+d
+21253652,Argipressin,420773001,dm+d
+21290923,Polygeline,420778005,dm+d
+21309620,Ginger,420780004,dm+d
+21272261,Calcium glycinate,420785009,dm+d
+21309636,Titanium dioxide + Titanium peroxide + Titanium salicylate,420795002,dm+d
+21253621,Acamprosate,420804003,dm+d
+21197867,Emulsifying wax + Liquid paraffin + White soft paraffin,420808000,dm+d
+21253620,Polymyxin B + Bacitracin,420815008,dm+d
+21234919,Vancomycin,42082003,dm+d
+21197884,Choline salicylate + Glycerol,420840001,dm+d
+21272292,Activated charcoal + Magnesium hydroxide,420846007,dm+d
+21179094,Dextromethorphan + Menthol,420857002,dm+d
+21253623,Alum,420871005,dm+d
+21290951,Dimeticone,420874002,dm+d
+21272303,Diethyl phthalate + Methyl salicylate,420895007,dm+d
+21197902,Pseudoephedrine + Chlorphenamine,420915007,dm+d
+21272280,Cade oil,420916008,dm+d
+21235065,Urea + Lactic acid,420923009,dm+d
+21216588,Aldioxa + Chloroxylenol,420976004,dm+d
+21197834,Amiloride + Bumetanide,420982001,dm+d
+21216544,Ammonia,421024009,dm+d
+21197845,Fluocortolone + Fluocortolone hexanoate,421025005,dm+d
+21179114,Bismuth subnitrate,421038002,dm+d
+21272246,Antimony,421045002,dm+d
+21179223,Brivaracetam,421052000,dm+d
+21272251,Sodium metabisulfite,421054004,dm+d
+21179090,Tragacanth,421065009,dm+d
+21197880,Calamine + Dibrompropamidine,421072005,dm+d
+21253654,Macrogol 4000,421083001,dm+d
+21216602,Sodium pidolate,421093008,dm+d
+21216585,Dithranol + Salicylic acid,421101000,dm+d
+21309641,Ammonium bicarbonate + Ipecacuanha + Sodium bicarbonate,421113005,dm+d
+21309612,Insulin zinc crystalline human,421123001,dm+d
+21290876,Magnesium aspartate,421128005,dm+d
+21290941,Bismuth subnitrate + Iodoform,421146004,dm+d
+21290922,Beeswax,421161003,dm+d
+21179054,Sulfur + Resorcinol,421172008,dm+d
+21216545,Calcium lactate gluconate + Calcium carbonate,421178007,dm+d
+21272244,Potassium bromide,421196003,dm+d
+21253664,Carob seed + Calcium lactate,421201007,dm+d
+21272305,Tolnaftate + Chlorhexidine,421226003,dm+d
+21216576,Magnesium carbonate + Sodium bicarbonate,421233003,dm+d
+21216612,Diphenhydramine + Levomenthol,421236006,dm+d
+21179068,Diphtheria + Tetanus + Pertussis vaccine,421245007,dm+d
+21290935,Aloes + Podophyllum resin + Storax + Sumatra benzoin,421247004,dm+d
+21309634,Liquid paraffin + Lanolin,421258008,dm+d
+21216546,Erythromycin lactobionate,421270007,dm+d
+21253659,Rabeprazole,421279008,dm+d
+21216569,Meningococcal groups A + C vaccine,421281005,dm+d
+21179069,Proguanil + Atovaquone,421285001,dm+d
+21272312,Dimethyl sulfone + Ascorbic acid,421301009,dm+d
+21235074,Liquid paraffin + Isopropyl myristate,421311002,dm+d
+21197905,Nortriptyline + Fluphenazine,421313004,dm+d
+21309614,Kaolin + Calcium carbonate,421314005,dm+d
+21253624,Amitriptyline + Perphenazine,421323008,dm+d
+21216603,Sulfamethoxypyridazine,421353001,dm+d
+21272289,Zinc oxide + Hydrous wool fat,421357000,dm+d
+21309619,Zinc glycinate,421381007,dm+d
+21179103,Undecenoic acid + Dibrompropamidine,421385003,dm+d
+21253680,Squill + Capsicum,421387006,dm+d
+21253625,Potassium phosphate,421392008,dm+d
+21197887,Helium + Oxygen gas,421396006,dm+d
+21216595,Guaifenesin + Cetylpyridinium,421408004,dm+d
+21290999,Abatacept,421412005,dm+d
+21253712,Sunitinib,421448007,dm+d
+21253809,Manganese,421451000,dm+d
+21253758,Tasonermin,421457001,dm+d
+21290932,Ethanol + Iodine + Potassium iodide,421478003,dm+d
+21253663,Cascara + Senna,421481008,dm+d
+21253658,Bismuth subgallate,421486003,dm+d
+21272297,Tartaric acid,421487007,dm+d
+21216551,Honey,421498008,dm+d
+21179035,Acacia,421546009,dm+d
+21290887,Alendronic acid,421552005,dm+d
+21179062,Nitrous oxide + Oxygen gas,421569007,dm+d
+21216583,Magnesium carbonate + Magnesium trisilicate + Sodium bicarbonate,421579009,dm+d
+21309607,Ammonium bicarbonate,421580007,dm+d
+21290956,Triclofos,421583009,dm+d
+21179104,Salicylic acid + Desoximetasone,421586001,dm+d
+21216543,Emulsifying wax + Yellow soft paraffin,421590004,dm+d
+21235110,Propiverine,421592007,dm+d
+21235085,Benzoyl peroxide + Clindamycin,421613006,dm+d
+21290885,Polymyxin B + Trimethoprim,421616003,dm+d
+21235262,Castor oil,421622007,dm+d
+21197836,L-Phenylalanine,421626005,dm+d
+21235094,Wasp venom,421627001,dm+d
+21253629,Acetarsol,421639009,dm+d
+21309609,Chlorhexidine + Tetracaine,421680002,dm+d
+21309651,Salbutamol + Ipratropium,421685007,dm+d
+21235116,Ivabradine,421692002,dm+d
+21272254,Sulfuric acid,421709008,dm+d
+21197879,Ascorbic acid + Nicotinamide,421712006,dm+d
+21179036,Ammonium acetate,421736005,dm+d
+21197950,Lenalidomide,421737001,dm+d
+21253651,Dill oil + Ginger + Sodium bicarbonate,421744005,dm+d
+21272262,Cadexomer-iodine,421748008,dm+d
+21272264,Honey + Glycerol,421756006,dm+d
+21197826,Retinol + Colecalciferol,421760009,dm+d
+21290873,Ammonium chloride + Caffeine,421764000,dm+d
+21290901,Sodium bicarbonate + Sodium chloride,421774002,dm+d
+21216537,Potassium chloride + Glucose,421780005,dm+d
+21235078,White soft paraffin + Zinc oxide,421791003,dm+d
+21197833,Propamidine,421796008,dm+d
+21309632,Helium gas,421800002,dm+d
+21197885,Citric acid + Ipecacuanha,421818004,dm+d
+21235088,Aloes + Sumatra benzoin,421834001,dm+d
+21235106,Hydrochlorothiazide + Quinapril,421852001,dm+d
+21290904,Gamolenic acid + Alpha tocopherol,421879002,dm+d
+21253622,Alendronic acid + Colecalciferol,421880004,dm+d
+21178995,Penicillamine,4219002,dm+d
+21179153,Anidulafungin,421904007,dm+d
+21235115,Rotigotine,421915002,dm+d
+21197878,Bee venom,421919008,dm+d
+21272252,Sodium bicarbonate + Simeticone,421933008,dm+d
+21179053,Salicylic acid + Zinc oxide,421935001,dm+d
+21179091,Salicylic acid + Camphor,421947007,dm+d
+21216524,Iron sucrose,421953007,dm+d
+21272287,Alexitol,421958003,dm+d
+21290888,Aluminium hydroxide + Dimeticone,421965006,dm+d
+21272302,Carbon dioxide gas,421982008,dm+d
+21290940,Timolol + Bendroflumethiazide,421992000,dm+d
+21290918,Calamine + Zinc oxide,421996002,dm+d
+21216650,Tolazoline,4220008,dm+d
+21309678,Ferucarbotran,422005008,dm+d
+21309608,Amylmetacresol,422010007,dm+d
+21179098,Enalapril + Hydrochlorothiazide,422016001,dm+d
+21179095,Dextromethorphan + Triprolidine,422021003,dm+d
+21179065,Benzyl alcohol + Eucalyptus oil,422026008,dm+d
+21235076,Dill oil,422035001,dm+d
+21216552,Sodium bicarbonate + Sodium citrate,422039007,dm+d
+21290891,Ferric chloride,422050005,dm+d
+21197874,Calamine + Clioquinol + Zinc oxide,422062009,dm+d
+21290924,Meningococcal group C vaccine,422069000,dm+d
+21235082,Cinchocaine + Prednisolone,422072007,dm+d
+21290947,Cetylpyridinium + Menthol,422075009,dm+d
+21179051,Docusate sodium + Glycerol,422078006,dm+d
+21197871,Urea + Lauromacrogols,422081001,dm+d
+21272283,Paraffin hard,422100001,dm+d
+21216577,Sterculia + Alverine,422101002,dm+d
+21216564,Morphine + Cyclizine,422107003,dm+d
+21216573,Sodium bicarbonate + Dill oil,422143009,dm+d
+21272310,Dibrompropamidine,422170002,dm+d
+21309616,Ammonia + Ammonium bicarbonate,422173000,dm+d
+21272250,Amaranth,422210001,dm+d
+21216580,Bismuth subcarbonate,422213004,dm+d
+21272327,Pseudoephedrine + Diphenhydramine,422227009,dm+d
+21272268,Alpha tocopherol + Selenium,422229007,dm+d
+21272306,Tiludronic acid,422263009,dm+d
+21216587,Calcium carbonate + Magnesium carbonate,422265002,dm+d
+21235114,Colistimethate,422267005,dm+d
+21272266,Gentian + Sodium bicarbonate,422273006,dm+d
+21272296,Soya oil + Lauromacrogols,422295005,dm+d
+21216535,Amobarbital + Secobarbital,422319002,dm+d
+21197847,Potassium acid tartrate + Potassium bicarbonate,422320008,dm+d
+21216586,Saccharin,422323005,dm+d
+21197890,Dimeticone + Benzalkonium,422324004,dm+d
+21290942,Castor oil + Collodion + Colophony,422342009,dm+d
+21197894,Undecenoic acid + Dichlorophen,422344005,dm+d
+21253684,Aluminium oxide + Magnesium hydroxide + Oxetacaine,422351001,dm+d
+21179130,L-alanyl-l-glutamine,422393000,dm+d
+21197906,Ibuprofen + Codeine,422439004,dm+d
+21309655,Ethylmorphine,422453004,dm+d
+21216636,Pentosan polysulfate sodium,422455006,dm+d
+21216639,Iodine + Potassium iodide,422477005,dm+d
+21290985,Iodoform,422494007,dm+d
+21216611,Lumiracoxib,422506000,dm+d
+21197924,Lidocaine + Cetalkonium,422509007,dm+d
+21179217,Vorinostat,422523009,dm+d
+21235084,Benzocaine + Dequalinium,422524003,dm+d
+21179132,Copper,422528000,dm+d
+21235134,Rimonabant,422589005,dm+d
+21309686,Morphine + Peppermint oil,422600002,dm+d
+21290963,Neomycin + Prednisolone,422606008,dm+d
+21235131,Ethinylestradiol + Norethisterone acetate,422669004,dm+d
+21272333,Octocog alfa,422675008,dm+d
+21309658,Camphor + Soft soap + Turpentine oil,422711001,dm+d
+21235092,Verapamil + Trandolapril,422752005,dm+d
+21253718,Dasatinib,422756008,dm+d
+21309674,Fusafungine,422822006,dm+d
+21197868,Benzocaine + Cetylpyridinium,422879004,dm+d
+21235112,Pseudoephedrine + Brompheniramine,422887003,dm+d
+21216631,Daunorubicin (liposomal),422993007,dm+d
+21179200,Clindamycin + Tretinoin,422997008,dm+d
+21253710,Potassium chloride + Sodium chloride + Sodium lactate,423026002,dm+d
+21235126,Lavender oil,423028001,dm+d
+21309666,Paracetamol + Ascorbic acid,423037001,dm+d
+21197892,Fenoterol + Ipratropium,423164002,dm+d
+21290975,Glutathione,423272009,dm+d
+21179124,Lactose,423291009,dm+d
+21309688,Potassium perchlorate,423304007,dm+d
+21272370,Tuberculin purified protein derivative,423321003,dm+d
+21179134,Myrrh,423355000,dm+d
+21272313,Galactose,423410006,dm+d
+21179125,Etynodiol,423440008,dm+d
+21235100,Oleic acid + Turpentine oil,423443005,dm+d
+21197923,Cerium nitrate + Sulfadiazine silver,423452001,dm+d
+21309542,Methyltestosterone,42348003,dm+d
+21197907,Ibuprofen + Levomenthol,423524007,dm+d
+21216624,Carbetocin,423594000,dm+d
+21235081,Agalsidase alfa,423634009,dm+d
+21290976,Clove oil + Lidocaine,423655006,dm+d
+21253669,Diethylamine salicylate,423677005,dm+d
+21216633,Levomenthol,423685001,dm+d
+21197873,Aluminium hydroxide + Magnesium trisilicate,423714001,dm+d
+21197928,Coal tar + Allantoin,423731008,dm+d
+21197896,Adrenaline + Guanethidine,423796000,dm+d
+21179121,Olmesartan + Hydrochlorothiazide,423799007,dm+d
+21253694,Paracetamol + Isometheptene,423801005,dm+d
+21216641,Cranberry,423825002,dm+d
+21309668,Proxymetacaine + Fluorescein,423831004,dm+d
+21197903,Pseudoephedrine + Acrivastine,423835008,dm+d
+21235129,Calcium carbonate + Opium,423891002,dm+d
+21197866,Tramazoline + Dexamethasone,423908003,dm+d
+21179116,Haemophilus influenzae type b + Meningococcal group C vaccine,423912009,dm+d
+21272301,Paracetamol + Diphenhydramine,423936008,dm+d
+21253695,Estradiol + Norgestrel,423942007,dm+d
+21179127,Copper sulphate,423960007,dm+d
+21235130,Chloroform + Morphine,423976003,dm+d
+21272330,Ibuprofen + Pseudoephedrine,423978002,dm+d
+21253701,Pentane + Levomenthol,424018004,dm+d
+21197925,Lidocaine + Domiphen,424034001,dm+d
+21272332,Peracetic acid,424039006,dm+d
+21179126,Coal tar + Lecithin,424044004,dm+d
+21253726,Telbivudine,424071004,dm+d
+21309691,Darunavir,424096001,dm+d
+21216571,Aspirin + Paracetamol,424102008,dm+d
+21197947,Sitagliptin,424106006,dm+d
+21216627,Estradiol + Levonorgestrel,424117007,dm+d
+21309669,Neomycin + Gramicidin,424126005,dm+d
+21272356,Siberian ginseng,424152004,dm+d
+21179122,Timolol + Travoprost,424258009,dm+d
+21216632,Chloroform,424273005,dm+d
+21272340,Phentolamine + Aviptadil,424288000,dm+d
+21179138,Bimatoprost + Timolol,424310002,dm+d
+21309696,Idursulfase,424323009,dm+d
+21253675,Galactose + Palmitic acid,424324003,dm+d
+21179123,Borax,424332006,dm+d
+21272343,Estradiol + Norethisterone,424349004,dm+d
+21179135,Pyridoxal phosphate,424360008,dm+d
+21253703,Clove oil + Chlorobutanol,424366002,dm+d
+21216592,Tilactase,424369009,dm+d
+21216567,Hypromellose + Dextran 70,424378003,dm+d
+21216609,Fluocinolone + Neomycin,424383006,dm+d
+21216629,Glucose + Caffeine,424384000,dm+d
+21253736,Panitumumab,424401006,dm+d
+21272353,Cardamom,424417000,dm+d
+21197993,Tenofovir + Efavirenz + Emtricitabine,424437001,dm+d
+21197898,Secobarbital,42444000,dm+d
+21235122,Fluocinolone + Clioquinol,424468002,dm+d
+21235138,Hemin,424480005,dm+d
+21179143,Human papillomavirus vaccine,424519000,dm+d
+21290974,Clioquinol + Flumetasone,424534006,dm+d
+21179136,Macrogol 3350,424535007,dm+d
+21290972,Lactic acid + Sodium pidolate,424609000,dm+d
+21272350,Phenoxyethanol,424614001,dm+d
+21197930,Glucose + Treacle,424623003,dm+d
+21235132,Phenolphthalein + Rhubarb,424625005,dm+d
+21309858,Nonacog alfa,424636003,dm+d
+21197910,Casein,424645002,dm+d
+21179137,Raspberry leaf,424675007,dm+d
+21272293,Benzocaine + Chloroxylenol,424695001,dm+d
+21272294,Benzocaine + Tyrothricin,424706002,dm+d
+21216638,Cade oil + Coal tar,424732008,dm+d
+21235294,Eptacog alfa (activated),424767008,dm+d
+21290934,Nicotinamide + Riboflavine + Thiamine,424828009,dm+d
+21197908,Lidocaine + Aminoacridine,424864005,dm+d
+21179141,Glycine + Ethanol,424871000,dm+d
+21290973,Gadofosveset trisodium,424892000,dm+d
+21179085,Salbutamol + Beclometasone,424916002,dm+d
+21272339,Nystatin + Chlorhexidine,424978007,dm+d
+21235125,Haem arginate,425021005,dm+d
+21197920,Estradiol + Medroxyprogesterone,425045009,dm+d
+21253705,Amifampridine,425052006,dm+d
+21253708,Frangula bark + Taraxacum,425072001,dm+d
+21235127,Glycerol + Sucrose,425076003,dm+d
+21253697,Methyl nicotinate,425096006,dm+d
+21272328,Pseudoephedrine + Triprolidine,425114007,dm+d
+21309643,Antazoline + Xylometazoline,425128001,dm+d
+21216574,Calcium lactate + Calcium phosphate + Ergocalciferol,425135009,dm+d
+21309568,Procaine,42514000,dm+d
+21179133,Morphine + Cocaine,425179007,dm+d
+21235105,Salicylamide + Benzocaine,425197004,dm+d
+21179105,Salicylic acid + Podophyllum resin,425226008,dm+d
+21272345,Conjugated oestrogens + Norgestrel,425245004,dm+d
+21309692,Ranibizumab,425256004,dm+d
+21179128,Rose water,425325005,dm+d
+21197960,Lapatinib,425466009,dm+d
+21235149,Paliperidone,425483000,dm+d
+21235102,Ubidecarenone + Alpha tocopherol,425495000,dm+d
+21216581,Industrial methylated spirit + Soft soap,425590007,dm+d
+21290993,Buprenorphine + Naloxone,425741009,dm+d
+21179142,Brilliant green + Crystal violet,425968003,dm+d
+21197936,Phenylephrine + Cyclopentolate,426022007,dm+d
+21290929,Hydroxyethyl salicylate + Methyl nicotinate,426079000,dm+d
+21253688,Imidapril,426163004,dm+d
+21253763,Lisdexamfetamine,426249000,dm+d
+21272300,Salicylic acid + Lactic acid,426254009,dm+d
+21253728,Methoxy polyethylene glycol-epoetin beta,426360006,dm+d
+21290986,Methylrosanilinium chloride,42638008,dm+d
+21179076,Tetrastarch,426398006,dm+d
+21291072,Droxidopa,426457000,dm+d
+21253721,Amlodipine + Valsartan,426478002,dm+d
+21253653,Ferrous sulfate + Ascorbic acid,426597000,dm+d
+21235136,Magnesium chloride + Calcium carbonate,426643007,dm+d
+21216596,Hexylresorcinol + Benzalkonium,426675005,dm+d
+21179117,Codeine + Kaolin,426687003,dm+d
+21216582,Barium,426728000,dm+d
+21272298,Sumatra benzoin,426793004,dm+d
+21272368,Eculizumab,426801002,dm+d
+21179014,Ammonium bicarbonate + Ipecacuanha,426822008,dm+d
+21179155,Retapamulin,426825005,dm+d
+21272362,Erdosteine,426922009,dm+d
+21272369,Aliskiren,427002003,dm+d
+21253690,Neomycin + Chlorhexidine,427104004,dm+d
+21309659,Turpentine oil + Acetic acid,427119003,dm+d
+21179083,Halogenated phenols + Phenol,427122001,dm+d
+21235108,Paracetamol + Phenylephrine,427164001,dm+d
+21290832,Miconazole,42720001,dm+d
+21235075,Oleic acid,427281002,dm+d
+21272319,Acetic acid + Honey + Squill,427289000,dm+d
+21253744,Temsirolimus,427299005,dm+d
+21179023,Gestonorone,427347006,dm+d
+21253671,Eucalyptus oil,427403004,dm+d
+21216568,Sodium fluoride + Triclosan,427408008,dm+d
+21179082,Botulinum A toxin,427412002,dm+d
+21235077,Rhubarb extract + Salicylic acid,427420000,dm+d
+21253561,Gamolenic acid,427465009,dm+d
+21235107,Mucin + Xylitol,427467001,dm+d
+21309713,Sitagliptin + Metformin,427522005,dm+d
+21272344,Estradiol + Dydrogesterone,427566007,dm+d
+21253720,Cinnarizine + Dimenhydrinate,427600007,dm+d
+21309647,Ammonium bicarbonate + Potassium iodide,427666003,dm+d
+21235156,Ambrisentan,427735003,dm+d
+21253735,Maraviroc,427805000,dm+d
+21179182,Bendamustine,427812009,dm+d
+21179152,Lauromacrogol 400,427906003,dm+d
+21309702,Stiripentol,427946009,dm+d
+21179140,Sesame oil,428094008,dm+d
+21216669,Everolimus,428127005,dm+d
+21179184,Idebenone,428158006,dm+d
+21253670,Eptacog alfa (activated),428186003,dm+d
+21309697,Cytarabine (liposomal),428188002,dm+d
+21291002,Follitropin alfa + Lutropin alfa,428244004,dm+d
+21253749,Olmesartan + Amlodipine,428304009,dm+d
+21309705,Nilotinib,428468009,dm+d
+21197943,Sitaxentan,428712004,dm+d
+21216616,Hamamelis + Cetrimide,428773002,dm+d
+21197957,Vildagliptin,428807006,dm+d
+21291000,Ephedrine + Ipecacuanha,428865000,dm+d
+21197959,Epoetin zeta,428902004,dm+d
+21309603,Zuclopenthixol,429346008,dm+d
+21235152,Raltegravir,429368003,dm+d
+21291014,Doripenem,429369006,dm+d
+21309772,Panobinostat,429398005,dm+d
+21197899,Hamamelis + Naphazoline,429431002,dm+d
+21253780,Axitinib,429507005,dm+d
+21216655,Epoetin delta,429752006,dm+d
+21216656,Rufinamide,429802008,dm+d
+21235158,Fosaprepitant,429822007,dm+d
+21291030,Polihexanide,429833005,dm+d
+21291020,Certolizumab pegol,430307008,dm+d
+21235157,Ferric carboxymaltose,430819007,dm+d
+21179176,Trabectedin,432214004,dm+d
+21253743,Etravirine,432221004,dm+d
+21179161,Fesoterodine,432254002,dm+d
+21272438,Artesunate,432555000,dm+d
+21216667,Sapropterin,432857000,dm+d
+21198014,Olaparib,432885003,dm+d
+21291003,Antithrombin alfa,433010006,dm+d
+21216688,Regadenoson,433327005,dm+d
+21235002,Misoprostol,43684009,dm+d
+21272174,Dydrogesterone,43753001,dm+d
+21197987,Dexmedetomidine,438079000,dm+d
+21235198,Pirfenidone,438240001,dm+d
+21216456,Flunisolide,43879000,dm+d
+21179226,Clevidipine,439624003,dm+d
+21253750,Romiplostim,441077008,dm+d
+21179110,Strontium ranelate,441487000,dm+d
+21216649,5-Methoxypsoralen,441498004,dm+d
+21290991,C1-esterase inhibitor,441508005,dm+d
+21197963,Lacosamide,441532003,dm+d
+21272365,Defibrotide,441573002,dm+d
+21235173,Febuxostat,441610003,dm+d
+21291001,Ademetionine,441671005,dm+d
+21272396,Degarelix,441758000,dm+d
+21179165,Ketanserin,441818008,dm+d
+21272372,Melperone,441821005,dm+d
+21253733,Colesevelam,441851004,dm+d
+21216621,Moroctocog alfa,441943001,dm+d
+21253719,Unithiol,441993002,dm+d
+21272399,Eltrombopag,441995009,dm+d
+21216651,Citrulline,441997001,dm+d
+21253769,Tapentadol,442004000,dm+d
+21291017,Plerixafor,442206008,dm+d
+21291028,Golimumab,442318002,dm+d
+21253746,Sugammadex,442379000,dm+d
+21291021,Adapalene + Benzoyl peroxide,442447008,dm+d
+21309708,Rivaroxaban,442539005,dm+d
+21291067,Milnacipran,442542004,dm+d
+21309767,Levosimendan,442790008,dm+d
+21197974,Tolvaptan,442901006,dm+d
+21272417,Ferumoxytol,442952008,dm+d
+21197977,Saxagliptin,443066009,dm+d
+21272458,Pefloxacin,443149005,dm+d
+21197980,Dronedarone,443310000,dm+d
+21197970,Prasugrel,443312008,dm+d
+21179185,Asenapine,443374004,dm+d
+21198010,Telavancin,443552009,dm+d
+21216664,Ustekinumab,443644001,dm+d
+21272402,Pazopanib,443764004,dm+d
+21253757,Ofatumumab,444609007,dm+d
+21197976,Tocilizumab,444649004,dm+d
+21235168,Liraglutide,444907006,dm+d
+21253766,Velaglucerase alfa,445499001,dm+d
+21235175,Denosumab,446457007,dm+d
+21253584,Promazine,44658005,dm+d
+21253779,Olmesartan + Amlodipine + Hydrochlorothiazide,447064008,dm+d
+21309725,Cabazitaxel,447182009,dm+d
+21272178,Ethosuximide,44790008,dm+d
+21178969,Dinoprostone,44798001,dm+d
+21253782,Saxagliptin + Metformin,448801000,dm+d
+21309726,Azilsartan,448917007,dm+d
+21290979,Procaine benzylpenicillin,449005,dm+d
+21235019,Procyclidine,44990002,dm+d
+21234949,Clemastine,45218006,dm+d
+21216431,Terbutaline,45311002,dm+d
+21197747,Sulfasalazine,45844004,dm+d
+21197720,Chlorambucil,46009007,dm+d
+21179072,Ascorbic acid,46123006,dm+d
+21272285,Influenza vaccine,46233009,dm+d
+21253786,Brilliant green,46532003,dm+d
+21253505,Labetalol,46547007,dm+d
+21253555,Flecainide,46576005,dm+d
+21290851,Salicylic acid,46741005,dm+d
+21216590,Edrophonium,46913003,dm+d
+21309478,Quinine,47065008,dm+d
+21178984,Primidone,47120002,dm+d
+21197690,Aminoglutethimide,47124006,dm+d
+21253513,Chlorpromazine,47331002,dm+d
+21253517,Phenindione,47527007,dm+d
+21235007,Nalidixic acid,47602007,dm+d
+21272118,Verapamil,47898004,dm+d
+21197793,Ranitidine,48174005,dm+d
+21290854,Benzyl benzoate,48256008,dm+d
+21253595,Phenylbutazone,48351000,dm+d
+21253529,Diazepam,48546005,dm+d
+21253542,Warfarin,48603004,dm+d
+21197728,Clobetasol,48614001,dm+d
+21272108,Amikacin,48836000,dm+d
+21179151,Protriptyline,49299006,dm+d
+21309564,Cefaclor,4937008,dm+d
+21197800,Norfloxacin,49485009,dm+d
+21178965,Minoxidil,49577002,dm+d
+21234942,Carbenoxolone,49617001,dm+d
+21253564,Idoxuridine,49705006,dm+d
+21290931,Anti-D immunoglobulin,49802003,dm+d
+21309474,Hetastarch,50094009,dm+d
+21253583,Progesterone,50318003,dm+d
+21290954,Framycetin,50520001,dm+d
+21290949,Dexamfetamine,50868004,dm+d
+21234951,Phenobarbital,51073002,dm+d
+21309550,Hyaluronidase,51132001,dm+d
+21197811,Carmustine,51326002,dm+d
+21216426,Cycloserine,51334008,dm+d
+21272107,Amantadine,51361008,dm+d
+21290829,Methadone,51758009,dm+d
+21179020,Ferrous fumarate,52108005,dm+d
+21272206,Prednisolone,52388000,dm+d
+21290980,Tar,52423008,dm+d
+21253789,Hydroxyamfetamine,52883001,dm+d
+21216459,Fluoxetine,53640004,dm+d
+21197764,Flavoxate,53641000,dm+d
+21216520,Calcium gluconate,53691001,dm+d
+21272122,Dithranol,53800008,dm+d
+21309543,Metyrapone,53848009,dm+d
+21197767,Flurbiprofen,54344006,dm+d
+21290776,Levamisole,54391004,dm+d
+21272149,Melphalan,544002,dm+d
+21178962,Methoxamine,54406003,dm+d
+21309583,Ergometrine,54541002,dm+d
+21197813,Pethidine,54544005,dm+d
+21290807,Temazepam,54705000,dm+d
+21272217,Phenylephrine,54765002,dm+d
+21253813,Diethylpropion,54882005,dm+d
+21178882,Cefalexin,54887004,dm+d
+21290798,Tretinoin,54972005,dm+d
+21309519,Sodium lactate,55015008,dm+d
+21197816,Calcium carbonate,55217007,dm+d
+21290794,Tetracaine,55556000,dm+d
+21178985,Propranolol,55745002,dm+d
+21216494,Menotrophin,55830003,dm+d
+21234913,Aminophylline,55867006,dm+d
+21235148,Praziquantel,55889005,dm+d
+21216471,Hydroxyprogesterone,56014002,dm+d
+21179150,Androstanolone,56032002,dm+d
+21178901,Mebendazole,56059005,dm+d
+21309566,Methenamine,56123002,dm+d
+21272295,Bretylium,56230001,dm+d
+21178903,Brompheniramine,56480005,dm+d
+21253569,Metoclopramide,56549003,dm+d
+21216601,Hydroxycarbamide,56602009,dm+d
+21290926,Yellow fever vaccine,56844000,dm+d
+21272179,Etoposide,56928005,dm+d
+21216625,Povidone,56934003,dm+d
+21272433,Chlorprothixene,57002000,dm+d
+21178911,Cisplatin,57066004,dm+d
+21197721,Chloramphenicol,57191001,dm+d
+21178920,Demeclocycline,5737008,dm+d
+21197754,Sodium bicarbonate,57376006,dm+d
+21235128,Chlortetracycline,57538001,dm+d
+21272325,Sodium tetradecyl sulfate,57616006,dm+d
+21178909,Cefoxitin,57670008,dm+d
+21309529,Gentamicin,57752001,dm+d
+21253532,Dihydrocodeine,57811004,dm+d
+21309682,Isoprenaline,57845006,dm+d
+21234946,Chlorothiazide,5786005,dm+d
+21178889,Chlortalidone,57893000,dm+d
+21272146,Clotrimazole,5797005,dm+d
+21253767,Papaverine,58467001,dm+d
+21197727,Clindamycin,58883005,dm+d
+21197945,Trifluridine,58892008,dm+d
+21272157,Diazoxide,58905004,dm+d
+21234988,Dopamine,59187003,dm+d
+21290833,Mitomycin,59240002,dm+d
+21197694,Isosorbide dinitrate,5924003,dm+d
+21197711,Loxapine,59270007,dm+d
+21290847,Pyrimethamine,59589008,dm+d
+21197990,Niclosamide,5975000,dm+d
+21272195,Diltiazem,59941008,dm+d
+21235111,Pyridostigmine,59953007,dm+d
+21234993,Indometacin,60149003,dm+d
+21253538,Triamcinolone,6028009,dm+d
+21290877,Magnesium hydroxide,60468008,dm+d
+21235056,Orciprenaline,6067003,dm+d
+21216634,Coal tar,6071000,dm+d
+21235018,Diamorphine,60881009,dm+d
+21197697,Baclofen,6102009,dm+d
+21179067,Measles + Mumps + Rubella vaccine,61153008,dm+d
+21178992,Oxymetholone,6116004,dm+d
+21197904,Nicotinamide,61650007,dm+d
+21309563,Cefamandole,61651006,dm+d
+21216548,Varicella immunoglobulin,62294009,dm+d
+21272211,Naphazoline,6232005,dm+d
+21178947,Folic acid,6247001,dm+d
+21272145,Clonidine,62782004,dm+d
+21197788,Phytomenadione,63136007,dm+d
+21253691,Nicotinic acid,63639004,dm+d
+21235010,Halothane,63682003,dm+d
+21179120,Norethisterone,63758001,dm+d
+21290792,Dactinomycin,64127001,dm+d
+21272186,Griseofulvin,64349004,dm+d
+21178895,Benzocaine,65020006,dm+d
+21309473,Ephedrine,65026000,dm+d
+21253508,Biperiden,65041000,dm+d
+21309630,Adrenaline,65502005,dm+d
+21216488,Probenecid,66094001,dm+d
+21272270,Zinc sulphate,6625006,dm+d
+21234963,Tetracycline,66261008,dm+d
+21253567,Isoflurane,66492008,dm+d
+21290766,Theophylline,66493003,dm+d
+21235058,Calcium pantothenate,6652001,dm+d
+21253544,Stanozolol,66602007,dm+d
+21272182,Dipyridamole,66859009,dm+d
+21216518,Aluminium chloride,66860004,dm+d
+21178915,Colestipol,66971004,dm+d
+21290860,Paclitaxel,67735003,dm+d
+21290756,Apomorphine,67939000,dm+d
+21290747,Acebutolol,68088000,dm+d
+21290779,Calcitriol,68206008,dm+d
+21197817,Calcium chloride,68395000,dm+d
+21290819,Doxorubicin,68444001,dm+d
+21216654,Secretin,68622003,dm+d
+21216599,Sodium aurothiomalate,68702006,dm+d
+21178961,Methotrexate,68887009,dm+d
+21253525,Dantrolene,69107004,dm+d
+21290755,Amiodarone,69236009,dm+d
+21272148,Clonazepam,69708003,dm+d
+21272290,Opium,6985007,dm+d
+21235222,Altretamine,69879000,dm+d
+21253518,Aztreonam,69918003,dm+d
+21234971,Sucralfate,69967001,dm+d
+21309741,Afatinib,703580004,dm+d
+21216710,Bosutinib,703586005,dm+d
+21216699,Crizotinib,703638005,dm+d
+21291038,Vemurafenib,703656005,dm+d
+21253781,Dapagliflozin,703678003,dm+d
+21291056,Canagliflozin,703681008,dm+d
+21272430,Enzalutamide,703684000,dm+d
+21309731,Perampanel,703728005,dm+d
+21235189,Ruxolitinib,703779004,dm+d
+21309747,Teriflunomide,703786007,dm+d
+21253551,Sodium chloride,70379000,dm+d
+21179194,Pomalidomide,703790009,dm+d
+21291055,Ponatinib,703798002,dm+d
+21309735,Mirabegron,703804000,dm+d
+21235201,Regorafenib,703808002,dm+d
+21179193,Vismodegib,703813003,dm+d
+21216697,Ivacaftor,703824001,dm+d
+21309753,Empagliflozin,703895009,dm+d
+21235180,Apixaban,703906002,dm+d
+21198013,Tedizolid,703914008,dm+d
+21216716,Avanafil,703957003,dm+d
+21291033,Boceprevir,703961009,dm+d
+21291073,Nivolumab,704192000,dm+d
+21216690,Belimumab,704193005,dm+d
+21216705,Pertuzumab,704227006,dm+d
+21253794,Vedolizumab,704257002,dm+d
+21309758,Ramucirumab,704260009,dm+d
+21179204,Siltuximab,704263006,dm+d
+21216698,Pasireotide,704267007,dm+d
+21198015,Tofacitinib,704316006,dm+d
+21309720,Ticagrelor,704464003,dm+d
+21309724,Telaprevir,704466001,dm+d
+21272393,Tafluprost,704470009,dm+d
+21291032,Retigabine,704476003,dm+d
+21197986,Ipilimumab,704649006,dm+d
+21290844,Desferrioxamine,70702006,dm+d
+21309502,Meprobamate,70864001,dm+d
+21234997,Metoprolol,7092007,dm+d
+21309504,Mupirocin,71453003,dm+d
+21253674,Fludroxycortide,71455005,dm+d
+21272291,Podophyllum resin,71462001,dm+d
+21272176,Ergocalciferol,71516007,dm+d
+21309646,Magnesium carbonate,7168001,dm+d
+21272165,Trifluoperazine,71699007,dm+d
+21272240,Ferrous sulfate,71724000,dm+d
+21216610,Glyceryl trinitrate,71759000,dm+d
+21178945,Fenoprofen,71798005,dm+d
+21309509,Tioguanine,72623000,dm+d
+21179113,Colestyramine,72824008,dm+d
+21253613,Hyoscine (base),72870001,dm+d
+21198007,Indocyanine green,7292004,dm+d
+21272144,Clofazimine,72924009,dm+d
+21290960,Sodium salicylate,72968006,dm+d
+21272147,Colistin,73074003,dm+d
+21309575,Neomycin,73093001,dm+d
+21235016,Colchicine,73133000,dm+d
+21197698,Menthol,73170009,dm+d
+21272163,Trazodone,7336002,dm+d
+21272154,Desmopressin,73454001,dm+d
+21197693,Morphine,73572009,dm+d
+21235054,Phenytoin sodium,73585007,dm+d
+21290815,Dipivefrine,73647000,dm+d
+21178966,Amobarbital,73756003,dm+d
+21272112,Atropine,73949004,dm+d
+21253509,Cefuroxime,73986003,dm+d
+21235068,Atracurium,74074008,dm+d
+21216472,Indapamide,74213004,dm+d
+21197734,Cyclophosphamide,74470007,dm+d
+21290867,Hydroquinone,74583006,dm+d
+21272208,Propofol,74674007,dm+d
+21178997,Phenoxybenzamine,74771007,dm+d
+21197996,Acetohydroxamic acid,74819009,dm+d
+21216478,Mometasone,75203002,dm+d
+21179131,Sodium calcium edetate,75366006,dm+d
+21309567,Dexamethasone,7561000,dm+d
+21309497,Ciprofloxacin,7577004,dm+d
+21178938,Tamoxifen,75959001,dm+d
+21272197,Prazosin,76058001,dm+d
+21291078,Iopanoic acid,76155001,dm+d
+21179203,Sodium perborate,7624002,dm+d
+21216464,Gallamine,76286000,dm+d
+21216401,Xylometazoline,76289007,dm+d
+21197714,Bleomycin,76591000,dm+d
+21197769,Disopyramide,76759004,dm+d
+21179145,Diphtheria antitoxin,77048008,dm+d
+21216404,Benzatropine,77390008,dm+d
+36964942,Lactobacillus,774368005,dm+d
+36936536,Tick-borne encephalitis immunoglobulin,776215003,dm+d
+21272100,Acetylcysteine,77731008,dm+d
+21272151,Dacarbazine,77750008,dm+d
+21197911,Esmolol,77856005,dm+d
+21178933,Simeticone,77898008,dm+d
+21178953,Ganciclovir,78025001,dm+d
+21197798,Nitrazepam,78449007,dm+d
+21197869,Benzylpenicillin,78507004,dm+d
+21216482,Potassium citrate,78542000,dm+d
+21309569,Prochlorperazine,79129001,dm+d
+21309556,Gelatin,79138004,dm+d
+21197802,Oxazepam,79225003,dm+d
+21179044,Calcium ascorbate,79260009,dm+d
+21216467,Guanethidine,79305004,dm+d
+21216430,Diethylstilbestrol,79332009,dm+d
+21253605,Acenocoumarol,79356008,dm+d
+21272111,Aspirin,7947003,dm+d
+21253531,Digoxin,796001,dm+d
+21234915,Neostigmine,80024007,dm+d
+21290863,Phenylpropanolamine,80127003,dm+d
+21309536,Hydroxyzine,80165005,dm+d
+21272233,Aluminium hydroxide,80399002,dm+d
+21216622,Rabies immunoglobulin,80834004,dm+d
+21272230,Glibenclamide,80870001,dm+d
+21235097,Ciclosporin,80906007,dm+d
+21309700,Dimenhydrinate,81073007,dm+d
+21234923,Cefazolin,81088002,dm+d
+21272110,Alimemazine,8109005,dm+d
+21290773,Isoniazid,81335000,dm+d
+21272155,Desoximetasone,81457006,dm+d
+21216489,Procarbazine,81583003,dm+d
+21197768,Furosemide,81609008,dm+d
+21178923,Digitoxin,81728006,dm+d
+21291085,Hyoscine hydrobromide,81959001,dm+d
+21216504,Phentolamine,82165003,dm+d
+21272215,Norgestrel,82240008,dm+d
+21290822,Homatropine,82264009,dm+d
+21290835,Bismuth,82290007,dm+d
+21234937,Lidocaine,82573000,dm+d
+21253662,Belladonna,82613004,dm+d
+21178910,Chlordiazepoxide,82746003,dm+d
+21178973,Nadolol,82896009,dm+d
+21272196,Nalbuphine,83085007,dm+d
+21272194,Diloxanide,83288003,dm+d
+21197733,Cyclopentolate,8348002,dm+d
+21216470,Hydroxychloroquine,83490000,dm+d
+21197722,Cimetidine,83532008,dm+d
+21290830,Methocarbamol,83973001,dm+d
+21253514,Clarithromycin,83999008,dm+d
+21253568,Methyldopa,84078002,dm+d
+21272405,Mafenide,84737005,dm+d
+21272331,Heparin,84812008,dm+d
+21179031,Meclozine,84951002,dm+d
+21272214,Nifedipine,85272000,dm+d
+21253592,Nitrofurantoin,85343003,dm+d
+21253522,Cyclizine,85354008,dm+d
+21178886,Antazoline,85408000,dm+d
+21197942,Physostigmine,85429009,dm+d
+21253574,Polythiazide,85468002,dm+d
+21216434,Timolol,85591001,dm+d
+21290760,Codeine,85990009,dm+d
+21216637,Spectinomycin,86066003,dm+d
+21216820,Botulinum antitoxin,86080005,dm+d
+21216557,Vecuronium,86085000,dm+d
+21197989,Metirosine,86131002,dm+d
+21253589,Nandrolone,86162003,dm+d
+21309617,Tetanus immunoglobulin,86337009,dm+d
+21179077,Shark liver oil,86389004,dm+d
+21272132,Bumetanide,86647004,dm+d
+21216620,Mesalazine,86977007,dm+d
+21253591,Nimodipine,87285001,dm+d
+21272109,Amiloride,87395005,dm+d
+21290788,Mefloquine,87567009,dm+d
+21178988,Naltrexone,87617007,dm+d
+21253497,Atenolol,87652004,dm+d
+21216427,Danazol,87881000,dm+d
+21272468,Riboflavin,88306001,dm+d
+21178924,Thiotepa,88997008,dm+d
+21216495,Naloxone,89018006,dm+d
+21179011,Levomepromazine,89029005,dm+d
+21234967,Tranylcypromine,89092006,dm+d
+21309527,Fludrocortisone,89192008,dm+d
+21197735,Cytarabine,89265009,dm+d
+21253648,Typhoid vaccine,89428009,dm+d
+21178937,Sulindac,89505005,dm+d
+21235062,Co-amoxiclav,89519005,dm+d
+21290789,Crotamiton,89692007,dm+d
+21216436,Tobramycin,89695009,dm+d
+21197752,Ritodrine,89785009,dm+d
+21290748,Paracetamol,90332006,dm+d
+21216491,Razoxane,90346006,dm+d
+21234916,Pilocarpine,90356005,dm+d
+21179074,Benzalkonium,90370005,dm+d
+21178930,Trimipramine,90426002,dm+d
+21253490,Caffeine,91107009,dm+d
+21234929,Bendroflumethiazide,91135008,dm+d
+21290853,Salbutamol,91143003,dm+d
+21216424,Pentoxifylline,91376007,dm+d
+21309571,Pseudoephedrine,91435002,dm+d
+21234940,Buspirone,91452003,dm+d
+21290823,Hydrochlorothiazide,91667005,dm+d
+21178931,Tropicamide,9190005,dm+d
+21253516,Phenelzine,9500005,dm+d
+21179045,Hepatitis B immunoglobulin,9542007,dm+d
+21197751,Teicoplanin,96014005,dm+d
+21178951,Fusidic acid,96015006,dm+d
+21234953,Azithromycin,96034006,dm+d
+21309482,Itraconazole,96038009,dm+d
+21234945,Cefpirome,96047001,dm+d
+21290782,Cefpodoxime,96049003,dm+d
+21309494,Cefixime,96052006,dm+d
+21309495,Cefprozil,96054007,dm+d
+21272150,Meropenem,96062004,dm+d
+21216516,Mecillinam,96063009,dm+d
+21197832,Pivmecillinam,96064003,dm+d
+21253657,Temocillin,96065002,dm+d
+21253606,Flucloxacillin,96067005,dm+d
+21309487,Lymecycline,96077007,dm+d
+21253593,Ofloxacin,96086002,dm+d
+21309485,Levofloxacin,96087006,dm+d
+21197761,Famciclovir,96097002,dm+d
+21235124,Foscarnet,96099004,dm+d
+21216395,Albendazole,96119002,dm+d
+21216613,Ivermectin,96138006,dm+d
+21272103,Alfentanil,96183007,dm+d
+21197740,Dextromoramide,96191003,dm+d
+21290774,Lamotrigine,96195007,dm+d
+21290777,Bupropion,96199001,dm+d
+21309544,Mianserin,96200003,dm+d
+21290787,Clomipramine,96209002,dm+d
+21234986,Fluvoxamine,96213009,dm+d
+21235240,Zuclopenthixol,96219008,dm+d
+21197766,Flupentixol,96220002,dm+d
+21197730,Clozapine,96221003,dm+d
+21290763,Zolpidem,96231005,dm+d
+21216413,Lormetazepam,96233008,dm+d
+21197983,Bromazepam,96234002,dm+d
+21178914,Clobazam,96236000,dm+d
+21216457,Flunitrazepam,96237009,dm+d
+21197765,Flumazenil,96247007,dm+d
+21253681,Sodium hyaluronate,96278006,dm+d
+21290872,Clodronic acid,96282008,dm+d
+21197969,Sodium clodronate,96283003,dm+d
+21290850,Etidronic acid,96284009,dm+d
+21272387,Etidronate disodium,96285005,dm+d
+21290852,Risedronic acid,96289004,dm+d
+21234999,Mexiletine,96298001,dm+d
+21290859,Oxprenolol,96299009,dm+d
+21235020,Propafenone,96300001,dm+d
+21272168,Sotalol,96301002,dm+d
+21234969,Simvastatin,96304005,dm+d
+21253575,Pravastatin,96305006,dm+d
+21309528,Fluvastatin,96307003,dm+d
+21216415,Losartan,96309000,dm+d
+21253511,Chlorhexidine,96316004,dm+d
+21234956,Cyproterone,96370002,dm+d
+21253557,Flutamide,96371003,dm+d
+21272162,Toremifene,96378009,dm+d
+21309530,Gestrinone,96380003,dm+d
+21272469,Aluminium chloride,9714311000001101,dm+d
+21272470,Aluminium hydroxide,9714411000001108,dm+d
+21291080,Aluminium oxide,9714511000001107,dm+d
+21235225,Aluminium sulfate,9714611000001106,dm+d
+21309773,Ammonium bicarbonate + Ipecacuanha,9714711000001102,dm+d
+21235226,Ammonium chloride + Diphenhydramine,9714811000001105,dm+d
+21253818,Ammonium chloride,9714911000001100,dm+d
+21216519,Ammonium sulfate,9715011000001100,dm+d
+21291081,Benzoic acid + Salicylic acid,9715111000001104,dm+d
+21235227,Benzoyl peroxide + Potassium hydroxyquinoline sulfate,9715211000001105,dm+d
+21179227,Caffeine + Ergotamine,9715311000001102,dm+d
+21309774,Calcium acetate,9715411000001109,dm+d
+21309775,Colecalciferol + Calcium carbonate,9715511000001108,dm+d
+21309776,Calcium carbonate,9715611000001107,dm+d
+21309777,Calcium chloride,9715711000001103,dm+d
+21198027,Calcium gluconate,9715811000001106,dm+d
+21235228,Calcium phosphate,9715911000001101,dm+d
+21179228,Calcium sulphate,9716011000001109,dm+d
+21272471,Chlorhexidine + Cetrimide,9716111000001105,dm+d
+21253819,Cetrimide + Benzalkonium,9716211000001104,dm+d
+21179229,Ammonium chloride + Caffeine,9716311000001107,dm+d
+21291082,Calcium lactate,9716411000001100,dm+d
+21235229,Chlorhexidine + Chlorobutanol,9716511000001101,dm+d
+21291083,Cinchocaine + Hydrocortisone,9716611000001102,dm+d
+21179230,Cloral betaine,9716711000001106,dm+d
+21235230,Conjugated oestrogens,9716811000001103,dm+d
+21198028,Erythromycin ethyl succinate,9716911000001108,dm+d
+21216736,Erythromycin stearate,9717011000001107,dm+d
+21309778,Ferric ammonium citrate + Folic acid,9717111000001108,dm+d
+21216737,Ferrous fumarate,9717211000001102,dm+d
+21235231,Ferrous gluconate + Folic acid,9717311000001105,dm+d
+21235232,Ferrous gluconate,9717411000001103,dm+d
+21235233,Ferrous glycine sulfate,9717511000001104,dm+d
+21272472,Ferrous sulfate,9717611000001100,dm+d
+21309779,Ferrous sulfate + Folic acid,9717711000001109,dm+d
+21253820,Fluphenazine decanoate,9717811000001101,dm+d
+21309780,Ethinylestradiol + Gestodene,9717911000001106,dm+d
+21253821,Gestonorone,9718011000001108,dm+d
+21291084,Hydrocortisone + Potassium hydroxyquinoline sulfate,9718111000001109,dm+d
+21291086,Iron dextran,9718511000001100,dm+d
+21235234,Iron sorbitol,9718611000001101,dm+d
+21272473,Chlorhexidine + Isopropyl alcohol,9718711000001105,dm+d
+21291087,Isopropyl alcohol + Triclosan,9718811000001102,dm+d
+21272474,Isopropyl alcohol,9718911000001107,dm+d
+21291088,Iron sucrose,9719011000001103,dm+d
+21216738,Lidocaine + Cetylpyridinium,9719211000001108,dm+d
+21179232,Lithium succinate + Zinc sulfate,9719311000001100,dm+d
+21272475,Lysine,9719411000001107,dm+d
+21235235,Magnesium aspartate,9719511000001106,dm+d
+21179233,Magnesium citrate,9719611000001105,dm+d
+21272476,Magnesium glycerophosphate,9719711000001101,dm+d
+21235236,Magnesium glycinate,9719811000001109,dm+d
+21253822,Magnesium hydroxide,9719911000001104,dm+d
+21253823,Magnesium oxide,9720011000001102,dm+d
+21291090,Magnesium sulfate,9720611000001109,dm+d
+21235237,Magnesium trisilicate,9720711000001100,dm+d
+21179234,Conjugated oestrogens + Medroxyprogesterone,9720811000001108,dm+d
+21179235,Chlorocresol + Potassium hydroxyquinolone sulfate,9720911000001103,dm+d
+21216739,Citric acid + Magnesium carbonate,9721011000001106,dm+d
+21216740,Meglumine gadopentetate,9721111000001107,dm+d
+21216741,Meglumine iotalamate,9721211000001101,dm+d
+21198029,Meglumine iotroxate,9721311000001109,dm+d
+21253824,Betamethasone + Neomycin,9721411000001102,dm+d
+21309782,Phenytoin sodium,9721511000001103,dm+d
+21309783,Phenytoin,9722011000001103,dm+d
+21309784,Piroxicam betadex,9722111000001102,dm+d
+21272477,Potassium aminobenzoate,9722211000001108,dm+d
+21253825,Potassium bicarbonate,9722311000001100,dm+d
+21253826,Potassium bromide,9722411000001107,dm+d
+21198030,Potassium chlorate,9722511000001106,dm+d
+21198031,Potassium chloride,9722611000001105,dm+d
+21235238,Potassium permanganate,9722711000001101,dm+d
+21216742,Raloxifene,9722811000001109,dm+d
+21309785,Retinol + Colecalciferol,9722911000001104,dm+d
+21198032,Sodium citrate,9723011000001107,dm+d
+21272478,Salicylic acid + Sulfur,9723111000001108,dm+d
+21235239,Zinc oxide,9723211000001102,dm+d
+21179236,Zinc acetate,9723311000001105,dm+d
+21272479,Zinc citrate,9723411000001103,dm+d
+21216743,Zinc gluconate,9723511000001104,dm+d
+21179237,Zuclopenthixol acetate,9723711000001109,dm+d
+21272480,Zuclopenthixol decanoate,9723811000001101,dm+d
+21198033,Zinc oxide + Lidocaine,9724111000001105,dm+d
+21272481,Zinc oxide + Dimeticone,9724211000001104,dm+d
+21272482,Diclofenac potassium,9724311000001107,dm+d
+21272483,Diclofenac sodium,9724411000001100,dm+d
+21272484,Diclofenac sodium + Misoprostol,9724511000001101,dm+d
+21216744,Abacavir + Lamivudine,9726111000001103,dm+d
+21272253,Sucrose,9745007,dm+d
+21291092,Meclozine,9753111000001109,dm+d
+21179239,Antimony,9753811000001102,dm+d
+21309786,Balsalazide,9753911000001107,dm+d
+21235241,Benzocaine + Mepyramine,9754011000001105,dm+d
+21272485,Oxycodone,9754111000001106,dm+d
+21291093,Palonosetron,9754211000001100,dm+d
+21179034,Dihydrocodeine + Paracetamol,9754311000001108,dm+d
+21291094,Phenoxymethylpenicillin,9754411000001101,dm+d
+21179240,Pivmecillinam,9754511000001102,dm+d
+21291095,Polymyxin B + Trimethoprim,9754611000001103,dm+d
+21309787,Polymyxin B + Bacitracin,9754711000001107,dm+d
+21216745,Pregabalin,9754811000001104,dm+d
+21179241,Propamidine,9754911000001109,dm+d
+21216623,Cytomegalovirus immunoglobulin,9778000,dm+d
+21309788,Acamprosate,9809711000001100,dm+d
+21235242,Acacia,9810011000001108,dm+d
+21198034,Acetylcholine,9810111000001109,dm+d
+21216746,Alendronic acid,9810511000001100,dm+d
+21179242,Alendronic acid + Colecalciferol,9810711000001105,dm+d
+21198035,Allantoin + Lidocaine,9811011000001104,dm+d
+21272248,Almond oil,9811311000001101,dm+d
+21291096,Aloin,9811411000001108,dm+d
+21198036,Alum,9811511000001107,dm+d
+21309789,Aluminium hydroxide + Dimeticone,9811611000001106,dm+d
+21216747,Amaranth,9811711000001102,dm+d
+21216748,Amiloride + Bumetanide,9811811000001105,dm+d
+21179243,Ammonium acetate,9811911000001100,dm+d
+21253827,Ammonium bicarbonate,9812011000001107,dm+d
+21253828,Amitriptyline + Perphenazine,9812111000001108,dm+d
+21216749,Amobarbital + Secobarbital,9812211000001102,dm+d
+21291097,Amylmetacresol,9812311000001105,dm+d
+21197835,Magnesium trisilicate + Belladonna alkaloids,9812411000001103,dm+d
+21198037,Ichthammol + Zinc oxide,9812511000001104,dm+d
+21198038,Proflavine,9812611000001100,dm+d
+21235243,Docusate,9812711000001109,dm+d
+21309790,Calcium glubionate + Calcium lactobionate,9812811000001101,dm+d
+21272486,Calcium pantothenate,9812911000001106,dm+d
+21253829,Calcium phosphate + Colecalciferol,9813011000001103,dm+d
+21235244,Chlorhexidine + Tetracaine,9813111000001102,dm+d
+21235245,Ferric chloride,9813211000001108,dm+d
+21216750,Magnesium malate,9813311000001100,dm+d
+21198039,Magnesium orotate,9813411000001107,dm+d
+21198040,Potassium nitrate,9813511000001106,dm+d
+21216751,Potassium phosphate,9813611000001105,dm+d
+21198041,Insulin detemir,9813711000001101,dm+d
+21216752,L-Phenylalanine,9813811000001109,dm+d
+21235246,Valine,9813911000001104,dm+d
+21216753,Sodium metabisulfite,9814011000001101,dm+d
+21309791,Insulin aspart biphasic,9820711000001102,dm+d
+21198042,Insulin isophane biphasic human,9820811000001105,dm+d
+21309792,Insulin isophane biphasic porcine,9820911000001100,dm+d
+21198043,Insulin isophane bovine,9821011000001108,dm+d
+21198044,Insulin isophane human,9821111000001109,dm+d
+21309793,Insulin isophane porcine,9821211000001103,dm+d
+21309794,Insulin lispro biphasic,9821311000001106,dm+d
+21179244,Insulin soluble bovine,9821411000001104,dm+d
+21235247,Insulin soluble human,9821511000001100,dm+d
+21309795,Insulin soluble porcine,9821611000001101,dm+d
+21253830,Insulin glulisine,9821711000001105,dm+d
+21272487,Acetarsol,9824411000001102,dm+d
+21309796,Potassium chloride + Glucose,9825311000001108,dm+d
+21291098,Potassium chloride + Glucose + Sodium chloride,9825411000001101,dm+d
+21291099,Potassium chloride + Sodium chloride,9825511000001102,dm+d
+21272488,Furosemide + Potassium chloride,9825611000001103,dm+d
+21291100,Tyrosine,9825711000001107,dm+d
+21272489,Insulin protamine zinc bovine,9825811000001104,dm+d
+21272490,Insulin zinc crystalline human,9825911000001109,dm+d
+21179043,Insulin mixed bovine,9826011000001101,dm+d
+21291101,Calcium ascorbate,9826111000001100,dm+d
+21198045,Potassium bicarbonate + Potassium chloride,9826211000001106,dm+d
+21198046,Sodium bicarbonate + Simeticone,9826311000001103,dm+d
+21216754,Sucrose,9826411000001105,dm+d
+21235248,Sulfuric acid,9826511000001109,dm+d
+21309797,Medium-chain triglycerides + Soya oil,9835811000001101,dm+d
+21291102,Dornase alfa,9835911000001106,dm+d
+21235249,Drotrecogin alfa,9836011000001103,dm+d
+21198047,Interferon beta,9836111000001102,dm+d
+21272491,Ferrous fumarate + Folic acid,9836211000001108,dm+d
+21216541,Ferrous sulfate + Silica,9836311000001100,dm+d
+21235250,Kaolin + Calcium carbonate,9836411000001107,dm+d
+21272492,Hepatitis B immunoglobulin,9836511000001106,dm+d
+21290899,Homeopathic cocculus indicus,9837611000001107,dm+d
+21291103,Co-amilofruse,9837711000001103,dm+d
+21198048,Co-amoxiclav,9837911000001101,dm+d
+21179047,Invalid - Co-codaprin,9838311000001101,dm+d
+21179246,Co-danthramer,9838511000001107,dm+d
+21179247,Co-flumactone,9838811000001105,dm+d
+21198050,Co-methiamol,9839011000001109,dm+d
+21309800,Co-dergocrine mesilate,9839911000001108,dm+d
+21291105,Emulsifying wax + Yellow soft paraffin,9845311000001106,dm+d
+21253834,Ammonia + Ammonium bicarbonate,9857711000001102,dm+d
+21235253,Ammonia,9857811000001105,dm+d
+21291106,Calcium lactate gluconate + Calcium carbonate,9857911000001100,dm+d
+21272494,Erythromycin lactobionate,9858011000001103,dm+d
+21235254,Tick-borne encephalitis immunoglobulin,9858211000001108,dm+d
+21216758,Tetanus immunoglobulin,9858311000001100,dm+d
+21179250,Varicella immunoglobulin,9858411000001107,dm+d
+21291107,Erythromycin + Zinc acetate,9858511000001106,dm+d
+21179251,Sodium bicarbonate + Sodium chloride,9858611000001105,dm+d
+21198052,Zinc glycinate,9860111000001105,dm+d
+21272495,Calcium glycinate,9860211000001104,dm+d
+21309801,Potassium citrate + Citric acid,9860311000001107,dm+d
+21253835,Docusate sodium + Glycerol,9860611000001102,dm+d
+21309802,Glycerol + Thymol,9862011000001108,dm+d
+21198053,Cadexomer-iodine,9862311000001106,dm+d
+21235255,Sulfur hexafluoride,9864111000001101,dm+d
+21179252,Sodium alginate + Magnesium alginate,9864211000001107,dm+d
+21198054,Sodium alginate + Potassium bicarbonate,9864311000001104,dm+d
+21235256,Ginger,9870811000001109,dm+d
+21216759,Fluocortolone + Fluocortolone hexanoate,9870911000001104,dm+d
+21272496,Fluocortolone hexanoate + Fluocortolone pivalate,9871011000001107,dm+d
+21198055,Honey + Glycerol,9871111000001108,dm+d
+21291108,Honey,9871211000001102,dm+d
+21197846,Alpha tocopherol,9871311000001105,dm+d
+21253836,Sodium bicarbonate + Sodium citrate,9871411000001103,dm+d
+21198056,Potassium acid tartrate + Potassium bicarbonate,9871511000001104,dm+d
+21216553,Gentian,9871611000001100,dm+d
+21291109,Gentian + Sodium bicarbonate,9871711000001109,dm+d
+21235257,Sodium acid phosphate + Sodium phosphate,9871811000001101,dm+d
+21272497,Sodium acid phosphate + Sodium bicarbonate,9871911000001106,dm+d
+21309803,Salicylic acid + Zinc oxide,9872011000001104,dm+d
+21198057,Zinc undecenoate + Undecenoic acid,9872111000001103,dm+d
+21291110,Sulfur + Resorcinol,9872211000001109,dm+d
+21272498,Urea + Lactic acid,9872311000001101,dm+d
+21198058,Alpha tocopherol + Selenium,9872411000001108,dm+d
+21216760,Castor oil + Zinc oxide,9872511000001107,dm+d
+21235258,Gamolenic acid + Alpha tocopherol,9872611000001106,dm+d
+21179253,Stannous fluoride,9872711000001102,dm+d
+21235259,Urea hydrogen peroxide,9872811000001105,dm+d
+21253837,Zinc oxide + Cod liver oil,9872911000001100,dm+d
+21198059,Zinc sulphate,9873011000001108,dm+d
+21235067,Homeopathic hamamelis,9873111000001109,dm+d
+21198060,Atracurium,9873211000001103,dm+d
+21179254,Cisatracurium,9873311000001106,dm+d
+21235260,Rocuronium,9873411000001104,dm+d
+21198061,Pancuronium,9873511000001100,dm+d
+21216761,Vecuronium,9873611000001101,dm+d
+21216762,Noradrenaline,9873711000001105,dm+d
+21290905,Homeopathic aconitum napellus,9873811000001102,dm+d
+21216558,Homeopathic actaea racemosa,9873911000001107,dm+d
+21290906,Homeopathic allium cepa,9874011000001105,dm+d
+21235069,Homeopathic apatite + Homeopathic cucurbita,9874111000001106,dm+d
+21272272,Homeopathic apis mellifica,9874211000001100,dm+d
+21309622,Homeopathic apis mellifica + Homeopathic belladonna,9874311000001108,dm+d
+21179055,Homeopathic argentum nitricum,9874411000001101,dm+d
+21309623,Homeopathic arnica montana,9874511000001102,dm+d
+21197850,Homeopathic arsenicum album,9874611000001103,dm+d
+21197851,Homeopathic belladonna,9874711000001107,dm+d
+21197852,Homeopathic bellis perennis,9874811000001104,dm+d
+21216559,Homeopathic bryonia alba,9874911000001109,dm+d
+21179056,Homeopathic bryonia dioica,9875111000001105,dm+d
+21179057,Homeopathic calcarea carbonica,9875211000001104,dm+d
+21235070,Homeopathic candida albicans,9875411000001100,dm+d
+21290907,Homeopathic cantharis vesicatoria,9875611000001102,dm+d
+21253637,Homeopathic chamomilla,9876011000001100,dm+d
+21290908,Homeopathic cina,9876111000001104,dm+d
+21290909,Homeopathic cinnabar + Homeopathic pyrites,9876211000001105,dm+d
+21290910,Homeopathic coffea arabica,9876311000001102,dm+d
+21216560,Homeopathic colocynthis,9876411000001109,dm+d
+21197853,Homeopathic drosera rotundifolia,9876511000001108,dm+d
+21197854,Homeopathic euphrasia officinales,9876611000001107,dm+d
+21272273,Homeopathic ferrum phosphoricum,9876711000001103,dm+d
+21272274,Homeopathic ferrum sidereum,9876811000001106,dm+d
+21290911,Homeopathic feverfew,9876911000001101,dm+d
+21197855,Homeopathic gelsemium sempervirens,9877011000001102,dm+d
+21235071,Homeopathic graphites,9877111000001101,dm+d
+21253638,Homeopathic hepar sulphuris,9877311000001104,dm+d
+21197856,Homeopathic hypericum perforatum,9877911000001103,dm+d
+21290912,Homeopathic ignatia amara,9878511000001109,dm+d
+21309624,Homeopathic ipecacuanha,9878711000001104,dm+d
+21309625,Homeopathic kalium bichromicum,9878811000001107,dm+d
+21197857,Homeopathic kalium muriaticum,9878911000001102,dm+d
+21179058,Homeopathic kalium phosphoricum,9879011000001106,dm+d
+21253639,Homeopathic lachesis muta,9879111000001107,dm+d
+21272275,Homeopathic ledum palustre,9879211000001101,dm+d
+21272276,Homeopathic lycopodium clavatum,9879311000001109,dm+d
+21179059,Homeopathic mercurius solubilis,9879411000001102,dm+d
+21216561,Homeopathic mercurius vivus,9879511000001103,dm+d
+21290913,Homeopathic mixed pollen,9879611000001104,dm+d
+21197858,Homeopathic plumbum mellitum,9879711000001108,dm+d
+21290914,Homeopathic pulsatilla pratensis,9879811000001100,dm+d
+21179060,Homeopathic ruta graveolens,9879911000001105,dm+d
+21272277,Homeopathic sepia officinalis,9880011000001106,dm+d
+21290915,Homeopathic silica,9880111000001107,dm+d
+21216562,Homeopathic symphytum officinale,9880211000001101,dm+d
+21253640,Homeopathic tamus communis,9880311000001109,dm+d
+21253641,Homeopathic tea tree oil,9880411000001102,dm+d
+21309626,Homeopathic thuja occidentalis,9880511000001103,dm+d
+21272278,Homeopathic urtica urens,9880611000001104,dm+d
+21235072,Homeopathic kalium sulphuricum,9880711000001108,dm+d
+21197859,Homeopathic natrum muriaticum,9880811000001100,dm+d
+21309627,Homeopathic natrum phosphoricum,9880911000001105,dm+d
+21197860,Homeopathic natrum sulphuricum,9881011000001102,dm+d
+21309628,Homeopathic calcarea fluorica,9882611000001103,dm+d
+21309629,Homeopathic calcarea phosphorica,9882711000001107,dm+d
+21290916,Homeopathic carbo vegetabilis,9882811000001104,dm+d
+21253642,Homeopathic cuprum metallicum,9882911000001109,dm+d
+21253643,Homeopathic magnesia phosphorica,9883011000001101,dm+d
+21216563,Homeopathic nux vomica,9883111000001100,dm+d
+21290917,Homeopathic phosphorus,9883211000001106,dm+d
+21179061,Homeopathic rhus toxicodendron,9883311000001103,dm+d
+21198062,Adrenaline,9885311000001102,dm+d
+21253838,Morphine + Cyclizine,9885411000001109,dm+d
+21253839,Mycophenolate mofetil,9885511000001108,dm+d
+21272499,Mycophenolic acid,9885611000001107,dm+d
+21309631,Chamomile,9885711000001103,dm+d
+21309804,Oxygen gas,9886711000001106,dm+d
+21235261,Helium gas,9886811000001103,dm+d
+21309805,Nitrous oxide + Oxygen gas,9886911000001108,dm+d
+21179255,Air gas,9887011000001107,dm+d
+21309806,Calamine + Zinc oxide,9887111000001108,dm+d
+21179256,Cade oil,9887311000001105,dm+d
+21235263,Doxorubicin (liposomal),9887511000001104,dm+d
+21272500,Ethanol,9887611000001100,dm+d
+21216763,Hydrochloric acid,9887711000001109,dm+d
+21216764,Industrial methylated spirit,9887811000001101,dm+d
+21291111,Liquid paraffin + Magnesium hydroxide,9887911000001106,dm+d
+21291112,Liquid paraffin,9888011000001108,dm+d
+21235264,White soft paraffin + Liquid paraffin,9888111000001109,dm+d
+21272281,Liquid paraffin + Acetylated wool alcohols,9888211000001103,dm+d
+21291113,Liquid paraffin + Lanolin,9891411000001107,dm+d
+21309807,Liquid paraffin + Isopropyl myristate,9891511000001106,dm+d
+21253840,Liquid paraffin + Almond oil,9891611000001105,dm+d
+21309808,Liquorice,9891711000001101,dm+d
+21198063,Iodine,9891811000001109,dm+d
+21253841,Beeswax,9891911000001104,dm+d
+21253842,Paraffin hard,9892011000001106,dm+d
+21235265,Linseed oil,9892111000001107,dm+d
+21272501,Oleic acid,9892211000001101,dm+d
+21198064,Polygeline,9892311000001109,dm+d
+21216765,Camphor + Chloroxylenol,9892411000001102,dm+d
+21253843,Hypromellose + Dextran 70,9892511000001103,dm+d
+21309809,Benzyl alcohol + Eucalyptus oil,9892611000001104,dm+d
+21309810,Sodium fluoride + Triclosan,9892711000001108,dm+d
+21216766,Dill oil,9892811000001100,dm+d
+21216767,Rhubarb extract + Salicylic acid,9892911000001105,dm+d
+21309811,White soft paraffin + Zinc oxide,9894011000001100,dm+d
+21198065,Titanium dioxide + Titanium peroxide + Titanium salicylate,9894111000001104,dm+d
+21235266,Hepatitis A vaccine,9894211000001105,dm+d
+21309812,Hepatitis B vaccine,9894311000001102,dm+d
+21291114,Cholera vaccine,9894411000001109,dm+d
+21291115,Influenza vaccine,9894511000001108,dm+d
+21235267,Meningococcal group C vaccine,9894811000001106,dm+d
+21198066,Pneumococcal vaccine,9894911000001101,dm+d
+21235268,Poliomyelitis vaccine,9895011000001101,dm+d
+21216768,Rabies vaccine,9895111000001100,dm+d
+21216769,Rubella vaccine,9895211000001106,dm+d
+21235269,Tetanus vaccine,9895311000001103,dm+d
+21309813,Tick-borne encephalitis vaccine,9895411000001105,dm+d
+21179257,Typhoid vaccine,9895511000001109,dm+d
+21179258,Varicella vaccine,9895611000001108,dm+d
+21272502,Yellow fever vaccine,9895711000001104,dm+d
+21198067,Measles + Mumps + Rubella vaccine,9895811000001107,dm+d
+21291116,Hepatitis A + Typhoid vaccine,9895911000001102,dm+d
+21253844,Diphtheria + Tetanus + Pertussis vaccine,9896011000001105,dm+d
+21198068,Diphtheria + Tetanus vaccine,9896111000001106,dm+d
+21291117,Diphtheria + Tetanus + Poliomyelitis vaccine,9896511000001102,dm+d
+21253845,Meningococcal groups A + C vaccine,9896611000001103,dm+d
+21291118,Hepatitis A + B vaccine,9896711000001107,dm+d
+21198069,Haemophilus influenzae type B vaccine,9896811000001104,dm+d
+21272503,Meningococcal groups A + C + W135 + Y vaccine,9896911000001109,dm+d
+21272504,Tuberculosis vaccine,9897011000001108,dm+d
+21291119,Agalsidase alfa,9897911000001107,dm+d
+21179259,Alexitol,9898011000001109,dm+d
+21309814,Aspirin + Paracetamol,9898111000001105,dm+d
+21253846,Aspirin + Caffeine,9898211000001104,dm+d
+21235270,Cinchocaine + Prednisolone,9898311000001107,dm+d
+21272505,Proguanil + Atovaquone,9898411000001100,dm+d
+21216770,Tramazoline + Dexamethasone,9898511000001101,dm+d
+21291120,Botulinum B toxin,9898611000001102,dm+d
+21216771,Podophyllotoxin,9898711000001106,dm+d
+21272506,Zinc oxide + Hydrous wool fat,9898811000001103,dm+d
+21253847,Emulsifying wax + Liquid paraffin + White soft paraffin,9898911000001108,dm+d
+21235271,Hydroxyethyl salicylate + Methyl nicotinate,9899011000001104,dm+d
+21235272,Sodium bicarbonate + Dill oil,9899111000001103,dm+d
+21309640,Black currant,9899211000001109,dm+d
+21272507,Opium,9899311000001101,dm+d
+21309815,Dill oil + Ginger + Sodium bicarbonate,9899411000001108,dm+d
+21253848,Podophyllum resin,9899511000001107,dm+d
+21309816,Ipecacuanha + Sodium bicarbonate,9899611000001106,dm+d
+21291121,Ammonium bicarbonate + Ipecacuanha + Sodium bicarbonate,9899711000001102,dm+d
+21291122,Calcium lactate + Calcium phosphate + Ergocalciferol,9899811000001105,dm+d
+21309817,Activated charcoal,9899911000001100,dm+d
+21235273,Activated charcoal + Magnesium hydroxide,9900011000001102,dm+d
+21198070,Anise oil,9900111000001101,dm+d
+21235274,Antazoline + Xylometazoline,9900211000001107,dm+d
+21253849,Anti-D immunoglobulin,9900311000001104,dm+d
+21235275,Arachis oil,9900411000001106,dm+d
+21179071,Arginine,9900511000001105,dm+d
+21291123,Argipressin,9900611000001109,dm+d
+21235276,Ascorbic acid,9900711000001100,dm+d
+21216772,Ethanol + Iodine + Potassium iodide,9900811000001108,dm+d
+21253850,Ferrous sulfate + Ascorbic acid,9900911000001103,dm+d
+21290933,Ascorbic acid + Zinc,9901011000001106,dm+d
+21179260,Atazanavir,9901111000001107,dm+d
+21309818,Benzalkonium,9901211000001101,dm+d
+21272508,Benzocaine + Cetylpyridinium,9901311000001109,dm+d
+21216773,Benzocaine + Dequalinium,9901411000001102,dm+d
+21291124,Benzocaine + Chloroxylenol,9901511000001103,dm+d
+21179261,Benzocaine + Tyrothricin,9901611000001104,dm+d
+21253851,Benzoyl peroxide + Clindamycin,9901711000001108,dm+d
+21309819,Benzylpenicillin,9901811000001100,dm+d
+21216774,Bethanechol,9901911000001105,dm+d
+21179262,Bisoprolol + Hydrochlorothiazide,9902011000001103,dm+d
+21235086,Boron,9902111000001102,dm+d
+21291125,Butobarbital,9902211000001108,dm+d
+21235277,Bretylium,9902311000001100,dm+d
+21235278,Nicotinamide + Riboflavine + Thiamine,9902411000001107,dm+d
+21253852,Aloes + Sumatra benzoin,9902511000001106,dm+d
+21235089,Potassium dihydrogen phosphate,9902611000001105,dm+d
+21197870,Sodium dihydrogen phosphate dihydrate,9902711000001101,dm+d
+21179075,Hard paraffin + Liquid paraffin + Soft paraffin + Wool alcohols,9902811000001109,dm+d
+21253853,Macrogol 4000,9902911000001104,dm+d
+21235279,Aloes + Podophyllum resin + Storax + Sumatra benzoin,9903011000001107,dm+d
+21290936,Orange,9903911000001106,dm+d
+21309820,Urea + Lauromacrogols,9904011000001109,dm+d
+21179263,Tetrastarch,9904111000001105,dm+d
+21309821,Magnesium carbonate,9906411000001108,dm+d
+21272509,Shark liver oil,9906511000001107,dm+d
+21179264,Soft paraffin + Wool fat,9906611000001106,dm+d
+21216775,Sorbitol,9906711000001102,dm+d
+21235280,Soya oil,9906811000001105,dm+d
+21290937,Sodium lauryl ether sulfo-succinate + Sodium lauryl ether sulfate,9906911000001100,dm+d
+21309822,Soya oil + Lauromacrogols,9907011000001101,dm+d
+21253854,Magnesium carbonate + Sodium bicarbonate,9907111000001100,dm+d
+21235281,Terpin + Codeine,9907411000001105,dm+d
+21291126,Tartaric acid,9907511000001109,dm+d
+21235282,Stearic acid,9907611000001108,dm+d
+21198071,Sterculia + Alverine,9907711000001104,dm+d
+21309823,Maize starch,9909011000001105,dm+d
+21216776,Aluminium hydroxide + Magnesium trisilicate,9909111000001106,dm+d
+21179265,Fish oil,9915111000001106,dm+d
+21272510,Botulinum A toxin,9915211000001100,dm+d
+21235283,Sumatra benzoin,9915311000001108,dm+d
+21291127,Calamine + Clioquinol + Zinc oxide,9915411000001101,dm+d
+21235090,Ether,9915511000001102,dm+d
+21253855,Ammonium bicarbonate + Potassium iodide,9915611000001103,dm+d
+21309648,Camphorated opium + Ipecacuanha + Sodium bicarbonate,9915711000001107,dm+d
+21309824,Halibut liver oil,9915811000001104,dm+d
+21216777,Retinol + Vitamin D,9915911000001109,dm+d
+21179266,Polysaccharide-iron complex,9916011000001101,dm+d
+21197876,Potassium citrate + Sodium monofluorophosphate,9916111000001100,dm+d
+21291128,Bacillus Calmette-Guerin,9916211000001106,dm+d
+21253856,Halogenated phenols + Phenol,9916311000001103,dm+d
+21235284,Taurine,9938111000001109,dm+d
+21291129,Tenofovir + Emtricitabine,9939211000001108,dm+d
+21179267,Thyrotropin alfa,9939911000001104,dm+d
+21178999,Chlorphenamine,9944001,dm+d
+21253857,Verapamil + Trandolapril,9952311000001109,dm+d
+21309825,Brimonidine + Timolol,9952911000001105,dm+d
+21272511,Timolol + Bendroflumethiazide,9953211000001107,dm+d
+21253858,Tipranavir,9953311000001104,dm+d
+21309826,Bismuth subnitrate + Iodoform,9993311000001108,dm+d
+21179268,Bismuth subcarbonate,9993411000001101,dm+d
+21253859,Castor oil + Collodion + Colophony,9993511000001102,dm+d
+21253860,Bismuth subgallate,9993611000001103,dm+d
+21179269,Bismuth subsalicylate,9993711000001107,dm+d
+21235285,Salicylic acid + Lactic acid,9993811000001104,dm+d
+21291130,Simeticone + Loperamide,9993911000001109,dm+d
+21179270,Salbutamol + Beclometasone,9994011000001107,dm+d
+21216778,Rabeprazole,9994111000001108,dm+d
+21216779,Paracetamol + Diphenhydramine,9994211000001102,dm+d
+21272512,Phenol + Chlorhexidine,9994311000001105,dm+d
+21216780,Oxitropium,9994411000001103,dm+d
+21216781,Carbon dioxide + Oxygen gas,9994511000001104,dm+d
+21309827,Carbon dioxide gas,9994611000001100,dm+d
