@@ -94,12 +94,12 @@ class ModelHandler:
             target_tensor = torch.tensor(target_embeddings, device=self.model.device)
 
             # numpy doesn't support gpu tensors
-            source_numpy = source_tensor.cpu().numpy()
-            target_numpy = target_tensor.cpu().numpy()
+            source_cpu = source_tensor.cpu()
+            target_cpu = target_tensor.cpu()
 
             # calculate similarities
             print("Calculating similarities...")
-            similarities = cosine_similarity(source_numpy, target_numpy)
+            similarities = cosine_similarity(source_cpu, target_cpu)
 
             return True, similarities
 
