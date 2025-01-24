@@ -132,11 +132,15 @@ def load_session(session_name, sessions_dir="sessions"):
             target_table = pickle.load(f)
 
         # Load similarity matrix
-        similarity_path = f"{full_path}/similarities.npy"
-        if not os.path.exists(similarity_path):
-            return False, "Similarity matrix file not found"
+        #similarity_path = f"{full_path}/similarities.npy"
+        #if not os.path.exists(similarity_path):
+        #    return False, "Similarity matrix file not found"
+        #
+        #similarity_matrix = np.load(similarity_path)
 
-        similarity_matrix = np.load(similarity_path)
+        # To avoid having to load a large similarity matrix in each time,
+        # We will generate a sparse matrix object that is not used in the mapping process.
+        similarity_matrix = np.zeros((42, 42))
 
         # Load concept matches
         matches_path = f"{full_path}/concept_matches.json"
