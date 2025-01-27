@@ -37,7 +37,7 @@
     "similarity_score": "-1.00",
     "confirmation_status": "Rejected",
     "first_confirmation_timestamp": "2025-01-27T14:06:34.054095",
-    "last_update_timestamp": "2025-01-27T14:08:17.385926"
+    "last_update_timestamp": "2025-01-27T14:36:49.913890"
   },
   {
     "source_key": 441168520,
@@ -323,161 +323,161 @@
     "source_key": 617990189,
     "target_concept_id": 21253520,
     "similarity_score": "0.86",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:37:53.249762",
+    "last_update_timestamp": "2025-01-27T14:37:53.249776"
   },
   {
     "source_key": 615317450,
     "target_concept_id": 21253551,
     "similarity_score": "0.71",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:37:54.866431",
+    "last_update_timestamp": "2025-01-27T14:37:54.866441"
   },
   {
     "source_key": 677872518,
     "target_concept_id": 21235302,
     "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:37:56.754694",
+    "last_update_timestamp": "2025-01-27T14:37:56.754705"
   },
   {
     "source_key": 977686645,
     "target_concept_id": 21178999,
     "similarity_score": "0.59",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:37:59.687820",
+    "last_update_timestamp": "2025-01-27T14:37:59.687830"
   },
   {
     "source_key": 40421123,
-    "target_concept_id": 21272255,
-    "similarity_score": "0.72",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 21178947,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:38:34.539614",
+    "last_update_timestamp": "2025-01-27T14:38:34.539622"
   },
   {
     "source_key": 534325834,
     "target_concept_id": 21178999,
     "similarity_score": "0.66",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:38:17.790648",
+    "last_update_timestamp": "2025-01-27T14:38:17.790657"
   },
   {
     "source_key": 645060065,
-    "target_concept_id": 21179303,
-    "similarity_score": "0.61",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 21197693,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:38:57.910489",
+    "last_update_timestamp": "2025-01-27T14:38:57.910499"
   },
   {
     "source_key": 47008400,
     "target_concept_id": 21253551,
     "similarity_score": "0.63",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:39:01.198088",
+    "last_update_timestamp": "2025-01-27T14:39:01.198096"
   },
   {
     "source_key": 910104247,
     "target_concept_id": 21309538,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:39:05.522448",
+    "last_update_timestamp": "2025-01-27T14:39:05.522454"
   },
   {
     "source_key": 22278395,
     "target_concept_id": 21253551,
     "similarity_score": "0.68",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:39:06.866346",
+    "last_update_timestamp": "2025-01-27T14:39:06.866352"
   },
   {
     "source_key": 259055405,
     "target_concept_id": 21253522,
     "similarity_score": "0.80",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:39:08.519160",
+    "last_update_timestamp": "2025-01-27T14:39:08.519171"
   },
   {
     "source_key": 991777690,
     "target_concept_id": 21234969,
     "similarity_score": "0.84",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:39:10.214689",
+    "last_update_timestamp": "2025-01-27T14:39:10.214694"
   },
   {
     "source_key": 390136883,
-    "target_concept_id": 21179019,
-    "similarity_score": "0.45",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-27T14:42:07.390537",
+    "last_update_timestamp": "2025-01-27T14:42:07.390542"
   },
   {
     "source_key": 360609954,
     "target_concept_id": 21290795,
     "similarity_score": "0.78",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:42:10.506012",
+    "last_update_timestamp": "2025-01-27T14:42:10.506017"
   },
   {
     "source_key": 279270670,
     "target_concept_id": 21178888,
     "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:42:11.869370",
+    "last_update_timestamp": "2025-01-27T14:42:11.869375"
   },
   {
     "source_key": 138730003,
     "target_concept_id": 21178947,
     "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:42:13.416127",
+    "last_update_timestamp": "2025-01-27T14:42:13.416132"
   },
   {
     "source_key": 260569355,
     "target_concept_id": 21272106,
     "similarity_score": "0.82",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:42:14.589593",
+    "last_update_timestamp": "2025-01-27T14:42:14.589600"
   },
   {
     "source_key": 542415852,
     "target_concept_id": 21309567,
     "similarity_score": "0.77",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:42:16.190463",
+    "last_update_timestamp": "2025-01-27T14:42:16.190468"
   },
   {
     "source_key": 362133574,
-    "target_concept_id": 21216564,
-    "similarity_score": "0.63",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 21197693,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:42:29.551538",
+    "last_update_timestamp": "2025-01-27T14:42:42.289773"
   },
   {
     "source_key": 348597020,
-    "target_concept_id": 21179283,
-    "similarity_score": "0.53",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 21198045,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-27T14:43:49.314789",
+    "last_update_timestamp": "2025-01-27T14:43:49.314793"
   },
   {
     "source_key": 765344039,
