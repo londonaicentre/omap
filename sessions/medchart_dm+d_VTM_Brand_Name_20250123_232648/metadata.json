@@ -1,0 +1,11 @@
+{
+    "project_name": "medchart_dm+d_VTM_Brand_Name",
+    "timestamp": "20250123_232648",
+    "source_count": 17606,
+    "target_count": 16089,
+    "similarity_matrix_size": [
+        17606,
+        16089
+    ],
+    "matches_count": 17606
+}
