@@ -1,0 +1,11 @@
+{
+    "project_name": "medchart_vtm",
+    "timestamp": "20250127_140538",
+    "source_count": 17606,
+    "target_count": 3513,
+    "similarity_matrix_size": [
+        17606,
+        3513
+    ],
+    "matches_count": 17606
+}
