@@ -250,7 +250,7 @@ def handle_navigation(total_pages):
         Streamlit UI:
             Three columns containing previous, confiurm, next buttons
     """
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
         prev = st.button("< Previous", disabled=st.session_state.page == 0)
@@ -268,6 +268,20 @@ def handle_navigation(total_pages):
         next = st.button("Next >", disabled=st.session_state.page >= total_pages-1)
         if next:
             st.session_state.page += 1
+            st.rerun()
+
+    with col5:
+        page_options = list(range(1, total_pages + 1))
+        selected_page = st.selectbox(
+            "Jump to page",
+            options=page_options,
+            index=st.session_state.page,
+            format_func=lambda x: f"Page {x}",
+            key="page_jump",
+            label_visibility="collapsed"
+        )
+        if selected_page - 1 != st.session_state.page:
+            st.session_state.page = selected_page - 1
             st.rerun()
 
     return confirm, reject
