@@ -1857,11 +1857,11 @@
   },
   {
     "source_key": 626694102,
-    "target_concept_id": 0,
+    "target_concept_id": 40688204,
     "similarity_score": "-1.00",
-    "confirmation_status": "Rejected",
+    "confirmation_status": "True",
     "first_confirmation_timestamp": "2025-01-29T10:50:58.849177",
-    "last_update_timestamp": "2025-01-29T10:55:56.773508"
+    "last_update_timestamp": "2025-01-29T14:52:21.609455"
   },
   {
     "source_key": 555482712,
@@ -1873,11 +1873,11 @@
   },
   {
     "source_key": 350430993,
-    "target_concept_id": 21197782,
+    "target_concept_id": 21272375,
     "similarity_score": "-1.00",
     "confirmation_status": "True",
     "first_confirmation_timestamp": "2025-01-29T10:57:16.050261",
-    "last_update_timestamp": "2025-01-29T10:57:16.050268"
+    "last_update_timestamp": "2025-01-29T13:41:15.577535"
   },
   {
     "source_key": 558091696,
