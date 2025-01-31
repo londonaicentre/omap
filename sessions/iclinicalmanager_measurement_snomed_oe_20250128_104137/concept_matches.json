@@ -163,961 +163,961 @@
     "source_key": 988115740,
     "target_concept_id": 37398424,
     "similarity_score": "0.98",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534071",
+    "last_update_timestamp": "2025-01-31T15:12:56.534077"
   },
   {
     "source_key": 613661335,
     "target_concept_id": 1247076,
     "similarity_score": "0.89",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534080",
+    "last_update_timestamp": "2025-01-31T15:12:56.534080"
   },
   {
     "source_key": 588837938,
     "target_concept_id": 35609594,
     "similarity_score": "0.72",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534082",
+    "last_update_timestamp": "2025-01-31T15:12:56.534082"
   },
   {
     "source_key": 782178589,
-    "target_concept_id": 37398420,
-    "similarity_score": "0.93",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37398482,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:08:52.313972",
+    "last_update_timestamp": "2025-01-31T15:14:56.960670"
   },
   {
     "source_key": 718386709,
     "target_concept_id": 4310631,
     "similarity_score": "0.78",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534089",
+    "last_update_timestamp": "2025-01-31T15:12:56.534089"
   },
   {
     "source_key": 628261928,
-    "target_concept_id": 37392195,
-    "similarity_score": "0.96",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37394205,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534094",
+    "last_update_timestamp": "2025-01-31T15:14:56.960680"
   },
   {
     "source_key": 693649915,
     "target_concept_id": 37394189,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534096",
+    "last_update_timestamp": "2025-01-31T15:12:56.534097"
   },
   {
     "source_key": 13512913,
     "target_concept_id": 37398293,
     "similarity_score": "0.96",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534098",
+    "last_update_timestamp": "2025-01-31T15:12:56.534099"
   },
   {
     "source_key": 698638657,
     "target_concept_id": 37392175,
     "similarity_score": "0.92",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534100",
+    "last_update_timestamp": "2025-01-31T15:12:56.534101"
   },
   {
     "source_key": 690529852,
     "target_concept_id": 4232915,
     "similarity_score": "0.93",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534102",
+    "last_update_timestamp": "2025-01-31T15:12:56.534103"
   },
   {
     "source_key": 824304750,
-    "target_concept_id": 4060834,
-    "similarity_score": "0.77",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 40462158,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:11:43.363544",
+    "last_update_timestamp": "2025-01-31T15:14:56.960690"
   },
   {
     "source_key": 616134084,
     "target_concept_id": 4248524,
     "similarity_score": "0.89",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534109",
+    "last_update_timestamp": "2025-01-31T15:12:56.534109"
   },
   {
     "source_key": 22479227,
-    "target_concept_id": 4105478,
-    "similarity_score": "0.44",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:11:59.738834",
+    "last_update_timestamp": "2025-01-31T15:14:56.960695"
   },
   {
     "source_key": 25982538,
     "target_concept_id": 37398740,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534115",
+    "last_update_timestamp": "2025-01-31T15:12:56.534116"
   },
   {
     "source_key": 66898623,
     "target_concept_id": 40452545,
     "similarity_score": "0.93",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534117",
+    "last_update_timestamp": "2025-01-31T15:12:56.534118"
   },
   {
     "source_key": 95558992,
     "target_concept_id": 45771331,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534119",
+    "last_update_timestamp": "2025-01-31T15:12:56.534120"
   },
   {
     "source_key": 884066895,
     "target_concept_id": 37392187,
     "similarity_score": "0.62",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534121",
+    "last_update_timestamp": "2025-01-31T15:12:56.534121"
   },
   {
     "source_key": 535113759,
-    "target_concept_id": 37393104,
-    "similarity_score": "0.95",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37392173,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534126",
+    "last_update_timestamp": "2025-01-31T15:14:56.960704"
   },
   {
     "source_key": 933342638,
-    "target_concept_id": 4090193,
-    "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534130",
+    "last_update_timestamp": "2025-01-31T15:14:56.960709"
   },
   {
     "source_key": 361279945,
     "target_concept_id": 4009397,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:12:56.534132",
+    "last_update_timestamp": "2025-01-31T15:12:56.534133"
   },
   {
     "source_key": 908613612,
     "target_concept_id": 37394210,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:13:15.937394",
+    "last_update_timestamp": "2025-01-31T15:14:56.960712"
   },
   {
     "source_key": 819097321,
-    "target_concept_id": 4093362,
-    "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:13:28.352302",
+    "last_update_timestamp": "2025-01-31T15:17:05.265065"
   },
   {
     "source_key": 984478993,
-    "target_concept_id": 4186726,
-    "similarity_score": "0.85",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 44802816,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:13:27.970767",
+    "last_update_timestamp": "2025-01-31T15:17:05.265075"
   },
   {
     "source_key": 562718783,
     "target_concept_id": 40257916,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960722",
+    "last_update_timestamp": "2025-01-31T15:14:56.960722"
   },
   {
     "source_key": 525355186,
     "target_concept_id": 44809199,
     "similarity_score": "0.95",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960724",
+    "last_update_timestamp": "2025-01-31T15:14:56.960724"
   },
   {
     "source_key": 355922512,
     "target_concept_id": 4298391,
     "similarity_score": "0.97",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960726",
+    "last_update_timestamp": "2025-01-31T15:14:56.960726"
   },
   {
     "source_key": 883117324,
     "target_concept_id": 37394116,
     "similarity_score": "0.89",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960728",
+    "last_update_timestamp": "2025-01-31T15:14:56.960728"
   },
   {
     "source_key": 41304865,
     "target_concept_id": 37393832,
     "similarity_score": "0.83",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960730",
+    "last_update_timestamp": "2025-01-31T15:14:56.960730"
   },
   {
     "source_key": 94594769,
     "target_concept_id": 37398462,
     "similarity_score": "0.96",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960732",
+    "last_update_timestamp": "2025-01-31T15:14:56.960732"
   },
   {
     "source_key": 62444533,
     "target_concept_id": 46273658,
     "similarity_score": "0.97",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960734",
+    "last_update_timestamp": "2025-01-31T15:14:56.960734"
   },
   {
     "source_key": 49052370,
     "target_concept_id": 44802815,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960735",
+    "last_update_timestamp": "2025-01-31T15:14:56.960736"
   },
   {
     "source_key": 689651495,
     "target_concept_id": 4089851,
     "similarity_score": "0.72",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960737",
+    "last_update_timestamp": "2025-01-31T15:14:56.960738"
   },
   {
     "source_key": 425305512,
     "target_concept_id": 4186726,
     "similarity_score": "0.85",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960739",
+    "last_update_timestamp": "2025-01-31T15:14:56.960740"
   },
   {
     "source_key": 579810160,
-    "target_concept_id": 37393198,
-    "similarity_score": "0.78",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37392228,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:16.305659",
+    "last_update_timestamp": "2025-01-31T15:17:05.265093"
   },
   {
     "source_key": 454242840,
-    "target_concept_id": 4227849,
-    "similarity_score": "0.67",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:14:43.824758",
+    "last_update_timestamp": "2025-01-31T15:17:05.265097"
   },
   {
     "source_key": 350066590,
     "target_concept_id": 44813196,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960750",
+    "last_update_timestamp": "2025-01-31T15:14:56.960750"
   },
   {
     "source_key": 586537549,
     "target_concept_id": 3557127,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960752",
+    "last_update_timestamp": "2025-01-31T15:14:56.960752"
   },
   {
     "source_key": 91261609,
-    "target_concept_id": 3572785,
-    "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960757",
+    "last_update_timestamp": "2025-01-31T15:17:05.265104"
   },
   {
     "source_key": 765555278,
     "target_concept_id": 37174108,
     "similarity_score": "0.69",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960759",
+    "last_update_timestamp": "2025-01-31T15:14:56.960759"
   },
   {
     "source_key": 880095506,
     "target_concept_id": 44809199,
     "similarity_score": "0.96",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:14:56.960761",
+    "last_update_timestamp": "2025-01-31T15:14:56.960761"
   },
   {
     "source_key": 889442602,
     "target_concept_id": 37393576,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:15:46.491566",
+    "last_update_timestamp": "2025-01-31T15:17:05.265109"
   },
   {
     "source_key": 770522968,
     "target_concept_id": 37397888,
     "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265111",
+    "last_update_timestamp": "2025-01-31T15:17:05.265111"
   },
   {
     "source_key": 622424706,
-    "target_concept_id": 37392230,
-    "similarity_score": "0.68",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 44809202,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:16:20.454431",
+    "last_update_timestamp": "2025-01-31T15:22:56.716107"
   },
   {
     "source_key": 961864929,
-    "target_concept_id": 4155015,
-    "similarity_score": "0.44",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 35609594,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:16:33.600489",
+    "last_update_timestamp": "2025-01-31T15:22:56.716116"
   },
   {
     "source_key": 14551556,
     "target_concept_id": 4292062,
     "similarity_score": "0.93",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265121",
+    "last_update_timestamp": "2025-01-31T15:17:05.265121"
   },
   {
     "source_key": 475932405,
     "target_concept_id": 4268883,
     "similarity_score": "0.90",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265123",
+    "last_update_timestamp": "2025-01-31T15:17:05.265123"
   },
   {
     "source_key": 214873947,
     "target_concept_id": 4239408,
     "similarity_score": "0.75",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265125",
+    "last_update_timestamp": "2025-01-31T15:17:05.265125"
   },
   {
     "source_key": 8793294,
     "target_concept_id": 40329230,
     "similarity_score": "0.91",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265127",
+    "last_update_timestamp": "2025-01-31T15:17:05.265127"
   },
   {
     "source_key": 326234018,
     "target_concept_id": 37394134,
     "similarity_score": "0.97",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265129",
+    "last_update_timestamp": "2025-01-31T15:17:05.265129"
   },
   {
     "source_key": 683980233,
     "target_concept_id": 4089853,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265131",
+    "last_update_timestamp": "2025-01-31T15:17:05.265131"
   },
   {
     "source_key": 434482715,
     "target_concept_id": 37393730,
     "similarity_score": "0.85",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265133",
+    "last_update_timestamp": "2025-01-31T15:17:05.265133"
   },
   {
     "source_key": 581806138,
     "target_concept_id": 4152194,
     "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265142",
+    "last_update_timestamp": "2025-01-31T15:17:05.265143"
   },
   {
     "source_key": 979384440,
-    "target_concept_id": 4236347,
-    "similarity_score": "0.96",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 4154790,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265147",
+    "last_update_timestamp": "2025-01-31T15:22:56.716131"
   },
   {
     "source_key": 851009127,
     "target_concept_id": 44809580,
     "similarity_score": "0.98",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265149",
+    "last_update_timestamp": "2025-01-31T15:17:05.265150"
   },
   {
     "source_key": 36264618,
-    "target_concept_id": 4120923,
-    "similarity_score": "0.46",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265154",
+    "last_update_timestamp": "2025-01-31T15:22:56.716136"
   },
   {
     "source_key": 619488882,
     "target_concept_id": 4224504,
     "similarity_score": "0.74",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265156",
+    "last_update_timestamp": "2025-01-31T15:17:05.265156"
   },
   {
     "source_key": 867980383,
     "target_concept_id": 40452545,
     "similarity_score": "0.80",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265158",
+    "last_update_timestamp": "2025-01-31T15:17:05.265158"
   },
   {
     "source_key": 490372316,
     "target_concept_id": 37397915,
     "similarity_score": "0.78",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265160",
+    "last_update_timestamp": "2025-01-31T15:17:05.265160"
   },
   {
     "source_key": 723891637,
     "target_concept_id": 44808857,
     "similarity_score": "0.97",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265162",
+    "last_update_timestamp": "2025-01-31T15:17:05.265162"
   },
   {
     "source_key": 557774562,
     "target_concept_id": 44802820,
     "similarity_score": "0.85",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:17:05.265164",
+    "last_update_timestamp": "2025-01-31T15:17:05.265164"
   },
   {
     "source_key": 32994968,
     "target_concept_id": 37208641,
     "similarity_score": "0.94",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716144",
+    "last_update_timestamp": "2025-01-31T15:22:56.716145"
   },
   {
     "source_key": 683001252,
     "target_concept_id": 37172372,
     "similarity_score": "0.85",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716146",
+    "last_update_timestamp": "2025-01-31T15:22:56.716147"
   },
   {
     "source_key": 608998719,
     "target_concept_id": 37394375,
     "similarity_score": "0.97",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716148",
+    "last_update_timestamp": "2025-01-31T15:22:56.716149"
   },
   {
     "source_key": 821010858,
-    "target_concept_id": 40297807,
-    "similarity_score": "0.54",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 40267646,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:20:27.683580",
+    "last_update_timestamp": "2025-01-31T15:25:26.009846"
   },
   {
     "source_key": 717609879,
     "target_concept_id": 37392373,
     "similarity_score": "0.98",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716154",
+    "last_update_timestamp": "2025-01-31T15:22:56.716155"
   },
   {
     "source_key": 494235627,
     "target_concept_id": 37397918,
     "similarity_score": "0.98",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716156",
+    "last_update_timestamp": "2025-01-31T15:22:56.716157"
   },
   {
     "source_key": 895841637,
-    "target_concept_id": 37399293,
-    "similarity_score": "0.78",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37174108,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:20:47.879160",
+    "last_update_timestamp": "2025-01-31T15:25:26.009859"
   },
   {
     "source_key": 756971812,
     "target_concept_id": 37392838,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:21:22.164688",
+    "last_update_timestamp": "2025-01-31T15:22:56.716162"
   },
   {
     "source_key": 333440020,
-    "target_concept_id": 4152364,
-    "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:21:21.660294",
+    "last_update_timestamp": "2025-01-31T15:25:26.009865"
   },
   {
     "source_key": 245075226,
-    "target_concept_id": 3563165,
-    "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:21:21.229813",
+    "last_update_timestamp": "2025-01-31T15:25:26.009869"
   },
   {
     "source_key": 773979352,
-    "target_concept_id": 37175301,
-    "similarity_score": "0.75",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:21:20.718707",
+    "last_update_timestamp": "2025-01-31T15:25:26.009874"
   },
   {
     "source_key": 668929664,
-    "target_concept_id": 44809199,
-    "similarity_score": "0.87",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 44807234,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:21:20.204020",
+    "last_update_timestamp": "2025-01-31T15:25:26.009878"
   },
   {
     "source_key": 539011702,
     "target_concept_id": 37394167,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716181",
+    "last_update_timestamp": "2025-01-31T15:22:56.716181"
   },
   {
     "source_key": 84148237,
     "target_concept_id": 37398414,
     "similarity_score": "0.95",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716183",
+    "last_update_timestamp": "2025-01-31T15:22:56.716183"
   },
   {
     "source_key": 521709302,
-    "target_concept_id": 37310270,
-    "similarity_score": "0.68",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716188",
+    "last_update_timestamp": "2025-01-31T15:25:26.009885"
   },
   {
     "source_key": 476111907,
-    "target_concept_id": 4235420,
-    "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37398434,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:21:48.080250",
+    "last_update_timestamp": "2025-01-31T15:25:26.009889"
   },
   {
     "source_key": 320250786,
     "target_concept_id": 37394193,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716194",
+    "last_update_timestamp": "2025-01-31T15:22:56.716194"
   },
   {
     "source_key": 257915406,
-    "target_concept_id": 3563165,
-    "similarity_score": "0.77",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716198",
+    "last_update_timestamp": "2025-01-31T15:25:26.009894"
   },
   {
     "source_key": 832202933,
     "target_concept_id": 37398118,
     "similarity_score": "0.88",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716200",
+    "last_update_timestamp": "2025-01-31T15:22:56.716201"
   },
   {
     "source_key": 835594901,
     "target_concept_id": 37392938,
     "similarity_score": "0.94",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:22:56.716202",
+    "last_update_timestamp": "2025-01-31T15:22:56.716203"
   },
   {
     "source_key": 571699813,
     "target_concept_id": 37392939,
     "similarity_score": "0.94",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009899",
+    "last_update_timestamp": "2025-01-31T15:25:26.009899"
   },
   {
     "source_key": 830897717,
     "target_concept_id": 37393304,
     "similarity_score": "0.83",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009901",
+    "last_update_timestamp": "2025-01-31T15:25:26.009902"
   },
   {
     "source_key": 359505142,
     "target_concept_id": 37393839,
     "similarity_score": "0.82",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009903",
+    "last_update_timestamp": "2025-01-31T15:25:26.009904"
   },
   {
     "source_key": 526427818,
     "target_concept_id": 4036197,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009905",
+    "last_update_timestamp": "2025-01-31T15:25:26.009906"
   },
   {
     "source_key": 180699030,
     "target_concept_id": 37394434,
     "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009907",
+    "last_update_timestamp": "2025-01-31T15:25:26.009908"
   },
   {
     "source_key": 162479070,
     "target_concept_id": 37394359,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009909",
+    "last_update_timestamp": "2025-01-31T15:25:26.009909"
   },
   {
     "source_key": 632601269,
     "target_concept_id": 37394192,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009911",
+    "last_update_timestamp": "2025-01-31T15:25:26.009911"
   },
   {
     "source_key": 608228131,
     "target_concept_id": 37398955,
     "similarity_score": "0.89",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:24:28.411636",
+    "last_update_timestamp": "2025-01-31T15:25:26.009913"
   },
   {
     "source_key": 56890279,
-    "target_concept_id": 4190807,
-    "similarity_score": "0.69",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 44807234,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009918",
+    "last_update_timestamp": "2025-01-31T15:37:54.817834"
   },
   {
     "source_key": 60531746,
     "target_concept_id": 3549549,
     "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009920",
+    "last_update_timestamp": "2025-01-31T15:25:26.009920"
   },
   {
     "source_key": 101682155,
     "target_concept_id": 37393832,
     "similarity_score": "0.82",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009922",
+    "last_update_timestamp": "2025-01-31T15:25:26.009922"
   },
   {
     "source_key": 637055612,
     "target_concept_id": 37394116,
     "similarity_score": "0.85",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009924",
+    "last_update_timestamp": "2025-01-31T15:25:26.009924"
   },
   {
     "source_key": 941708542,
     "target_concept_id": 37394227,
     "similarity_score": "0.99",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009926",
+    "last_update_timestamp": "2025-01-31T15:25:26.009926"
   },
   {
     "source_key": 417643781,
     "target_concept_id": 37392893,
     "similarity_score": "0.73",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009928",
+    "last_update_timestamp": "2025-01-31T15:25:26.009928"
   },
   {
     "source_key": 449869393,
     "target_concept_id": 37397916,
     "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009930",
+    "last_update_timestamp": "2025-01-31T15:25:26.009930"
   },
   {
     "source_key": 223405623,
-    "target_concept_id": 37393847,
-    "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37393620,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009935",
+    "last_update_timestamp": "2025-01-31T15:37:54.817852"
   },
   {
     "source_key": 332327352,
     "target_concept_id": 37399171,
     "similarity_score": "0.94",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009937",
+    "last_update_timestamp": "2025-01-31T15:25:26.009937"
   },
   {
     "source_key": 560044006,
-    "target_concept_id": 4161972,
-    "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009941",
+    "last_update_timestamp": "2025-01-31T15:37:54.817857"
   },
   {
     "source_key": 702499231,
-    "target_concept_id": 37152357,
-    "similarity_score": "0.58",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009946",
+    "last_update_timestamp": "2025-01-31T15:37:54.817861"
   },
   {
     "source_key": 494056770,
     "target_concept_id": 37174447,
     "similarity_score": "0.76",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:25:26.009948",
+    "last_update_timestamp": "2025-01-31T15:25:26.009948"
   },
   {
     "source_key": 508678668,
     "target_concept_id": 4249712,
     "similarity_score": "0.75",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:35:52.234026",
+    "last_update_timestamp": "2025-01-31T15:37:54.817864"
   },
   {
     "source_key": 715068979,
-    "target_concept_id": 37172540,
-    "similarity_score": "0.55",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 35610554,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817869",
+    "last_update_timestamp": "2025-01-31T15:37:54.817869"
   },
   {
     "source_key": 501570816,
-    "target_concept_id": 37392637,
-    "similarity_score": "0.89",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37398786,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817874",
+    "last_update_timestamp": "2025-01-31T15:37:54.817874"
   },
   {
     "source_key": 539627327,
     "target_concept_id": 37398806,
     "similarity_score": "0.62",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817876",
+    "last_update_timestamp": "2025-01-31T15:37:54.817876"
   },
   {
     "source_key": 726064302,
-    "target_concept_id": 4075008,
-    "similarity_score": "0.67",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817881",
+    "last_update_timestamp": "2025-01-31T15:37:54.817881"
   },
   {
     "source_key": 158070498,
     "target_concept_id": 40558916,
     "similarity_score": "0.98",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817883",
+    "last_update_timestamp": "2025-01-31T15:37:54.817883"
   },
   {
     "source_key": 807071539,
-    "target_concept_id": 40483131,
-    "similarity_score": "0.68",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817887",
+    "last_update_timestamp": "2025-01-31T15:37:54.817887"
   },
   {
     "source_key": 787465477,
-    "target_concept_id": 37393847,
-    "similarity_score": "0.81",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 37392929,
+    "similarity_score": "-1.00",
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817892",
+    "last_update_timestamp": "2025-01-31T15:37:54.817892"
   },
   {
     "source_key": 847495399,
-    "target_concept_id": 4145303,
-    "similarity_score": "0.75",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817896",
+    "last_update_timestamp": "2025-01-31T15:37:54.817896"
   },
   {
     "source_key": 803515461,
-    "target_concept_id": 4270290,
-    "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817900",
+    "last_update_timestamp": "2025-01-31T15:37:54.817901"
   },
   {
     "source_key": 871080966,
-    "target_concept_id": 4133335,
-    "similarity_score": "0.57",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817905",
+    "last_update_timestamp": "2025-01-31T15:37:54.817905"
   },
   {
     "source_key": 340724484,
-    "target_concept_id": 37169921,
-    "similarity_score": "0.83",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817909",
+    "last_update_timestamp": "2025-01-31T15:37:54.817910"
   },
   {
     "source_key": 518610421,
-    "target_concept_id": 37392929,
-    "similarity_score": "0.59",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "target_concept_id": 0,
+    "similarity_score": "-1.00",
+    "confirmation_status": "Rejected",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817914",
+    "last_update_timestamp": "2025-01-31T15:37:54.817914"
   },
   {
     "source_key": 407720050,
     "target_concept_id": 37172333,
     "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817916",
+    "last_update_timestamp": "2025-01-31T15:37:54.817916"
   },
   {
     "source_key": 538981193,
     "target_concept_id": 37394201,
     "similarity_score": "0.96",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817918",
+    "last_update_timestamp": "2025-01-31T15:37:54.817918"
   },
   {
     "source_key": 653486843,
     "target_concept_id": 4249712,
     "similarity_score": "0.70",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817920",
+    "last_update_timestamp": "2025-01-31T15:37:54.817920"
   },
   {
     "source_key": 558898002,
     "target_concept_id": 37393317,
     "similarity_score": "1.00",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817921",
+    "last_update_timestamp": "2025-01-31T15:37:54.817922"
   },
   {
     "source_key": 887620635,
     "target_concept_id": 37393437,
     "similarity_score": "0.95",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817923",
+    "last_update_timestamp": "2025-01-31T15:37:54.817924"
   },
   {
     "source_key": 468181018,
     "target_concept_id": 45771331,
     "similarity_score": "0.80",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817925",
+    "last_update_timestamp": "2025-01-31T15:37:54.817926"
   },
   {
     "source_key": 521564780,
     "target_concept_id": 37392842,
     "similarity_score": "0.74",
-    "confirmation_status": false,
-    "first_confirmation_timestamp": null,
-    "last_update_timestamp": null
+    "confirmation_status": "True",
+    "first_confirmation_timestamp": "2025-01-31T15:37:54.817927",
+    "last_update_timestamp": "2025-01-31T15:37:54.817928"
   },
   {
     "source_key": 289568140,
