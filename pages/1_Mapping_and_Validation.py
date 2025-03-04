@@ -7,6 +7,7 @@ import json
 print("WARNING: Excessive directory traversal happening. Lawrence, avert your eyes.")
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.session_utils import list_saved_sessions, load_session, ProjectSession
+from src.data_utils import sort_concepts
 print("It's OK you can look now.")
 
 ### Streamlit page: Mapping / confirmation
@@ -478,6 +479,16 @@ def reject_unconfirmed_mappings(session, start_idx, end_idx):
     except Exception as e:
         return False, f"Failed to save matches: {e}"
 
+def display_sort_options(session, source_lookup):
+    """
+    Display sorting options and return the sorted list of concept matches.
+    """
+    sort_option = st.selectbox(
+        "Sort mappings by",
+        ["None", "Alphabetical (A-Z)", "Alphabetical (Z-A)", "Highest Confidence", "Lowest Confidence"],
+        key="sort_option"
+    )
+    return sort_concepts(session.concept_matches, source_lookup, sort_option)
 
 def main():
     st.set_page_config(layout="wide")
@@ -491,6 +502,11 @@ def main():
     session = st.session_state.current_session
     source_lookup, target_lookup, target_options = create_concept_lookups(session)
     start_idx, end_idx, total_pages = setup_pagination(len(session.concept_matches))
+
+    # display sorting options
+    sorted_concept_matches = display_sort_options(session, source_lookup)
+    if sorted_concept_matches:
+        session.concept_matches = sorted_concept_matches
 
     # Display mappings
     display_headings()
