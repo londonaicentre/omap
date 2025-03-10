@@ -27,5 +27,5 @@ jobs:
 
       - name: Set PYTHONPATH and Run Tests
         run: |
-          export PYTHONPATH=src  # Ensure the test runner finds the src folder
-          pytest -v
+          echo "PYTHONPATH=$PWD/src" >> $GITHUB_ENV
+          pytest -v tests/
