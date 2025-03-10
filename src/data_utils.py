@@ -148,6 +148,22 @@ def sort_concepts(concept_matches, source_lookup, sort_option="None"):
     return concept_matches  # Default: return unsorted list
 
 
+def filter_for_unconfirmed_mappings(concept_matches):
+    """
+    Filters out confirmed mappings, keeping only those where confirmation_status is 'False'.
+    """
+    unique_statuses = set(match.confirmation_status for match in concept_matches)
+    print(f"DEBUG: Unique confirmation statuses found BEFORE filtering: {unique_statuses}")
+
+    # Filter only mappings where confirmation_status is exactly False
+    filtered_matches = [match for match in concept_matches if str(match.confirmation_status).lower() == "false"]
+
+    unique_statuses_after = set(match.confirmation_status for match in filtered_matches)
+    print(f"DEBUG: Unique confirmation statuses found AFTER filtering: {unique_statuses_after}")
+
+    print(f"DEBUG: Total unconfirmed mappings after filtering: {len(filtered_matches)}")
+    return filtered_matches
+
 
 @dataclass
 class ConceptMatch:
