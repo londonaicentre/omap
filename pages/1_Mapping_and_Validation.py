@@ -513,6 +513,7 @@ def display_sort_options(concept_matches, source_lookup):
 
 def main():
     st.set_page_config(layout="wide")
+    
     st.title("Validate Mappings")
     initialize_session_state()
 
