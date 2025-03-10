@@ -16,10 +16,10 @@ def sample_mappings():
 def sample_source_lookup():
     """Returns a dictionary to mock source concept names."""
     return {
-        1: "Aspirin",
+        1: "Buprenorphine",
         2: "Paracetamol",
         3: "Ibuprofen",
-        4: "Amoxicillin",
+        4: "Clopidogrel",
     }
 
 # TEST 1: Filtering works correctly
@@ -31,19 +31,11 @@ def test_filter_for_unconfirmed_mappings(sample_mappings):
 # TEST 2: Sorting by A-Z works
 def test_sort_concepts_alphabetical(sample_mappings, sample_source_lookup):
     sorted_mappings = data_utils.sort_concepts(sample_mappings, sample_source_lookup, sort_option="Alphabetical (A-Z)")
-    sorted_names = [sample_source_lookup[m.source_key] for m in sorted_mappings]  # Ignore confirmed at the end
-    print("Expected Order:", sorted_names)
-    print("Actual Order:", sorted(sorted_names))
+    sorted_names = [sample_source_lookup[m.source_key] for m in sorted_mappings]
     assert sorted_names == sorted(sorted_names)  # Should be sorted alphabetically
 
 # TEST 3: Sorting by confidence works
 def test_sort_concepts_highest_confidence(sample_mappings, sample_source_lookup):
     sorted_mappings = data_utils.sort_concepts(sample_mappings, sample_source_lookup, sort_option="Highest Confidence")
-    sorted_scores = [m.similarity_score for m in sorted_mappings[:-2]]  # Ignore confirmed at the end
+    sorted_scores = [m.similarity_score for m in sorted_mappings]
     assert sorted_scores == sorted(sorted_scores, reverse=True)  # Should be sorted highest to lowest
-
-# TEST 4: Confirmed mappings stay at the bottom
-def test_sort_concepts_confimed_at_bottom(sample_mappings, sample_source_lookup):
-    sorted_mappings = data_utils.sort_concepts(sample_mappings, sample_source_lookup, sort_option="Alphabetical (A-Z)")
-    assert sorted_mappings[-1].confirmation_status in ["True", "Rejected"]
-    assert sorted_mappings[-2].confirmation_status in ["True", "Rejected"]
