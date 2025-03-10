@@ -138,9 +138,9 @@ def get_source_concept_name(match, source_lookup):
 def sort_concepts(concept_matches, source_lookup, sort_option="None"):
     """Sorts the list of concept matches based on user choice."""
     if sort_option == "Alphabetical (A-Z)":
-        return sorted(concept_matches, key=lambda match: get_source_concept_name(match, source_lookup))
+        return sorted(concept_matches, key=lambda match: get_source_concept_name(match, source_lookup).lower())
     elif sort_option == "Alphabetical (Z-A)":
-        return sorted(concept_matches, key=lambda match: get_source_concept_name(match, source_lookup), reverse=True)
+        return sorted(concept_matches, key=lambda match: get_source_concept_name(match, source_lookup).lower(), reverse=True)
     elif sort_option == "Highest Confidence":
         return sorted(concept_matches, key=lambda match: match.similarity_score, reverse=True)
     elif sort_option == "Lowest Confidence":

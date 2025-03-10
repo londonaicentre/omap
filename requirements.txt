@@ -6,3 +6,4 @@ transformers
 stqdm
 scikit-learn
 watchdog
+pytest
