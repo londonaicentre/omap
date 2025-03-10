@@ -1,17 +1,10 @@
-# import sys
-# import os
-
-# print("DEBUG: conftest.py is running")
-
-# # Get the absolute path of the project's root directory
-# ROOT_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-
-# # Add 'src' to the Python path
-# SRC_PATH = os.path.join(ROOT_DIR, "src")
-# if SRC_PATH not in sys.path:
-#     sys.path.insert(0, SRC_PATH)
-#     print(f"DEBUG: Added {SRC_PATH} to sys.path")
-
 import sys
+import os
 
-print("DEBUG: sys.path =", sys.path)
+# Ensure `src/` is in `sys.path`
+src_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../src"))
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
+print(f"DEBUG: conftest.py is running")
+print(f"DEBUG: sys.path = {sys.path}")
