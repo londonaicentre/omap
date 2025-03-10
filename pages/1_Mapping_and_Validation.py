@@ -285,7 +285,6 @@ def handle_navigation(total_pages):
             key="page_jump",
             label_visibility="collapsed"
         )
-
         if selected_page - 1 != st.session_state.page:
             st.session_state.page = selected_page - 1
             st.rerun()
@@ -513,7 +512,7 @@ def display_sort_options(concept_matches, source_lookup):
 
 def main():
     st.set_page_config(layout="wide")
-    
+
     st.title("Validate Mappings")
     initialize_session_state()
 
