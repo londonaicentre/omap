@@ -279,7 +279,7 @@ def handle_navigation(total_pages):
             page_options = [1]  # ensure at least page 1 is available
         selected_page = st.selectbox(
             "Jump to page",
-            options = page_options,
+            options=page_options,
             index=min(st.session_state.page, len(page_options) - 1),  # Prevent index error
             format_func=lambda x: f"Page {x}",
             key="page_jump",
@@ -527,9 +527,6 @@ def main():
 
     # Set up pagination AFTER filtering & sorting
     start_idx, end_idx, total_pages = setup_pagination(len(filtered_and_sorted_concept_matches))
-
-    # Debugging statements
-    st.write(f"Total mappings before display: {len(filtered_and_sorted_concept_matches)}")
 
     # Display mappings
     display_headings()
