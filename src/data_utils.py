@@ -152,7 +152,6 @@ def filter_for_unconfirmed_mappings(concept_matches):
     """
     Filters out confirmed mappings, keeping only those where confirmation_status is 'False'.
     """
-    # Filter only mappings where confirmation_status is exactly False
     filtered_matches = [match for match in concept_matches if str(match.confirmation_status).lower() == "false"]
     return filtered_matches
 
