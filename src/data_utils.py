@@ -130,6 +130,32 @@ class TargetConceptTable:
         except Exception as e:
             return False, f"Error processing target concepts: {e}"
 
+
+def get_source_concept_name(match, source_lookup):
+    """Fetches the source concept name for a given match from the source lookup dictionary."""
+    return source_lookup.get(match.source_key, ("", 0))[0].lower()  # Extract name, ignore count
+
+def sort_concepts(concept_matches, source_lookup, sort_option="None"):
+    """Sorts the list of concept matches based on user choice."""
+    if sort_option == "Alphabetical (A-Z)":
+        return sorted(concept_matches, key=lambda match: get_source_concept_name(match, source_lookup).lower())
+    elif sort_option == "Alphabetical (Z-A)":
+        return sorted(concept_matches, key=lambda match: get_source_concept_name(match, source_lookup).lower(), reverse=True)
+    elif sort_option == "Highest Confidence":
+        return sorted(concept_matches, key=lambda match: match.similarity_score, reverse=True)
+    elif sort_option == "Lowest Confidence":
+        return sorted(concept_matches, key=lambda match: match.similarity_score)
+    return concept_matches  # Default: return unsorted list
+
+
+def filter_for_unconfirmed_mappings(concept_matches):
+    """
+    Filters out confirmed mappings, keeping only those where confirmation_status is 'False'.
+    """
+    filtered_matches = [match for match in concept_matches if str(match.confirmation_status).lower() == "false"]
+    return filtered_matches
+
+
 @dataclass
 class ConceptMatch:
     source_key: int
