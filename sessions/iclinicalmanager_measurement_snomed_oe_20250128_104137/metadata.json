@@ -1,0 +1,11 @@
+{
+    "project_name": "iclinicalmanager_measurement_snomed_oe",
+    "timestamp": "20250128_104137",
+    "source_count": 6527,
+    "target_count": 22954,
+    "similarity_matrix_size": [
+        6527,
+        22954
+    ],
+    "matches_count": 6527
+}
