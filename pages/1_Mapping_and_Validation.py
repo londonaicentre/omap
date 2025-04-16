@@ -7,7 +7,7 @@ import json
 print("WARNING: Excessive directory traversal happening. Lawrence, avert your eyes.")
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from src.session_utils import list_saved_sessions, load_session, ProjectSession
-from src.data_utils import sort_concepts, filter_for_unconfirmed_mappings
+# from src.data_utils import sort_concepts, filter_for_unconfirmed_mappings
 print("It's OK you can look now.")
 
 ### Streamlit page: Mapping / confirmation
@@ -483,32 +483,33 @@ def reject_unconfirmed_mappings(session, start_idx, end_idx):
     except Exception as e:
         return False, f"Failed to save matches: {e}"
 
-def display_sort_options(concept_matches, source_lookup):
-    """
-    Display sorting and filtering options, returning the sorted and (optionally) filtered list of concept matches.
-    """
-    # Toggle for filtering out confirmed mappings
-    apply_filter = st.checkbox("Show only unconfirmed mappings", value=True, key="filter_toggle")
+# DEPRECATED DUE TO https://github.com/londonaicentre/omap/issues/20
+# def display_sort_options(concept_matches, source_lookup):
+#     """
+#     Display sorting and filtering options, returning the sorted and (optionally) filtered list of concept matches.
+#     """
+#     # Toggle for filtering out confirmed mappings
+#     apply_filter = st.checkbox("Show only unconfirmed mappings", value=True, key="filter_toggle")
 
-    # Sorting dropdown
-    sort_option = st.selectbox(
-        "Sort mappings by",
-        ["None", "Alphabetical (A-Z)", "Alphabetical (Z-A)", "Highest Confidence", "Lowest Confidence"],
-        key="sort_option"
-    )
+#     # Sorting dropdown
+#     sort_option = st.selectbox(
+#         "Sort mappings by",
+#         ["None", "Alphabetical (A-Z)", "Alphabetical (Z-A)", "Highest Confidence", "Lowest Confidence"],
+#         key="sort_option"
+#     )
 
-    # Force Streamlit to rerun when sorting changes
-    if sort_option != st.session_state.get("last_sort_option", None):
-        st.session_state["last_sort_option"] = sort_option
-        st.rerun()
+#     # Force Streamlit to rerun when sorting changes
+#     if sort_option != st.session_state.get("last_sort_option", None):
+#         st.session_state["last_sort_option"] = sort_option
+#         st.rerun()
 
-    # Only call filtering if apply_filter is True
-    filtered_matches = filter_for_unconfirmed_mappings(concept_matches) if apply_filter else concept_matches
+#     # Only call filtering if apply_filter is True
+#     filtered_matches = filter_for_unconfirmed_mappings(concept_matches) if apply_filter else concept_matches
 
-    # Apply sorting after filtering
-    sorted_matches = sort_concepts(filtered_matches, source_lookup, sort_option)
+#     # Apply sorting after filtering
+#     sorted_matches = sort_concepts(filtered_matches, source_lookup, sort_option)
 
-    return sorted_matches
+#     return sorted_matches
 
 def main():
     st.set_page_config(layout="wide")
@@ -521,17 +522,19 @@ def main():
 
     session = st.session_state.current_session
     source_lookup, target_lookup, target_options = create_concept_lookups(session)
-    
-    # Apply filtering & sorting BEFORE pagination
-    filtered_and_sorted_concept_matches = display_sort_options(session.concept_matches, source_lookup)
 
-    # Set up pagination AFTER filtering & sorting
-    start_idx, end_idx, total_pages = setup_pagination(len(filtered_and_sorted_concept_matches))
+    # DEPRECATED DUE TO https://github.com/londonaicentre/omap/issues/20
+    # # Apply filtering & sorting BEFORE pagination
+    # filtered_and_sorted_concept_matches = display_sort_options(session.concept_matches, source_lookup)
+    # # Set up pagination AFTER filtering & sorting
+    # start_idx, end_idx, total_pages = setup_pagination(len(filtered_and_sorted_concept_matches))
+
+    start_idx, end_idx, total_pages = setup_pagination(len(session.concept_matches))
 
     # Display mappings
     display_headings()
 
-    for idx, match in enumerate(filtered_and_sorted_concept_matches[start_idx:end_idx]):
+    for idx, match in enumerate(session.concept_matches[start_idx:end_idx]):
         global_idx = start_idx + idx
         display_mapping_row(global_idx, match, source_lookup, target_lookup, target_options)
 

@@ -729,11 +729,11 @@
   },
   {
     "source_key": 668929664,
-    "target_concept_id": 44807234,
+    "target_concept_id": 0,
     "similarity_score": "-1.00",
-    "confirmation_status": "True",
+    "confirmation_status": "Rejected",
     "first_confirmation_timestamp": "2025-01-31T15:21:20.204020",
-    "last_update_timestamp": "2025-01-31T15:25:26.009878"
+    "last_update_timestamp": "2025-04-15T23:28:14.033853"
   },
   {
     "source_key": 539011702,
