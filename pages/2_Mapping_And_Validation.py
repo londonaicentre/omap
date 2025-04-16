@@ -511,6 +511,93 @@ def reject_unconfirmed_mappings(session, start_idx, end_idx):
 
 #     return sorted_matches
 
+def reject_all_remaining_mappings(session):
+    """
+    Rejects all unconfirmed mappings in the entire session.
+    Sets target concept as 0, Saves to JSON with 'Rejected' status.
+    This is irreversible!
+
+    Args:
+        session (ProjectSession):
+            Project session containing source / target tables, similarities, matches, and metadata
+
+    Returns:
+            bool:
+                True if save successful, False otherwise
+    """
+    try:
+        rejected_count = 0
+
+        for match in session.concept_matches:
+            if match.confirmation_status != "True" and match.confirmation_status != "Rejected":
+                match.target_concept_id = 0
+                match.similarity_score = -1.0
+                match.confirmation_status = "Rejected"
+
+                if match.first_confirmation_timestamp is None:
+                    match.first_confirmation_timestamp = datetime.now()
+                match.last_update_timestamp = datetime.now()
+
+                rejected_count += 1
+
+        session_dir = f"sessions/{session.project_name}_{session.timestamp}"
+        matches_path = f"{session_dir}/concept_matches.json"
+
+        matches_json = [
+            {
+                "source_key": match.source_key,
+                "target_concept_id": match.target_concept_id,
+                "similarity_score": (f"{float(match.similarity_score):.2f}"),
+                "confirmation_status": match.confirmation_status,
+                "first_confirmation_timestamp": (match.first_confirmation_timestamp.isoformat()
+                                            if match.first_confirmation_timestamp else None),
+                "last_update_timestamp": (match.last_update_timestamp.isoformat()
+                                      if match.last_update_timestamp else None)
+            }
+            for match in session.concept_matches
+        ]
+
+        with open(matches_path, 'w') as f:
+            json.dump(matches_json, f, indent=2)
+
+        # clean up all modified mappings
+        st.session_state.modified_mappings = {}
+
+        return True, f"{rejected_count} remaining mappings successfully rejected"
+
+    except Exception as e:
+        return False, f"Failed to reject mappings: {e}"
+
+def display_reject_all_section():
+    """
+    Display a section with a warning and button to reject all remaining mappings.
+    Have placed in expander to avoid accidental clicks.
+    """
+    with st.expander("Reject All Remaining Mappings"):
+        st.warning(
+            "This action will reject ALL remaining unmapped concepts in the entire session. "
+            "All unmapped concepts will be set to 'No matching concept' with a Rejected status. "
+            "**This action cannot be undone!**"
+        )
+
+        # checkbox as further safeguard
+        confirm_checkbox = st.checkbox("I understand this action is irreversible", key="confirm_reject_all")
+
+        reject_all_button = st.button(
+            "REJECT ALL REMAINING UNMAPPED CONCEPTS",
+            type="primary",
+            disabled=not confirm_checkbox,
+            key="reject_all_button"
+        )
+
+        if reject_all_button:
+            success, message = reject_all_remaining_mappings(st.session_state.current_session)
+            if success:
+                st.success(message)
+                st.rerun()
+            else:
+                st.error(message)
+
 def main():
     st.set_page_config(layout="wide")
 
@@ -540,6 +627,9 @@ def main():
 
     # Handle navigation and saving
     confirm_clicked, reject_clicked = handle_navigation(total_pages)
+
+    # Display reject all section
+    display_reject_all_section()
 
     if confirm_clicked:
         success, message = save_confirmed_mappings(session, start_idx, end_idx)
