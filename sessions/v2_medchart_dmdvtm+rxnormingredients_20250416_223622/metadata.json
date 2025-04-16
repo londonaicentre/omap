@@ -1,0 +1,11 @@
+{
+    "project_name": "v2_medchart_dmdvtm+rxnormingredients",
+    "timestamp": "20250416_223622",
+    "source_count": 17606,
+    "target_count": 23643,
+    "similarity_matrix_size": [
+        17606,
+        23643
+    ],
+    "matches_count": 17606
+}
