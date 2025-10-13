@@ -1,0 +1,11 @@
+{
+    "project_name": "V2_icm_loinccomponent",
+    "timestamp": "20250416_125606",
+    "source_count": 6527,
+    "target_count": 60204,
+    "similarity_matrix_size": [
+        6527,
+        60204
+    ],
+    "matches_count": 6527
+}

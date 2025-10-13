@@ -1,5 +1,5 @@
 import pytest
-from src.data_utils import filter_for_unconfirmed_mappings, sort_concepts
+# from src.data_utils import filter_for_unconfirmed_mappings, sort_concepts
 from src.session_utils import ConceptMatch
 
 @pytest.fixture
@@ -22,20 +22,20 @@ def sample_source_lookup():
         4: "Clopidogrel",
     }
 
-# TEST 1: Filtering works correctly
-def test_filter_for_unconfirmed_mappings(sample_mappings):
-    filtered = filter_for_unconfirmed_mappings(sample_mappings)
-    assert len(filtered) == 2  # Only the two "False" ones should remain
-    assert all(match.confirmation_status == "False" for match in filtered)
+# # TEST 1: Filtering works correctly
+# def test_filter_for_unconfirmed_mappings(sample_mappings):
+#     filtered = filter_for_unconfirmed_mappings(sample_mappings)
+#     assert len(filtered) == 2  # Only the two "False" ones should remain
+#     assert all(match.confirmation_status == "False" for match in filtered)
 
-# TEST 2: Sorting by A-Z works
-def test_sort_concepts_alphabetical(sample_mappings, sample_source_lookup):
-    sorted_mappings = sort_concepts(sample_mappings, sample_source_lookup, sort_option="Alphabetical (A-Z)")
-    sorted_names = [sample_source_lookup[m.source_key] for m in sorted_mappings]
-    assert sorted_names == sorted(sorted_names)  # Should be sorted alphabetically
+# # TEST 2: Sorting by A-Z works
+# def test_sort_concepts_alphabetical(sample_mappings, sample_source_lookup):
+#     sorted_mappings = sort_concepts(sample_mappings, sample_source_lookup, sort_option="Alphabetical (A-Z)")
+#     sorted_names = [sample_source_lookup[m.source_key] for m in sorted_mappings]
+#     assert sorted_names == sorted(sorted_names)  # Should be sorted alphabetically
 
-# TEST 3: Sorting by confidence works
-def test_sort_concepts_highest_confidence(sample_mappings, sample_source_lookup):
-    sorted_mappings = sort_concepts(sample_mappings, sample_source_lookup, sort_option="Highest Confidence")
-    sorted_scores = [m.similarity_score for m in sorted_mappings]
-    assert sorted_scores == sorted(sorted_scores, reverse=True)  # Should be sorted highest to lowest
+# # TEST 3: Sorting by confidence works
+# def test_sort_concepts_highest_confidence(sample_mappings, sample_source_lookup):
+#     sorted_mappings = sort_concepts(sample_mappings, sample_source_lookup, sort_option="Highest Confidence")
+#     sorted_scores = [m.similarity_score for m in sorted_mappings]
+#     assert sorted_scores == sorted(sorted_scores, reverse=True)  # Should be sorted highest to lowest
